@@ -1,0 +1,54 @@
+<svg width="400" height="250" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="blog4-title">
+  <title id="blog4-title">Workplace stress and burnout prevention strategies</title>
+  <defs>
+    <linearGradient id="b4-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffedd5"/>
+      <stop offset="100%" stop-color="#fff7ed"/>
+    </linearGradient>
+    <linearGradient id="b4-orange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <linearGradient id="b4-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="b4-green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#16a34a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" rx="16" fill="url(#b4-bg)"/>
+
+  <!-- Work-life balance scale -->
+  <line x1="200" y1="50" x2="200" y2="130" stroke="url(#b4-orange)" stroke-width="4"/>
+  <line x1="130" y1="80" x2="270" y2="80" stroke="url(#b4-orange)" stroke-width="4"/>
+  <polygon points="200,45 195,55 205,55" fill="url(#b4-orange)"/>
+
+  <!-- Work side -->
+  <circle cx="145" cy="110" r="28" fill="url(#b4-blue)" opacity="0.3" stroke="url(#b4-blue)" stroke-width="2"/>
+  <rect x="133" y="98" width="24" height="18" rx="2" fill="url(#b4-blue)" opacity="0.6"/>
+  <line x1="137" y1="103" x2="153" y2="103" stroke="#fff" stroke-width="1.5"/>
+  <line x1="137" y1="108" x2="150" y2="108" stroke="#fff" stroke-width="1.5"/>
+
+  <!-- Life side -->
+  <circle cx="255" cy="110" r="28" fill="url(#b4-green)" opacity="0.3" stroke="url(#b4-green)" stroke-width="2"/>
+  <path d="M255 95 C248 88 238 92 238 102 C238 112 255 122 255 122 C255 122 272 112 272 102 C272 92 262 88 255 95" fill="url(#b4-green)" opacity="0.7"/>
+
+  <!-- Person taking break -->
+  <circle cx="80" cy="170" r="18" fill="url(#b4-orange)" opacity="0.8"/>
+  <path d="M80 188 L80 215" stroke="url(#b4-orange)" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <path d="M65 200 L80 193 L95 200" fill="none" stroke="url(#b4-orange)" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Nature/plant element -->
+  <rect x="305" y="180" width="30" height="35" rx="4" fill="url(#b4-green)" opacity="0.4"/>
+  <ellipse cx="320" cy="170" rx="18" ry="16" fill="url(#b4-green)" opacity="0.7"/>
+  <ellipse cx="312" cy="162" rx="12" ry="10" fill="url(#b4-green)" opacity="0.6"/>
+  <ellipse cx="328" cy="165" rx="12" ry="10" fill="url(#b4-green)" opacity="0.6"/>
+
+  <!-- Clock reminder -->
+  <circle cx="200" cy="190" r="25" fill="white" stroke="url(#b4-orange)" stroke-width="2"/>
+  <line x1="200" y1="190" x2="200" y2="172" stroke="url(#b4-orange)" stroke-width="2"/>
+  <line x1="200" y1="190" x2="215" y2="195" stroke="url(#b4-blue)" stroke-width="2"/>
+  <circle cx="200" cy="190" r="3" fill="url(#b4-orange)"/>
+</svg>

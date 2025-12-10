@@ -1,0 +1,88 @@
+<svg width="720" height="540" viewBox="0 0 720 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="services-title services-desc">
+  <title id="services-title">Care pathways illustration</title>
+  <desc id="services-desc">Multiple connected pathways representing different care options converging to support.</desc>
+  <defs>
+    <linearGradient id="services-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5f8ff"/>
+      <stop offset="100%" stop-color="#fff5f8"/>
+    </linearGradient>
+    <linearGradient id="path1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7aa5ff"/>
+      <stop offset="100%" stop-color="#a5c4ff"/>
+    </linearGradient>
+    <linearGradient id="path2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b794f6"/>
+      <stop offset="100%" stop-color="#d4b8ff"/>
+    </linearGradient>
+    <linearGradient id="path3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff9eb5"/>
+      <stop offset="100%" stop-color="#ffc4d4"/>
+    </linearGradient>
+    <linearGradient id="center-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f0f5ff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="720" height="540" rx="32" fill="url(#services-bg)"/>
+
+  <!-- Pathway 1 (top - counselling) -->
+  <path d="M80 120 Q200 100 280 160 Q340 200 360 270" stroke="url(#path1)" stroke-width="20" fill="none" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Pathway 2 (left - crisis) -->
+  <path d="M60 350 Q150 320 240 300 Q300 280 360 270" stroke="url(#path2)" stroke-width="20" fill="none" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Pathway 3 (bottom - campaigns) -->
+  <path d="M200 480 Q280 420 320 360 Q350 310 360 270" stroke="url(#path3)" stroke-width="20" fill="none" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Pathway 4 (right - resources) -->
+  <path d="M640 180 Q540 200 460 240 Q400 260 360 270" stroke="url(#path1)" stroke-width="20" fill="none" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Pathway 5 (bottom right) -->
+  <path d="M580 450 Q500 400 440 340 Q400 300 360 270" stroke="url(#path2)" stroke-width="20" fill="none" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Central convergence point -->
+  <circle cx="360" cy="270" r="60" fill="url(#center-glow)"/>
+  <circle cx="360" cy="270" r="50" fill="#ffffff" opacity="0.9"/>
+  <circle cx="360" cy="270" r="40" fill="#7aa5ff" opacity="0.3"/>
+
+  <!-- Heart in center -->
+  <path d="M360 250 C350 240 335 244 335 258 C335 270 360 288 360 288 C360 288 385 270 385 258 C385 244 370 240 360 250 Z" fill="#ff9eb5" opacity="0.9"/>
+
+  <!-- Service icons along paths -->
+  <!-- Phone icon (crisis) -->
+  <rect x="100" y="330" width="35" height="55" rx="6" fill="#b794f6" opacity="0.8"/>
+  <rect x="108" y="340" width="19" height="30" rx="3" fill="#ffffff" opacity="0.7"/>
+
+  <!-- People icon (counselling) -->
+  <circle cx="160" cy="130" r="18" fill="#7aa5ff" opacity="0.8"/>
+  <ellipse cx="160" cy="165" rx="22" ry="12" fill="#7aa5ff" opacity="0.7"/>
+
+  <!-- Book icon (resources) -->
+  <rect x="570" y="160" width="45" height="55" rx="4" fill="#7aa5ff" opacity="0.7"/>
+  <line x1="592" y1="165" x2="592" y2="210" stroke="#ffffff" stroke-width="2" opacity="0.6"/>
+
+  <!-- Megaphone icon (campaigns) -->
+  <path d="M230 460 L260 445 L260 475 Z" fill="#ff9eb5" opacity="0.8"/>
+  <rect x="260" y="450" width="25" height="20" rx="3" fill="#ff9eb5" opacity="0.7"/>
+
+  <!-- Chat icon (support) -->
+  <rect x="530" y="420" width="40" height="30" rx="8" fill="#b794f6" opacity="0.7"/>
+  <polygon points="540,450 545,460 555,450" fill="#b794f6" opacity="0.7"/>
+
+  <!-- Decorative dots along paths -->
+  <circle cx="180" cy="140" r="5" fill="#a5c4ff" opacity="0.6"/>
+  <circle cx="240" cy="170" r="4" fill="#a5c4ff" opacity="0.5"/>
+
+  <circle cx="140" cy="340" r="5" fill="#d4b8ff" opacity="0.6"/>
+  <circle cx="200" cy="310" r="4" fill="#d4b8ff" opacity="0.5"/>
+
+  <circle cx="260" cy="440" r="5" fill="#ffc4d4" opacity="0.6"/>
+  <circle cx="300" cy="390" r="4" fill="#ffc4d4" opacity="0.5"/>
+
+  <!-- Soft background elements -->
+  <circle cx="650" cy="80" r="45" fill="#e8f0ff" opacity="0.5"/>
+  <circle cx="70" cy="450" r="40" fill="#ffe8f0" opacity="0.4"/>
+  <circle cx="680" cy="480" r="35" fill="#f0e8ff" opacity="0.4"/>
+</svg>

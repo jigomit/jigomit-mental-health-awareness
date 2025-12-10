@@ -1,0 +1,220 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">Mental health support and community care</title>
+  <desc id="hero-desc">A diverse group of people supporting each other, symbolizing community mental health care and wellness.</desc>
+  <defs>
+    <linearGradient id="hero-sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ddd6fe"/>
+      <stop offset="50%" stop-color="#e0e7ff"/>
+      <stop offset="100%" stop-color="#cffafe"/>
+    </linearGradient>
+    <linearGradient id="hero-ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#bbf7d0"/>
+      <stop offset="100%" stop-color="#86efac"/>
+    </linearGradient>
+    <linearGradient id="tree-trunk" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a16207"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </linearGradient>
+    <linearGradient id="tree-leaves" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#16a34a"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+    <linearGradient id="person-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="person-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="person-pink" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#db2777"/>
+    </linearGradient>
+    <linearGradient id="person-teal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="person-orange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <linearGradient id="sun-warm" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#facc15"/>
+    </linearGradient>
+    <linearGradient id="heart-red" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb7185"/>
+      <stop offset="100%" stop-color="#f43f5e"/>
+    </linearGradient>
+    <linearGradient id="bench" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#78716c"/>
+      <stop offset="100%" stop-color="#57534e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky background -->
+  <rect width="1400" height="900" rx="48" fill="url(#hero-sky)"/>
+
+  <!-- Sun with rays -->
+  <circle cx="1150" cy="150" r="100" fill="url(#sun-warm)" opacity="0.9"/>
+  <circle cx="1150" cy="150" r="130" fill="url(#sun-warm)" opacity="0.3"/>
+  <circle cx="1150" cy="150" r="160" fill="url(#sun-warm)" opacity="0.15"/>
+
+  <!-- Sun rays -->
+  <g stroke="#fde047" stroke-width="4" opacity="0.6">
+    <line x1="1150" y1="20" x2="1150" y2="-10"/>
+    <line x1="1250" y1="50" x2="1280" y2="20"/>
+    <line x1="1280" y1="150" x2="1320" y2="150"/>
+    <line x1="1250" y1="250" x2="1280" y2="280"/>
+    <line x1="1050" y1="50" x2="1020" y2="20"/>
+    <line x1="1020" y1="150" x2="980" y2="150"/>
+    <line x1="1050" y1="250" x2="1020" y2="280"/>
+  </g>
+
+  <!-- Clouds -->
+  <g opacity="0.8">
+    <ellipse cx="200" cy="120" rx="80" ry="40" fill="#ffffff"/>
+    <ellipse cx="150" cy="130" rx="50" ry="30" fill="#ffffff"/>
+    <ellipse cx="260" cy="130" rx="60" ry="35" fill="#ffffff"/>
+  </g>
+  <g opacity="0.6">
+    <ellipse cx="500" cy="80" rx="60" ry="30" fill="#ffffff"/>
+    <ellipse cx="460" cy="90" rx="40" ry="25" fill="#ffffff"/>
+    <ellipse cx="550" cy="85" rx="45" ry="28" fill="#ffffff"/>
+  </g>
+  <g opacity="0.5">
+    <ellipse cx="850" cy="100" rx="50" ry="25" fill="#ffffff"/>
+    <ellipse cx="810" cy="105" rx="35" ry="20" fill="#ffffff"/>
+  </g>
+
+  <!-- Ground/grass area -->
+  <ellipse cx="700" cy="850" rx="800" ry="200" fill="url(#hero-ground)" opacity="0.9"/>
+
+  <!-- Left tree -->
+  <rect x="100" y="450" width="40" height="200" rx="5" fill="url(#tree-trunk)"/>
+  <ellipse cx="120" cy="400" rx="100" ry="120" fill="url(#tree-leaves)" opacity="0.9"/>
+  <ellipse cx="80" cy="380" rx="60" ry="80" fill="#22c55e" opacity="0.8"/>
+  <ellipse cx="160" cy="390" rx="70" ry="90" fill="#16a34a" opacity="0.85"/>
+
+  <!-- Right tree -->
+  <rect x="1260" y="480" width="35" height="180" rx="5" fill="url(#tree-trunk)"/>
+  <ellipse cx="1277" cy="440" rx="90" ry="100" fill="url(#tree-leaves)" opacity="0.9"/>
+  <ellipse cx="1240" cy="420" rx="55" ry="70" fill="#22c55e" opacity="0.8"/>
+  <ellipse cx="1310" cy="430" rx="60" ry="75" fill="#16a34a" opacity="0.85"/>
+
+  <!-- Park bench -->
+  <rect x="550" y="580" width="300" height="20" rx="5" fill="url(#bench)"/>
+  <rect x="560" y="540" width="280" height="15" rx="3" fill="#78716c"/>
+  <rect x="570" y="600" width="20" height="60" rx="3" fill="#57534e"/>
+  <rect x="810" y="600" width="20" height="60" rx="3" fill="#57534e"/>
+
+  <!-- Central group of people in circle (support group) -->
+
+  <!-- Person 1 - Blue (seated left on bench) -->
+  <ellipse cx="600" cy="510" rx="35" ry="45" fill="url(#person-blue)"/>
+  <circle cx="600" cy="455" r="32" fill="url(#person-blue)"/>
+  <circle cx="590" cy="450" r="4" fill="#ffffff" opacity="0.9"/>
+  <circle cx="610" cy="450" r="4" fill="#ffffff" opacity="0.9"/>
+  <path d="M592 465 Q600 472 608 465" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Person 2 - Purple (seated right on bench) -->
+  <ellipse cx="800" cy="510" rx="35" ry="45" fill="url(#person-purple)"/>
+  <circle cx="800" cy="455" r="32" fill="url(#person-purple)"/>
+  <circle cx="790" cy="450" r="4" fill="#ffffff" opacity="0.9"/>
+  <circle cx="810" cy="450" r="4" fill="#ffffff" opacity="0.9"/>
+  <path d="M792 465 Q800 472 808 465" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Person 3 - Pink (standing center-left) -->
+  <ellipse cx="480" cy="540" rx="32" ry="50" fill="url(#person-pink)"/>
+  <circle cx="480" cy="480" r="30" fill="url(#person-pink)"/>
+  <circle cx="472" cy="475" r="3.5" fill="#ffffff" opacity="0.9"/>
+  <circle cx="488" cy="475" r="3.5" fill="#ffffff" opacity="0.9"/>
+  <path d="M473 490 Q480 496 487 490" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Arm reaching to comfort -->
+  <path d="M510 530 Q550 510 580 520" stroke="url(#person-pink)" stroke-width="18" fill="none" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Person 4 - Teal (standing center-right) -->
+  <ellipse cx="920" cy="540" rx="32" ry="50" fill="url(#person-teal)"/>
+  <circle cx="920" cy="480" r="30" fill="url(#person-teal)"/>
+  <circle cx="912" cy="475" r="3.5" fill="#ffffff" opacity="0.9"/>
+  <circle cx="928" cy="475" r="3.5" fill="#ffffff" opacity="0.9"/>
+  <path d="M913 490 Q920 496 927 490" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Arm reaching to comfort -->
+  <path d="M890 530 Q850 510 820 520" stroke="url(#person-teal)" stroke-width="18" fill="none" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Person 5 - Orange (standing behind) -->
+  <ellipse cx="700" cy="490" rx="38" ry="55" fill="url(#person-orange)"/>
+  <circle cx="700" cy="425" r="35" fill="url(#person-orange)"/>
+  <circle cx="690" cy="420" r="4" fill="#ffffff" opacity="0.9"/>
+  <circle cx="710" cy="420" r="4" fill="#ffffff" opacity="0.9"/>
+  <path d="M690 438 Q700 447 710 438" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Arms around group -->
+  <path d="M660 470 Q580 440 520 480" stroke="url(#person-orange)" stroke-width="16" fill="none" stroke-linecap="round" opacity="0.85"/>
+  <path d="M740 470 Q820 440 880 480" stroke="url(#person-orange)" stroke-width="16" fill="none" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Central heart floating above group -->
+  <path d="M700 350 C680 320 640 330 640 370 C640 410 700 450 700 450 C700 450 760 410 760 370 C760 330 720 320 700 350 Z" fill="url(#heart-red)" opacity="0.9"/>
+  <!-- Heart glow -->
+  <path d="M700 350 C680 320 640 330 640 370 C640 410 700 450 700 450 C700 450 760 410 760 370 C760 330 720 320 700 350 Z" fill="none" stroke="#fda4af" stroke-width="8" opacity="0.4"/>
+
+  <!-- Small floating hearts -->
+  <path d="M350 300 C342 290 328 293 328 305 C328 316 350 330 350 330 C350 330 372 316 372 305 C372 293 358 290 350 300 Z" fill="#fbcfe8" opacity="0.7"/>
+  <path d="M1050 380 C1044 372 1033 374 1033 384 C1033 393 1050 404 1050 404 C1050 404 1067 393 1067 384 C1067 374 1056 372 1050 380 Z" fill="#c4b5fd" opacity="0.6"/>
+  <path d="M250 450 C245 443 236 445 236 453 C236 461 250 470 250 470 C250 470 264 461 264 453 C264 445 255 443 250 450 Z" fill="#99f6e4" opacity="0.5"/>
+
+  <!-- Birds in sky -->
+  <g fill="none" stroke="#64748b" stroke-width="2" stroke-linecap="round">
+    <path d="M300 200 Q310 190 320 200 M320 200 Q330 190 340 200"/>
+    <path d="M380 170 Q388 162 396 170 M396 170 Q404 162 412 170"/>
+    <path d="M750 120 Q758 112 766 120 M766 120 Q774 112 782 120"/>
+  </g>
+
+  <!-- Butterflies -->
+  <g opacity="0.8">
+    <ellipse cx="280" cy="380" rx="12" ry="8" fill="#f0abfc" transform="rotate(-20, 280, 380)"/>
+    <ellipse cx="295" cy="380" rx="12" ry="8" fill="#f0abfc" transform="rotate(20, 295, 380)"/>
+    <ellipse cx="287" cy="380" rx="3" ry="10" fill="#a855f7"/>
+  </g>
+  <g opacity="0.7">
+    <ellipse cx="1100" cy="450" rx="10" ry="6" fill="#67e8f9" transform="rotate(-25, 1100, 450)"/>
+    <ellipse cx="1112" cy="450" rx="10" ry="6" fill="#67e8f9" transform="rotate(25, 1112, 450)"/>
+    <ellipse cx="1106" cy="450" rx="2.5" ry="8" fill="#0891b2"/>
+  </g>
+
+  <!-- Flowers in grass -->
+  <g>
+    <!-- Flower 1 -->
+    <line x1="320" y1="720" x2="320" y2="680" stroke="#16a34a" stroke-width="3"/>
+    <circle cx="320" cy="670" r="12" fill="#f472b6"/>
+    <circle cx="320" cy="670" r="5" fill="#fde047"/>
+
+    <!-- Flower 2 -->
+    <line x1="1080" y1="700" x2="1080" y2="660" stroke="#16a34a" stroke-width="3"/>
+    <circle cx="1080" cy="650" r="11" fill="#a78bfa"/>
+    <circle cx="1080" cy="650" r="4.5" fill="#fde047"/>
+
+    <!-- Flower 3 -->
+    <line x1="400" y1="750" x2="400" y2="715" stroke="#16a34a" stroke-width="2.5"/>
+    <circle cx="400" cy="705" r="10" fill="#fb923c"/>
+    <circle cx="400" cy="705" r="4" fill="#fde047"/>
+
+    <!-- Flower 4 -->
+    <line x1="1000" y1="740" x2="1000" y2="705" stroke="#16a34a" stroke-width="2.5"/>
+    <circle cx="1000" cy="695" r="10" fill="#4ade80"/>
+    <circle cx="1000" cy="695" r="4" fill="#fde047"/>
+  </g>
+
+  <!-- Sparkle stars -->
+  <g fill="#fbbf24">
+    <circle cx="450" cy="200" r="4" opacity="0.8"/>
+    <circle cx="950" cy="180" r="3.5" opacity="0.7"/>
+    <circle cx="180" cy="300" r="3" opacity="0.6"/>
+    <circle cx="1220" cy="320" r="3.5" opacity="0.7"/>
+    <circle cx="600" cy="150" r="3" opacity="0.6"/>
+  </g>
+
+  <!-- Mental wellness text ribbon (optional decorative element) -->
+  <path d="M50 750 Q200 720 350 750 T650 750" fill="none" stroke="#c4b5fd" stroke-width="40" stroke-linecap="round" opacity="0.3"/>
+  <path d="M750 760 Q900 730 1050 760 T1350 760" fill="none" stroke="#99f6e4" stroke-width="40" stroke-linecap="round" opacity="0.3"/>
+</svg>

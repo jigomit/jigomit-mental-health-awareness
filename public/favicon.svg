@@ -1,0 +1,46 @@
+<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logo-title">
+  <title id="logo-title">Mental Health Awareness Logo</title>
+  <defs>
+    <!-- Modern gradient background -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <!-- Teal to blue gradient -->
+    <linearGradient id="main-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="50%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <!-- Heart gradient -->
+    <linearGradient id="heart-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded square -->
+  <rect x="2" y="2" width="44" height="44" rx="12" fill="url(#bg-grad)"/>
+
+  <!-- Brain outline - stylized -->
+  <g>
+    <!-- Left brain hemisphere -->
+    <path d="M14 24 C14 18 16 14 20 13 C18 15 17 18 17 21 C17 24 19 26 21 26 C19 27 17 28 17 31 C17 33 19 35 22 35"
+          fill="none" stroke="url(#main-grad)" stroke-width="2" stroke-linecap="round"/>
+    <!-- Right brain hemisphere -->
+    <path d="M34 24 C34 18 32 14 28 13 C30 15 31 18 31 21 C31 24 29 26 27 26 C29 27 31 28 31 31 C31 33 29 35 26 35"
+          fill="none" stroke="url(#main-grad)" stroke-width="2" stroke-linecap="round"/>
+    <!-- Center connection -->
+    <path d="M22 35 Q24 37 26 35" fill="none" stroke="url(#main-grad)" stroke-width="2" stroke-linecap="round"/>
+    <!-- Top brain curve -->
+    <path d="M20 13 Q24 10 28 13" fill="none" stroke="url(#main-grad)" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Heart in center -->
+  <path d="M24 22 C24 20 22 18 20 18 C17 18 17 22 17 22 C17 26 24 30 24 30 C24 30 31 26 31 22 C31 22 31 18 28 18 C26 18 24 20 24 22Z"
+        fill="url(#heart-grad)" opacity="0.9"/>
+
+  <!-- Sparkle dots -->
+  <circle cx="12" cy="12" r="1.5" fill="#5eead4" opacity="0.8"/>
+  <circle cx="36" cy="12" r="1.5" fill="#3b82f6" opacity="0.8"/>
+</svg>

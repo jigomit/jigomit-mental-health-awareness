@@ -1,0 +1,124 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="events-title events-desc">
+  <title id="events-title">Mental health events and workshops</title>
+  <desc id="events-desc">Illustration showing community events, workshops, and awareness campaigns.</desc>
+  <defs>
+    <linearGradient id="evt-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="50%" stop-color="#fce7f3"/>
+      <stop offset="100%" stop-color="#e0e7ff"/>
+    </linearGradient>
+    <linearGradient id="evt-primary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="evt-secondary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="evt-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#db2777"/>
+    </linearGradient>
+    <linearGradient id="evt-teal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="400" rx="20" fill="url(#evt-bg)"/>
+
+  <!-- Calendar icon (center-left) -->
+  <rect x="80" y="100" width="140" height="150" rx="15" fill="#ffffff" opacity="0.95"/>
+  <rect x="80" y="100" width="140" height="40" rx="15" fill="url(#evt-primary)"/>
+  <rect x="80" y="125" width="140" height="125" rx="0" fill="#ffffff"/>
+  <rect x="80" y="220" width="140" height="30" rx="15" fill="#ffffff"/>
+
+  <!-- Calendar rings -->
+  <rect x="110" y="90" width="8" height="25" rx="4" fill="#78716c"/>
+  <rect x="180" y="90" width="8" height="25" rx="4" fill="#78716c"/>
+
+  <!-- Calendar grid -->
+  <g fill="#fef3c7">
+    <rect x="95" y="150" width="22" height="18" rx="4"/>
+    <rect x="125" y="150" width="22" height="18" rx="4"/>
+    <rect x="155" y="150" width="22" height="18" rx="4"/>
+    <rect x="185" y="150" width="22" height="18" rx="4"/>
+  </g>
+  <g fill="#fde68a">
+    <rect x="95" y="175" width="22" height="18" rx="4"/>
+    <rect x="125" y="175" width="22" height="18" rx="4"/>
+    <rect x="155" y="175" width="22" height="18" rx="4"/>
+    <rect x="185" y="175" width="22" height="18" rx="4"/>
+  </g>
+  <!-- Highlighted date -->
+  <rect x="125" y="175" width="22" height="18" rx="4" fill="url(#evt-accent)"/>
+
+  <!-- People gathering (right side) -->
+  <ellipse cx="420" cy="280" rx="130" ry="60" fill="url(#evt-secondary)" opacity="0.1"/>
+
+  <!-- Person 1 -->
+  <circle cx="350" cy="200" r="22" fill="url(#evt-secondary)"/>
+  <ellipse cx="350" cy="245" rx="16" ry="28" fill="url(#evt-secondary)" opacity="0.9"/>
+
+  <!-- Person 2 -->
+  <circle cx="400" cy="190" r="24" fill="url(#evt-teal)"/>
+  <ellipse cx="400" cy="240" rx="18" ry="32" fill="url(#evt-teal)" opacity="0.9"/>
+
+  <!-- Person 3 -->
+  <circle cx="455" cy="195" r="22" fill="url(#evt-accent)"/>
+  <ellipse cx="455" cy="240" rx="16" ry="28" fill="url(#evt-accent)" opacity="0.9"/>
+
+  <!-- Person 4 -->
+  <circle cx="505" cy="205" r="20" fill="url(#evt-primary)"/>
+  <ellipse cx="505" cy="245" rx="14" ry="25" fill="url(#evt-primary)" opacity="0.9"/>
+
+  <!-- Raised hands/celebration -->
+  <path d="M360 180 L355 155" stroke="url(#evt-secondary)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M345 175 L335 155" stroke="url(#evt-secondary)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M450 175 L460 150" stroke="url(#evt-accent)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M500 185 L510 160" stroke="url(#evt-primary)" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Confetti/celebration elements -->
+  <rect x="320" y="100" width="12" height="5" rx="2" fill="#f472b6" transform="rotate(25, 320, 100)" opacity="0.8"/>
+  <rect x="380" y="80" width="10" height="4" rx="2" fill="#a78bfa" transform="rotate(-15, 380, 80)" opacity="0.7"/>
+  <rect x="450" y="95" width="11" height="4" rx="2" fill="#fbbf24" transform="rotate(40, 450, 95)" opacity="0.8"/>
+  <rect x="520" y="110" width="9" height="4" rx="2" fill="#34d399" transform="rotate(-30, 520, 110)" opacity="0.7"/>
+  <rect x="340" y="130" width="8" height="4" rx="2" fill="#67e8f9" transform="rotate(10, 340, 130)" opacity="0.6"/>
+  <rect x="480" y="120" width="10" height="4" rx="2" fill="#fb7185" transform="rotate(-20, 480, 120)" opacity="0.7"/>
+
+  <!-- Workshop/presentation screen -->
+  <rect x="260" y="60" width="120" height="80" rx="8" fill="#ffffff" opacity="0.9"/>
+  <rect x="260" y="60" width="120" height="80" rx="8" fill="none" stroke="url(#evt-teal)" stroke-width="2"/>
+  <rect x="310" y="140" width="20" height="30" fill="#78716c" opacity="0.6"/>
+  <rect x="290" y="165" width="60" height="8" rx="4" fill="#78716c" opacity="0.4"/>
+
+  <!-- Screen content (chart) -->
+  <rect x="275" y="80" width="15" height="40" rx="3" fill="url(#evt-teal)" opacity="0.7"/>
+  <rect x="295" y="90" width="15" height="30" rx="3" fill="url(#evt-secondary)" opacity="0.7"/>
+  <rect x="315" y="75" width="15" height="45" rx="3" fill="url(#evt-accent)" opacity="0.7"/>
+  <rect x="335" y="85" width="15" height="35" rx="3" fill="url(#evt-primary)" opacity="0.7"/>
+
+  <!-- Arrow showing growth -->
+  <path d="M280 115 L350 75" stroke="#22c55e" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <path d="M345 75 L350 75 L350 80" fill="none" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+
+  <!-- Ribbon/awareness symbol -->
+  <path d="M150 300 Q150 280 170 280 Q190 280 190 300 Q190 340 150 370 Q110 340 110 300 Q110 280 130 280 Q150 280 150 300 Z" fill="url(#evt-accent)" opacity="0.7"/>
+  <path d="M150 300 L150 340" stroke="#ffffff" stroke-width="2" opacity="0.5"/>
+
+  <!-- Floating stars -->
+  <g fill="#fbbf24">
+    <circle cx="50" cy="60" r="4" opacity="0.8"/>
+    <circle cx="550" cy="50" r="3.5" opacity="0.7"/>
+    <circle cx="250" cy="30" r="3" opacity="0.6"/>
+    <circle cx="70" cy="350" r="3" opacity="0.6"/>
+    <circle cx="580" cy="300" r="3.5" opacity="0.7"/>
+  </g>
+
+  <!-- Small hearts -->
+  <path d="M550" y="200 C546 194 540 196 540 202 C540 208 550 216 550 216 C550 216 560 208 560 202 C560 196 554 194 550 200 Z" fill="#fb7185" opacity="0.5"/>
+
+  <!-- Decorative wave at bottom -->
+  <path d="M0 380 Q150 350 300 380 T600 380 V400 H0 Z" fill="url(#evt-secondary)" opacity="0.15"/>
+</svg>

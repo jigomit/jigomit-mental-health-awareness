@@ -1,0 +1,61 @@
+<svg width="720" height="540" viewBox="0 0 720 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="donate-title donate-desc">
+  <title id="donate-title">Donation and giving illustration</title>
+  <desc id="donate-desc">Hands nurturing a growing heart symbol with supportive elements.</desc>
+  <defs>
+    <linearGradient id="donate-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff0f5"/>
+      <stop offset="100%" stop-color="#f0f0ff"/>
+    </linearGradient>
+    <linearGradient id="heart-fill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff9eb5"/>
+      <stop offset="100%" stop-color="#ff6b8a"/>
+    </linearGradient>
+    <linearGradient id="hand-fill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffe4d4"/>
+      <stop offset="100%" stop-color="#ffd0b8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="720" height="540" rx="32" fill="url(#donate-bg)"/>
+
+  <!-- Soft circles background -->
+  <circle cx="150" cy="120" r="80" fill="#ffd9e8" opacity="0.4"/>
+  <circle cx="580" cy="100" r="60" fill="#d9e8ff" opacity="0.5"/>
+  <circle cx="620" cy="420" r="70" fill="#e8d9ff" opacity="0.4"/>
+  <circle cx="100" cy="400" r="50" fill="#ffe8d9" opacity="0.3"/>
+
+  <!-- Left hand (cupped) -->
+  <path d="M180 380 Q140 350 160 280 Q170 250 200 260 Q220 240 250 260 Q260 250 280 270 L300 320 Q300 380 260 400 Z" fill="url(#hand-fill)" opacity="0.9"/>
+  <path d="M200 260 Q210 250 220 260" stroke="#e8c4b0" stroke-width="2" fill="none"/>
+  <path d="M250 260 Q260 250 270 265" stroke="#e8c4b0" stroke-width="2" fill="none"/>
+
+  <!-- Right hand (cupped) -->
+  <path d="M540 380 Q580 350 560 280 Q550 250 520 260 Q500 240 470 260 Q460 250 440 270 L420 320 Q420 380 460 400 Z" fill="url(#hand-fill)" opacity="0.9"/>
+  <path d="M520 260 Q510 250 500 260" stroke="#e8c4b0" stroke-width="2" fill="none"/>
+  <path d="M470 260 Q460 250 450 265" stroke="#e8c4b0" stroke-width="2" fill="none"/>
+
+  <!-- Central heart -->
+  <path d="M360 200 C320 160 260 180 260 240 C260 300 360 370 360 370 C360 370 460 300 460 240 C460 180 400 160 360 200 Z" fill="url(#heart-fill)" opacity="0.95"/>
+
+  <!-- Heart glow/pulse rings -->
+  <path d="M360 200 C320 160 260 180 260 240 C260 300 360 370 360 370 C360 370 460 300 460 240 C460 180 400 160 360 200 Z" stroke="#ffb8c8" stroke-width="3" fill="none" opacity="0.6" transform="scale(1.1) translate(-36, -25)"/>
+  <path d="M360 200 C320 160 260 180 260 240 C260 300 360 370 360 370 C360 370 460 300 460 240 C460 180 400 160 360 200 Z" stroke="#ffd0dc" stroke-width="2" fill="none" opacity="0.4" transform="scale(1.2) translate(-72, -52)"/>
+
+  <!-- Sparkles around heart -->
+  <circle cx="290" cy="180" r="6" fill="#ffcc00" opacity="0.7"/>
+  <circle cx="430" cy="175" r="5" fill="#ffcc00" opacity="0.6"/>
+  <circle cx="320" cy="140" r="4" fill="#ff9eb5" opacity="0.8"/>
+  <circle cx="400" cy="145" r="4" fill="#ff9eb5" opacity="0.7"/>
+  <circle cx="260" cy="220" r="3" fill="#7aa5ff" opacity="0.6"/>
+  <circle cx="460" cy="215" r="3" fill="#7aa5ff" opacity="0.5"/>
+
+  <!-- Small hearts floating -->
+  <path d="M180 150 C170 140 155 145 155 158 C155 170 180 185 180 185 C180 185 205 170 205 158 C205 145 190 140 180 150 Z" fill="#ffb8c8" opacity="0.5"/>
+  <path d="M550 160 C542 152 530 156 530 166 C530 176 550 188 550 188 C550 188 570 176 570 166 C570 156 558 152 550 160 Z" fill="#c8b8ff" opacity="0.5"/>
+
+  <!-- Growing elements (leaves) -->
+  <ellipse cx="360" cy="420" rx="8" ry="20" fill="#8fbc8f" opacity="0.7"/>
+  <ellipse cx="345" cy="430" rx="6" ry="15" fill="#7ab37a" opacity="0.6" transform="rotate(-20, 345, 430)"/>
+  <ellipse cx="375" cy="430" rx="6" ry="15" fill="#9acd9a" opacity="0.6" transform="rotate(20, 375, 430)"/>
+</svg>

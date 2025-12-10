@@ -1,0 +1,160 @@
+<svg width="720" height="540" viewBox="0 0 720 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="community-title">
+  <title id="community-title">Mental health community support circle</title>
+  <defs>
+    <linearGradient id="comm-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ecfdf5"/>
+      <stop offset="100%" stop-color="#ede9fe"/>
+    </linearGradient>
+    <linearGradient id="skin1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fcd5ce"/>
+      <stop offset="100%" stop-color="#f8b4a9"/>
+    </linearGradient>
+    <linearGradient id="skin2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4a574"/>
+      <stop offset="100%" stop-color="#c4956a"/>
+    </linearGradient>
+    <linearGradient id="skin3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8d5524"/>
+      <stop offset="100%" stop-color="#7a4a1e"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="pink" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#db2777"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="720" height="540" rx="32" fill="url(#comm-bg)"/>
+
+  <!-- Circle base representing unity -->
+  <circle cx="360" cy="270" r="180" fill="#c4b5fd" opacity="0.15"/>
+  <circle cx="360" cy="270" r="140" fill="#99f6e4" opacity="0.15"/>
+
+  <!-- Person 1 - Top (Purple) -->
+  <g transform="translate(325, 90)">
+    <ellipse cx="35" cy="70" rx="25" ry="35" fill="url(#purple)"/>
+    <circle cx="35" cy="30" r="25" fill="url(#skin1)"/>
+    <ellipse cx="35" cy="15" rx="22" ry="18" fill="#4a3728"/>
+    <circle cx="28" cy="30" r="3" fill="#2d1f15"/>
+    <circle cx="42" cy="30" r="3" fill="#2d1f15"/>
+    <path d="M30 42 Q35 48 40 42" fill="none" stroke="#2d1f15" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Person 2 - Top Right (Teal) -->
+  <g transform="translate(470, 150)">
+    <ellipse cx="35" cy="70" rx="25" ry="35" fill="url(#teal)"/>
+    <circle cx="35" cy="30" r="25" fill="url(#skin2)"/>
+    <ellipse cx="35" cy="15" rx="22" ry="18" fill="#1a1a1a"/>
+    <circle cx="28" cy="30" r="3" fill="#0a0a0a"/>
+    <circle cx="42" cy="30" r="3" fill="#0a0a0a"/>
+    <path d="M30 42 Q35 48 40 42" fill="none" stroke="#0a0a0a" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Person 3 - Right (Pink) -->
+  <g transform="translate(500, 280)">
+    <ellipse cx="35" cy="70" rx="25" ry="35" fill="url(#pink)"/>
+    <circle cx="35" cy="30" r="25" fill="url(#skin3)"/>
+    <ellipse cx="35" cy="12" rx="22" ry="18" fill="#0a0a0a"/>
+    <ellipse cx="20" cy="22" rx="6" ry="12" fill="#0a0a0a"/>
+    <ellipse cx="50" cy="22" rx="6" ry="12" fill="#0a0a0a"/>
+    <circle cx="28" cy="30" r="3" fill="#0a0a0a"/>
+    <circle cx="42" cy="30" r="3" fill="#0a0a0a"/>
+    <path d="M30 42 Q35 48 40 42" fill="none" stroke="#0a0a0a" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Person 4 - Bottom Right (Blue) -->
+  <g transform="translate(430, 380)">
+    <ellipse cx="35" cy="70" rx="25" ry="35" fill="url(#blue)"/>
+    <circle cx="35" cy="30" r="25" fill="url(#skin1)"/>
+    <ellipse cx="35" cy="12" rx="22" ry="18" fill="#7c2d12"/>
+    <circle cx="28" cy="30" r="3" fill="#431407"/>
+    <circle cx="42" cy="30" r="3" fill="#431407"/>
+    <path d="M30 42 Q35 48 40 42" fill="none" stroke="#431407" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Person 5 - Bottom (Orange) -->
+  <g transform="translate(325, 410)">
+    <ellipse cx="35" cy="70" rx="25" ry="35" fill="url(#orange)"/>
+    <circle cx="35" cy="30" r="25" fill="url(#skin2)"/>
+    <ellipse cx="35" cy="15" rx="22" ry="18" fill="#1a1a1a"/>
+    <circle cx="28" cy="30" r="3" fill="#0a0a0a"/>
+    <circle cx="42" cy="30" r="3" fill="#0a0a0a"/>
+    <path d="M30 42 Q35 48 40 42" fill="none" stroke="#0a0a0a" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Person 6 - Bottom Left (Purple) -->
+  <g transform="translate(220, 380)">
+    <ellipse cx="35" cy="70" rx="25" ry="35" fill="url(#purple)"/>
+    <circle cx="35" cy="30" r="25" fill="url(#skin3)"/>
+    <ellipse cx="35" cy="15" rx="22" ry="18" fill="#0a0a0a"/>
+    <circle cx="28" cy="30" r="3" fill="#0a0a0a"/>
+    <circle cx="42" cy="30" r="3" fill="#0a0a0a"/>
+    <path d="M30 42 Q35 48 40 42" fill="none" stroke="#0a0a0a" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Person 7 - Left (Teal) -->
+  <g transform="translate(150, 280)">
+    <ellipse cx="35" cy="70" rx="25" ry="35" fill="url(#teal)"/>
+    <circle cx="35" cy="30" r="25" fill="url(#skin1)"/>
+    <ellipse cx="35" cy="12" rx="22" ry="18" fill="#4a3728"/>
+    <circle cx="28" cy="30" r="3" fill="#2d1f15"/>
+    <circle cx="42" cy="30" r="3" fill="#2d1f15"/>
+    <path d="M30 42 Q35 48 40 42" fill="none" stroke="#2d1f15" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Person 8 - Top Left (Blue) -->
+  <g transform="translate(180, 150)">
+    <ellipse cx="35" cy="70" rx="25" ry="35" fill="url(#blue)"/>
+    <circle cx="35" cy="30" r="25" fill="url(#skin2)"/>
+    <ellipse cx="35" cy="15" rx="22" ry="18" fill="#1a1a1a"/>
+    <circle cx="28" cy="30" r="3" fill="#0a0a0a"/>
+    <circle cx="42" cy="30" r="3" fill="#0a0a0a"/>
+    <path d="M30 42 Q35 48 40 42" fill="none" stroke="#0a0a0a" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Connected hands/arms forming circle -->
+  <g stroke-width="14" fill="none" stroke-linecap="round" opacity="0.7">
+    <path d="M370 150 Q420 140 460 175" stroke="url(#purple)"/>
+    <path d="M505 195 Q540 240 530 300" stroke="url(#teal)"/>
+    <path d="M530 330 Q510 390 470 420" stroke="url(#pink)"/>
+    <path d="M450 445 Q400 470 350 460" stroke="url(#blue)"/>
+    <path d="M320 455 Q270 440 240 410" stroke="url(#orange)"/>
+    <path d="M220 390 Q180 340 185 290" stroke="url(#purple)"/>
+    <path d="M185 260 Q200 200 250 170" stroke="url(#teal)"/>
+    <path d="M280 155 Q330 130 360 145" stroke="url(#blue)"/>
+  </g>
+
+  <!-- Central heart symbolizing love and support -->
+  <path d="M360 245 C345 225 315 235 315 265 C315 295 360 330 360 330 C360 330 405 295 405 265 C405 235 375 225 360 245 Z" fill="#fb7185" opacity="0.85"/>
+  <!-- Heart glow -->
+  <path d="M360 245 C345 225 315 235 315 265 C315 295 360 330 360 330 C360 330 405 295 405 265 C405 235 375 225 360 245 Z" fill="none" stroke="#fda4af" stroke-width="4" opacity="0.5"/>
+
+  <!-- Floating hearts -->
+  <path d="M150 100 C145 93 138 95 138 103 C138 110 150 120 150 120 C150 120 162 110 162 103 C162 95 155 93 150 100 Z" fill="#fda4af" opacity="0.5"/>
+  <path d="M570 90 C566 84 560 86 560 92 C560 98 570 106 570 106 C570 106 580 98 580 92 C580 86 574 84 570 90 Z" fill="#c4b5fd" opacity="0.4"/>
+  <path d="M620 400 C616 394 610 396 610 402 C610 408 620 416 620 416 C620 416 630 408 630 402 C630 396 624 394 620 400 Z" fill="#99f6e4" opacity="0.5"/>
+  <path d="M100 420 C96 414 90 416 90 422 C90 428 100 436 100 436 C100 436 110 428 110 422 C110 416 104 414 100 420 Z" fill="#fbbf24" opacity="0.4"/>
+
+  <!-- Sparkles -->
+  <circle cx="100" cy="80" r="4" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="620" cy="100" r="3.5" fill="#fbbf24" opacity="0.7"/>
+  <circle cx="80" cy="300" r="3" fill="#a78bfa" opacity="0.6"/>
+  <circle cx="640" cy="300" r="3" fill="#67e8f9" opacity="0.6"/>
+  <circle cx="360" cy="50" r="3.5" fill="#fbbf24" opacity="0.7"/>
+</svg>

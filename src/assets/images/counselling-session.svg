@@ -1,0 +1,131 @@
+<svg width="720" height="540" viewBox="0 0 720 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="counselling-title">
+  <title id="counselling-title">Professional mental health counselling session</title>
+  <defs>
+    <linearGradient id="couns-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f3fbff"/>
+      <stop offset="100%" stop-color="#efe5ff"/>
+    </linearGradient>
+    <linearGradient id="couch-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="chair-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="therapist-skin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fcd5ce"/>
+      <stop offset="100%" stop-color="#f8b4a9"/>
+    </linearGradient>
+    <linearGradient id="patient-skin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4a574"/>
+      <stop offset="100%" stop-color="#c4956a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="720" height="540" rx="32" fill="url(#couns-bg)"/>
+
+  <!-- Room elements -->
+  <!-- Window -->
+  <rect x="480" y="60" width="180" height="140" rx="10" fill="#bae6fd" opacity="0.5"/>
+  <line x1="570" y1="60" x2="570" y2="200" stroke="#94a3b8" stroke-width="4"/>
+  <line x1="480" y1="130" x2="660" y2="130" stroke="#94a3b8" stroke-width="4"/>
+  <rect x="480" y="60" width="180" height="140" rx="10" fill="none" stroke="#64748b" stroke-width="5"/>
+
+  <!-- Sunlight through window -->
+  <ellipse cx="570" cy="130" rx="60" ry="50" fill="#fef3c7" opacity="0.2"/>
+
+  <!-- Plant in corner -->
+  <rect x="60" y="360" width="50" height="60" rx="6" fill="#a16207"/>
+  <ellipse cx="85" cy="320" rx="45" ry="55" fill="#22c55e" opacity="0.9"/>
+  <ellipse cx="65" cy="305" rx="28" ry="38" fill="#16a34a" opacity="0.8"/>
+  <ellipse cx="105" cy="310" rx="24" ry="35" fill="#4ade80" opacity="0.7"/>
+
+  <!-- Floor -->
+  <ellipse cx="360" cy="480" rx="350" ry="60" fill="#e2e8f0" opacity="0.4"/>
+
+  <!-- Therapy couch -->
+  <path d="M140 340 Q115 340 115 365 L115 420 Q115 445 140 445 L420 445 Q445 445 445 420 L445 365 Q445 340 420 340 Z" fill="url(#couch-grad)"/>
+  <ellipse cx="155" cy="380" rx="40" ry="55" fill="#9333ea" opacity="0.6"/>
+
+  <!-- Patient on couch -->
+  <g transform="translate(240, 290)">
+    <!-- Body -->
+    <ellipse cx="70" cy="75" rx="55" ry="40" fill="#3b82f6" opacity="0.9"/>
+    <!-- Head -->
+    <circle cx="35" cy="50" r="32" fill="url(#patient-skin)"/>
+    <!-- Hair -->
+    <ellipse cx="35" cy="32" rx="28" ry="22" fill="#1a1a1a"/>
+    <!-- Eyes -->
+    <circle cx="26" cy="50" r="4" fill="#1a1a1a"/>
+    <circle cx="44" cy="50" r="4" fill="#1a1a1a"/>
+    <!-- Neutral/thoughtful expression -->
+    <path d="M30 65 Q35 62 40 65" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round"/>
+    <!-- Thought bubble -->
+    <ellipse cx="-10" cy="10" rx="30" ry="22" fill="white" opacity="0.9"/>
+    <circle cx="-35" cy="40" r="6" fill="white" opacity="0.8"/>
+    <circle cx="-45" cy="55" r="4" fill="white" opacity="0.7"/>
+  </g>
+
+  <!-- Therapist chair -->
+  <ellipse cx="580" cy="420" rx="60" ry="35" fill="url(#chair-grad)"/>
+  <rect x="530" y="340" width="100" height="80" rx="12" fill="#0d9488"/>
+
+  <!-- Therapist -->
+  <g transform="translate(530, 230)">
+    <!-- Body -->
+    <ellipse cx="50" cy="130" rx="40" ry="60" fill="#0d9488"/>
+    <!-- Head -->
+    <circle cx="50" cy="60" r="40" fill="url(#therapist-skin)"/>
+    <!-- Hair -->
+    <ellipse cx="50" cy="38" rx="36" ry="28" fill="#7c2d12"/>
+    <!-- Eyes -->
+    <circle cx="38" cy="60" r="4" fill="#431407"/>
+    <circle cx="62" cy="60" r="4" fill="#431407"/>
+    <!-- Warm smile -->
+    <path d="M40 78 Q50 88 60 78" fill="none" stroke="#431407" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Glasses -->
+    <circle cx="38" cy="60" r="10" fill="none" stroke="#1e293b" stroke-width="2"/>
+    <circle cx="62" cy="60" r="10" fill="none" stroke="#1e293b" stroke-width="2"/>
+    <line x1="48" y1="60" x2="52" y2="60" stroke="#1e293b" stroke-width="2"/>
+    <!-- Notepad -->
+    <rect x="85" y="115" width="40" height="55" rx="4" fill="#fef3c7"/>
+    <line x1="92" y1="128" x2="118" y2="128" stroke="#d97706" stroke-width="2"/>
+    <line x1="92" y1="140" x2="115" y2="140" stroke="#d97706" stroke-width="2"/>
+    <line x1="92" y1="152" x2="118" y2="152" stroke="#d97706" stroke-width="2"/>
+    <!-- Pen -->
+    <rect x="122" y="120" width="6" height="45" rx="2" fill="#3b82f6"/>
+  </g>
+
+  <!-- Speech/conversation lines -->
+  <g stroke="#c4b5fd" stroke-width="2.5" stroke-dasharray="8,5" opacity="0.5">
+    <path d="M330 330 Q400 300 470 330" fill="none"/>
+    <path d="M340 355 Q400 320 460 355" fill="none"/>
+  </g>
+
+  <!-- Trust/connection symbol - heart between them -->
+  <path d="M420 300 C412 290 400 293 400 305 C400 316 420 330 420 330 C420 330 440 316 440 305 C440 293 428 290 420 300 Z" fill="#fb7185" opacity="0.5"/>
+
+  <!-- Certificate/diploma on wall -->
+  <rect x="80" y="80" width="100" height="80" rx="4" fill="#fef3c7" opacity="0.9"/>
+  <rect x="80" y="80" width="100" height="80" rx="4" fill="none" stroke="#ca8a04" stroke-width="3"/>
+  <line x1="100" y1="110" x2="160" y2="110" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="105" y1="125" x2="155" y2="125" stroke="#94a3b8" stroke-width="2"/>
+  <circle cx="130" cy="145" r="8" fill="#ca8a04" opacity="0.6"/>
+
+  <!-- Calming artwork on wall -->
+  <rect x="250" y="70" width="120" height="90" rx="6" fill="#e0e7ff"/>
+  <rect x="250" y="70" width="120" height="90" rx="6" fill="none" stroke="#94a3b8" stroke-width="3"/>
+  <!-- Simple landscape -->
+  <path d="M260 140 Q290 100 320 130 Q350 100 360 140 Z" fill="#86efac" opacity="0.6"/>
+  <circle cx="340" cy="95" r="12" fill="#fde047" opacity="0.7"/>
+
+  <!-- Floating elements -->
+  <circle cx="650" cy="300" r="4" fill="#fbbf24" opacity="0.7"/>
+  <circle cx="100" cy="200" r="3" fill="#a78bfa" opacity="0.6"/>
+  <circle cx="400" cy="50" r="3.5" fill="#67e8f9" opacity="0.6"/>
+
+  <!-- Small decorative hearts -->
+  <path d="M680 180 C676 174 670 176 670 182 C670 188 680 196 680 196 C680 196 690 188 690 182 C690 176 684 174 680 180 Z" fill="#fda4af" opacity="0.4"/>
+</svg>

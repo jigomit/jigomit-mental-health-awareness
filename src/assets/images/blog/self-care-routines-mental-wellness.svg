@@ -1,0 +1,51 @@
+<svg width="400" height="250" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="blog3-title">
+  <title id="blog3-title">Self-care routines for better mental wellness</title>
+  <defs>
+    <linearGradient id="b3-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dcfce7"/>
+      <stop offset="100%" stop-color="#f0fdf4"/>
+    </linearGradient>
+    <linearGradient id="b3-green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#16a34a"/>
+    </linearGradient>
+    <linearGradient id="b3-teal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <linearGradient id="b3-pink" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" rx="16" fill="url(#b3-bg)"/>
+
+  <!-- Central heart with person -->
+  <path d="M200 70 C185 50 155 55 155 85 C155 115 200 145 200 145 C200 145 245 115 245 85 C245 55 215 50 200 70" fill="url(#b3-pink)" opacity="0.7"/>
+
+  <!-- Person meditating inside heart area -->
+  <circle cx="200" cy="100" r="12" fill="url(#b3-teal)"/>
+  <path d="M200 112 L200 130" stroke="url(#b3-teal)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M185 120 L200 115 L215 120" fill="none" stroke="url(#b3-teal)" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Self-care icons around -->
+  <!-- Sleep moon -->
+  <circle cx="70" cy="70" r="22" fill="url(#b3-teal)" opacity="0.6"/>
+  <circle cx="80" cy="65" r="17" fill="url(#b3-bg)"/>
+
+  <!-- Exercise -->
+  <circle cx="330" cy="65" r="10" fill="url(#b3-green)" opacity="0.8"/>
+  <path d="M330 75 L330 100 M330 82 L315 92 M330 82 L345 92 M330 100 L318 118 M330 100 L342 118" stroke="url(#b3-green)" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Water/hydration -->
+  <path d="M70 170 Q70 150 85 160 Q100 170 100 190 Q100 210 85 215 Q70 210 70 190 Z" fill="url(#b3-teal)" opacity="0.5"/>
+
+  <!-- Plant/growth -->
+  <rect x="310" y="175" width="35" height="40" rx="4" fill="url(#b3-green)" opacity="0.4"/>
+  <ellipse cx="327" cy="165" rx="20" ry="18" fill="url(#b3-green)" opacity="0.7"/>
+  <line x1="327" y1="175" x2="327" y2="155" stroke="#16a34a" stroke-width="2"/>
+
+  <!-- Connecting gentle lines -->
+  <path d="M95 80 Q150 60 175 75" fill="none" stroke="url(#b3-teal)" stroke-width="1" opacity="0.3" stroke-dasharray="4 2"/>
+  <path d="M305 75 Q260 60 225 75" fill="none" stroke="url(#b3-green)" stroke-width="1" opacity="0.3" stroke-dasharray="4 2"/>
+</svg>

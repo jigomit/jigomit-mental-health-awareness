@@ -1,0 +1,42 @@
+<svg width="400" height="250" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="blog2-title">
+  <title id="blog2-title">Early warning signs of depression and how to seek help</title>
+  <defs>
+    <linearGradient id="b2-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#faf5ff"/>
+      <stop offset="100%" stop-color="#f3e8ff"/>
+    </linearGradient>
+    <linearGradient id="b2-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="b2-hope" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" rx="16" fill="url(#b2-bg)"/>
+
+  <!-- Head silhouette with awareness symbols -->
+  <path d="M200 40 C240 40 270 70 270 110 C270 140 250 165 220 175 L220 190 L180 190 L180 175 C150 165 130 140 130 110 C130 70 160 40 200 40" fill="url(#b2-purple)" opacity="0.2" stroke="url(#b2-purple)" stroke-width="2"/>
+
+  <!-- Brain inside head -->
+  <ellipse cx="200" cy="100" rx="45" ry="35" fill="url(#b2-purple)" opacity="0.4"/>
+  <path d="M170 90 Q155 100 170 110" fill="none" stroke="#7c3aed" stroke-width="1.5" opacity="0.5"/>
+  <path d="M230 90 Q245 100 230 110" fill="none" stroke="#7c3aed" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Hope light breaking through -->
+  <circle cx="200" cy="100" r="20" fill="url(#b2-hope)" opacity="0.8"/>
+  <circle cx="200" cy="100" r="30" fill="url(#b2-hope)" opacity="0.3"/>
+
+  <!-- Light rays -->
+  <line x1="200" y1="65" x2="200" y2="50" stroke="#fbbf24" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <line x1="225" y1="75" x2="240" y2="65" stroke="#fbbf24" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <line x1="175" y1="75" x2="160" y2="65" stroke="#fbbf24" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Helping hands at bottom -->
+  <path d="M100 220 Q130 200 160 210 L175 205" fill="none" stroke="url(#b2-purple)" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  <path d="M300 220 Q270 200 240 210 L225 205" fill="none" stroke="url(#b2-purple)" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Heart symbol -->
+  <path d="M200 210 C195 205 185 205 185 215 C185 225 200 235 200 235 C200 235 215 225 215 215 C215 205 205 205 200 210" fill="url(#b2-hope)" opacity="0.8"/>
+</svg>

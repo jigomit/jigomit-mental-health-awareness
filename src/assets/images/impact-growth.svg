@@ -1,0 +1,73 @@
+<svg width="720" height="540" viewBox="0 0 720 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="impact-title impact-desc">
+  <title id="impact-title">Impact and growth illustration</title>
+  <desc id="impact-desc">Upward trending growth chart with flourishing elements representing positive change.</desc>
+  <defs>
+    <linearGradient id="impact-bg" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f0fff4"/>
+      <stop offset="100%" stop-color="#f5f0ff"/>
+    </linearGradient>
+    <linearGradient id="chart-fill" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#7aa5ff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#7aa5ff" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="bar-fill" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#9d8ac2"/>
+      <stop offset="100%" stop-color="#b9a8d6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="720" height="540" rx="32" fill="url(#impact-bg)"/>
+
+  <!-- Grid lines (subtle) -->
+  <line x1="120" y1="420" x2="600" y2="420" stroke="#d0dcff" stroke-width="1" opacity="0.5"/>
+  <line x1="120" y1="340" x2="600" y2="340" stroke="#d0dcff" stroke-width="1" opacity="0.4"/>
+  <line x1="120" y1="260" x2="600" y2="260" stroke="#d0dcff" stroke-width="1" opacity="0.3"/>
+  <line x1="120" y1="180" x2="600" y2="180" stroke="#d0dcff" stroke-width="1" opacity="0.2"/>
+
+  <!-- Growth bars -->
+  <rect x="160" y="350" width="50" height="70" rx="8" fill="url(#bar-fill)" opacity="0.7"/>
+  <rect x="240" y="300" width="50" height="120" rx="8" fill="url(#bar-fill)" opacity="0.8"/>
+  <rect x="320" y="250" width="50" height="170" rx="8" fill="url(#bar-fill)" opacity="0.85"/>
+  <rect x="400" y="200" width="50" height="220" rx="8" fill="url(#bar-fill)" opacity="0.9"/>
+  <rect x="480" y="140" width="50" height="280" rx="8" fill="url(#bar-fill)" opacity="0.95"/>
+
+  <!-- Growth line overlay -->
+  <path d="M185 350 L265 300 L345 250 L425 200 L505 140" stroke="#5a7fff" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Data points -->
+  <circle cx="185" cy="350" r="8" fill="#5a7fff"/>
+  <circle cx="265" cy="300" r="8" fill="#5a7fff"/>
+  <circle cx="345" cy="250" r="8" fill="#5a7fff"/>
+  <circle cx="425" cy="200" r="8" fill="#5a7fff"/>
+  <circle cx="505" cy="140" r="10" fill="#5a7fff"/>
+  <circle cx="505" cy="140" r="16" fill="#5a7fff" opacity="0.3"/>
+
+  <!-- Arrow indicating growth -->
+  <path d="M540 120 L570 100 L560 130" fill="#5a7fff" opacity="0.8"/>
+  <line x1="520" y1="150" x2="565" y2="110" stroke="#5a7fff" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Flourishing elements (leaves/nature) -->
+  <ellipse cx="580" cy="160" rx="15" ry="25" fill="#8fbc8f" opacity="0.7" transform="rotate(30, 580, 160)"/>
+  <ellipse cx="595" cy="145" rx="12" ry="20" fill="#7ab37a" opacity="0.6" transform="rotate(45, 595, 145)"/>
+  <ellipse cx="560" cy="155" rx="10" ry="18" fill="#9acd9a" opacity="0.5" transform="rotate(-20, 560, 155)"/>
+
+  <!-- People silhouettes (community growth) -->
+  <circle cx="185" cy="320" r="12" fill="#c9a7ff" opacity="0.6"/>
+  <ellipse cx="185" cy="342" rx="10" ry="6" fill="#c9a7ff" opacity="0.5"/>
+
+  <circle cx="265" cy="270" r="12" fill="#a7c9ff" opacity="0.6"/>
+  <ellipse cx="265" cy="292" rx="10" ry="6" fill="#a7c9ff" opacity="0.5"/>
+
+  <circle cx="345" cy="220" r="12" fill="#c9a7ff" opacity="0.6"/>
+  <ellipse cx="345" cy="242" rx="10" ry="6" fill="#c9a7ff" opacity="0.5"/>
+
+  <!-- Stars (achievement) -->
+  <polygon points="600,80 603,90 614,90 606,97 609,108 600,102 591,108 594,97 586,90 597,90" fill="#ffd700" opacity="0.8"/>
+  <polygon points="100,150 102,157 110,157 104,162 106,170 100,166 94,170 96,162 90,157 98,157" fill="#ffd700" opacity="0.6"/>
+
+  <!-- Soft background circles -->
+  <circle cx="100" cy="400" r="60" fill="#d9e8ff" opacity="0.3"/>
+  <circle cx="650" cy="450" r="50" fill="#e8d9ff" opacity="0.3"/>
+  <circle cx="80" cy="80" r="40" fill="#d9ffe8" opacity="0.3"/>
+</svg>

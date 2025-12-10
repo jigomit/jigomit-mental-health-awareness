@@ -1,0 +1,169 @@
+<svg width="720" height="540" viewBox="0 0 720 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="campaigns-title">
+  <title id="campaigns-title">Mental health awareness campaigns and advocacy</title>
+  <defs>
+    <linearGradient id="camp-bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d0e6ff"/>
+      <stop offset="50%" stop-color="#c6b5ff"/>
+      <stop offset="100%" stop-color="#f7d8ff"/>
+    </linearGradient>
+    <linearGradient id="ribbon-green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#16a34a"/>
+    </linearGradient>
+    <linearGradient id="banner" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="person-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="person-teal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="person-pink" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#db2777"/>
+    </linearGradient>
+    <linearGradient id="person-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="skin1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fcd5ce"/>
+      <stop offset="100%" stop-color="#f8b4a9"/>
+    </linearGradient>
+    <linearGradient id="skin2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4a574"/>
+      <stop offset="100%" stop-color="#c4956a"/>
+    </linearGradient>
+    <linearGradient id="skin3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8d5524"/>
+      <stop offset="100%" stop-color="#7a4a1e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="720" height="540" rx="32" fill="url(#camp-bg)"/>
+
+  <!-- Ground/stage area -->
+  <ellipse cx="360" cy="500" rx="380" ry="80" fill="#e2e8f0" opacity="0.4"/>
+
+  <!-- Large awareness ribbon (center background) -->
+  <g transform="translate(280, 30)">
+    <path d="M80 0 Q60 50 80 100 Q70 130 80 160 L90 160 Q80 130 90 100 Q70 50 90 0 Z" fill="url(#ribbon-green)" opacity="0.3"/>
+    <path d="M80 0 Q100 50 80 100 Q90 130 80 160 L70 160 Q80 130 70 100 Q90 50 70 0 Z" fill="url(#ribbon-green)" opacity="0.3"/>
+  </g>
+
+  <!-- Banner/sign being held -->
+  <rect x="180" y="140" width="360" height="120" rx="12" fill="#ffffff" opacity="0.95"/>
+  <rect x="180" y="140" width="360" height="120" rx="12" fill="none" stroke="url(#banner)" stroke-width="4"/>
+
+  <!-- Banner text representation -->
+  <rect x="210" y="165" width="200" height="18" rx="9" fill="url(#banner)" opacity="0.8"/>
+  <rect x="230" y="195" width="260" height="12" rx="6" fill="#94a3b8" opacity="0.6"/>
+  <rect x="250" y="220" width="220" height="12" rx="6" fill="#94a3b8" opacity="0.5"/>
+
+  <!-- Heart on banner -->
+  <path d="M480 190 C472 178 458 182 458 196 C458 210 480 228 480 228 C480 228 502 210 502 196 C502 182 488 178 480 190 Z" fill="#fb7185" opacity="0.8"/>
+
+  <!-- Banner poles -->
+  <rect x="170" y="130" width="8" height="200" rx="4" fill="#78716c"/>
+  <rect x="542" y="130" width="8" height="200" rx="4" fill="#78716c"/>
+
+  <!-- Person 1 - Left holding banner (Purple) -->
+  <g transform="translate(120, 260)">
+    <ellipse cx="50" cy="100" rx="30" ry="45" fill="url(#person-purple)"/>
+    <circle cx="50" cy="50" r="30" fill="url(#skin1)"/>
+    <ellipse cx="50" cy="32" rx="26" ry="20" fill="#4a3728"/>
+    <circle cx="42" cy="50" r="4" fill="#2d1f15"/>
+    <circle cx="58" cy="50" r="4" fill="#2d1f15"/>
+    <path d="M43 65 Q50 72 57 65" fill="none" stroke="#2d1f15" stroke-width="2" stroke-linecap="round"/>
+    <!-- Arm holding pole -->
+    <path d="M75 80 L90 40" stroke="url(#person-purple)" stroke-width="14" stroke-linecap="round"/>
+  </g>
+
+  <!-- Person 2 - Right holding banner (Teal) -->
+  <g transform="translate(530, 260)">
+    <ellipse cx="50" cy="100" rx="30" ry="45" fill="url(#person-teal)"/>
+    <circle cx="50" cy="50" r="30" fill="url(#skin2)"/>
+    <ellipse cx="50" cy="32" rx="26" ry="20" fill="#1a1a1a"/>
+    <circle cx="42" cy="50" r="4" fill="#0a0a0a"/>
+    <circle cx="58" cy="50" r="4" fill="#0a0a0a"/>
+    <path d="M43 65 Q50 72 57 65" fill="none" stroke="#0a0a0a" stroke-width="2" stroke-linecap="round"/>
+    <!-- Arm holding pole -->
+    <path d="M25 80 L10 40" stroke="url(#person-teal)" stroke-width="14" stroke-linecap="round"/>
+  </g>
+
+  <!-- Person 3 - Center front (Pink) -->
+  <g transform="translate(300, 320)">
+    <ellipse cx="50" cy="100" rx="35" ry="50" fill="url(#person-pink)"/>
+    <circle cx="50" cy="45" r="35" fill="url(#skin3)"/>
+    <ellipse cx="50" cy="25" rx="30" ry="24" fill="#0a0a0a"/>
+    <ellipse cx="35" cy="35" rx="8" ry="14" fill="#0a0a0a"/>
+    <ellipse cx="65" cy="35" rx="8" ry="14" fill="#0a0a0a"/>
+    <circle cx="40" cy="45" r="4" fill="#0a0a0a"/>
+    <circle cx="60" cy="45" r="4" fill="#0a0a0a"/>
+    <path d="M42 62 Q50 70 58 62" fill="none" stroke="#0a0a0a" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Raised arm with megaphone -->
+    <path d="M80 70 L110 30" stroke="url(#person-pink)" stroke-width="14" stroke-linecap="round"/>
+    <!-- Megaphone -->
+    <path d="M105 15 L130 0 L130 45 L105 30 Z" fill="#f97316" opacity="0.9"/>
+    <rect x="95" y="12" width="15" height="22" rx="4" fill="#ea580c"/>
+  </g>
+
+  <!-- Person 4 - Left supporter (Blue) -->
+  <g transform="translate(60, 340)">
+    <ellipse cx="40" cy="90" rx="25" ry="40" fill="url(#person-blue)"/>
+    <circle cx="40" cy="45" r="28" fill="url(#skin1)"/>
+    <ellipse cx="40" cy="28" rx="24" ry="18" fill="#7c2d12"/>
+    <circle cx="32" cy="45" r="3.5" fill="#431407"/>
+    <circle cx="48" cy="45" r="3.5" fill="#431407"/>
+    <path d="M34 58 Q40 64 46 58" fill="none" stroke="#431407" stroke-width="2" stroke-linecap="round"/>
+    <!-- Raised arms (cheering) -->
+    <path d="M15 70 L5 35" stroke="url(#person-blue)" stroke-width="12" stroke-linecap="round"/>
+    <path d="M65 70 L75 35" stroke="url(#person-blue)" stroke-width="12" stroke-linecap="round"/>
+  </g>
+
+  <!-- Person 5 - Right supporter (Purple) -->
+  <g transform="translate(580, 340)">
+    <ellipse cx="40" cy="90" rx="25" ry="40" fill="url(#person-purple)"/>
+    <circle cx="40" cy="45" r="28" fill="url(#skin2)"/>
+    <ellipse cx="40" cy="28" rx="24" ry="18" fill="#1a1a1a"/>
+    <circle cx="32" cy="45" r="3.5" fill="#0a0a0a"/>
+    <circle cx="48" cy="45" r="3.5" fill="#0a0a0a"/>
+    <path d="M34 58 Q40 64 46 58" fill="none" stroke="#0a0a0a" stroke-width="2" stroke-linecap="round"/>
+    <!-- Raised arms -->
+    <path d="M15 70 L5 35" stroke="url(#person-purple)" stroke-width="12" stroke-linecap="round"/>
+    <path d="M65 70 L75 35" stroke="url(#person-purple)" stroke-width="12" stroke-linecap="round"/>
+  </g>
+
+  <!-- Confetti/celebration elements -->
+  <g opacity="0.7">
+    <rect x="150" y="80" width="14" height="6" rx="3" fill="#f472b6" transform="rotate(25, 150, 80)"/>
+    <rect x="250" y="60" width="12" height="5" rx="2" fill="#a78bfa" transform="rotate(-15, 250, 60)"/>
+    <rect x="450" y="70" width="13" height="5" rx="2" fill="#fbbf24" transform="rotate(40, 450, 70)"/>
+    <rect x="550" y="90" width="11" height="5" rx="2" fill="#34d399" transform="rotate(-30, 550, 90)"/>
+    <rect x="320" y="50" width="10" height="5" rx="2" fill="#67e8f9" transform="rotate(10, 320, 50)"/>
+    <rect x="480" y="100" width="12" height="5" rx="2" fill="#fb7185" transform="rotate(-20, 480, 100)"/>
+  </g>
+
+  <!-- Floating hearts -->
+  <path d="M100 120 C95 112 88 114 88 122 C88 130 100 140 100 140 C100 140 112 130 112 122 C112 114 105 112 100 120 Z" fill="#fda4af" opacity="0.5"/>
+  <path d="M620 130 C616 124 610 126 610 132 C610 138 620 146 620 146 C620 146 630 138 630 132 C630 126 624 124 620 130 Z" fill="#c4b5fd" opacity="0.4"/>
+  <path d="M360 480 C355 472 348 474 348 482 C348 490 360 500 360 500 C360 500 372 490 372 482 C372 474 365 472 360 480 Z" fill="#99f6e4" opacity="0.5"/>
+
+  <!-- Sparkle stars -->
+  <circle cx="80" cy="50" r="4" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="640" cy="60" r="3.5" fill="#fbbf24" opacity="0.7"/>
+  <circle cx="200" cy="100" r="3" fill="#a78bfa" opacity="0.6"/>
+  <circle cx="520" cy="50" r="3" fill="#67e8f9" opacity="0.6"/>
+
+  <!-- Sound/voice waves from megaphone -->
+  <g stroke="#f97316" stroke-width="3" fill="none" opacity="0.4">
+    <path d="M440 320 Q460 310 480 320" stroke-linecap="round"/>
+    <path d="M450 300 Q480 285 510 300" stroke-linecap="round"/>
+    <path d="M460 280 Q495 260 530 280" stroke-linecap="round"/>
+  </g>
+</svg>

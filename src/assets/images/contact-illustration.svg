@@ -1,0 +1,86 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="contact-title">
+  <title id="contact-title">Contact our mental health support team</title>
+  <defs>
+    <linearGradient id="cont-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf4ff"/>
+      <stop offset="100%" stop-color="#ecfdf5"/>
+    </linearGradient>
+    <linearGradient id="phone-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="hand-skin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fcd5ce"/>
+      <stop offset="100%" stop-color="#f8b4a9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="400" rx="24" fill="url(#cont-bg)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="120" fill="#f5d0fe" opacity="0.3"/>
+  <circle cx="500" cy="300" r="150" fill="#a5f3fc" opacity="0.2"/>
+
+  <!-- Large phone/helpline -->
+  <g transform="translate(150, 80)">
+    <!-- Phone body -->
+    <rect x="50" y="20" width="120" height="220" rx="20" fill="url(#phone-grad)"/>
+    <rect x="60" y="40" width="100" height="160" rx="10" fill="#1e1b4b"/>
+
+    <!-- Screen content - Chat interface -->
+    <rect x="70" y="55" width="60" height="25" rx="12" fill="#c4b5fd"/>
+    <rect x="90" y="90" width="60" height="25" rx="12" fill="#22c55e"/>
+    <rect x="70" y="125" width="55" height="25" rx="12" fill="#c4b5fd"/>
+    <rect x="85" y="160" width="65" height="25" rx="12" fill="#22c55e"/>
+
+    <!-- Phone details -->
+    <ellipse cx="110" cy="215" rx="15" ry="15" fill="#4c1d95" opacity="0.5"/>
+    <rect x="95" y="28" width="30" height="6" rx="3" fill="#4c1d95"/>
+  </g>
+
+  <!-- Hand holding phone -->
+  <g transform="translate(130, 200)">
+    <path d="M20 100 Q0 80 10 50 Q20 30 40 40 L50 50 Q60 55 60 70 L55 110 Q50 130 30 130 Q10 130 20 100" fill="url(#hand-skin)"/>
+    <path d="M55 50 Q70 40 80 55 L75 80" fill="url(#hand-skin)"/>
+    <path d="M60 70 Q75 65 85 75 L80 95" fill="url(#hand-skin)"/>
+  </g>
+
+  <!-- Person receiving support -->
+  <g transform="translate(380, 120)">
+    <ellipse cx="60" cy="150" rx="45" ry="60" fill="#14b8a6"/>
+    <circle cx="60" cy="80" r="45" fill="#d4a574"/>
+    <ellipse cx="60" cy="55" rx="40" ry="32" fill="#1a1a1a"/>
+    <circle cx="48" cy="80" r="5" fill="#0a0a0a"/>
+    <circle cx="72" cy="80" r="5" fill="#0a0a0a"/>
+    <path d="M50 100 Q60 110 70 100" fill="none" stroke="#0a0a0a" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Speech bubble -->
+    <ellipse cx="140" cy="60" rx="40" ry="30" fill="white"/>
+    <circle cx="115" cy="95" r="8" fill="white"/>
+    <circle cx="105" cy="110" r="5" fill="white"/>
+    <!-- Thank you heart -->
+    <path d="M140 50 C135 43 128 45 128 53 C128 60 140 70 140 70 C140 70 152 60 152 53 C152 45 145 43 140 50" fill="#fb7185"/>
+  </g>
+
+  <!-- Connection waves -->
+  <g stroke="#c4b5fd" stroke-width="2" opacity="0.5">
+    <path d="M290 180 Q320 160 350 180" fill="none"/>
+    <path d="M280 200 Q320 175 360 200" fill="none"/>
+    <path d="M270 220 Q320 190 370 220" fill="none"/>
+  </g>
+
+  <!-- 24/7 badge -->
+  <circle cx="520" cy="80" r="40" fill="#22c55e"/>
+  <circle cx="520" cy="80" r="35" fill="none" stroke="white" stroke-width="2"/>
+  <text x="520" y="75" text-anchor="middle" fill="white" font-family="system-ui" font-size="14" font-weight="bold">24/7</text>
+  <text x="520" y="92" text-anchor="middle" fill="white" font-family="system-ui" font-size="10">HELP</text>
+
+  <!-- Floating elements -->
+  <path d="M80 280 C75 273 68 275 68 283 C68 290 80 300 80 300 C80 300 92 290 92 283 C92 275 85 273 80 280" fill="#fda4af" opacity="0.5"/>
+
+  <!-- Sparkles -->
+  <circle cx="300" cy="50" r="4" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="550" cy="200" r="3" fill="#fbbf24" opacity="0.7"/>
+  <circle cx="50" cy="350" r="3.5" fill="#a78bfa" opacity="0.6"/>
+</svg>
