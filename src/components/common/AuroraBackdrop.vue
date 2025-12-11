@@ -68,6 +68,7 @@
     width: 80vw;
     height: 80vw;
     filter: blur(60px);
+    animation: none; /* Disable animation on tablet/mobile for CLS */
   }
 }
 
@@ -76,14 +77,16 @@
     width: 90vw;
     height: 90vw;
     filter: blur(50px);
-    opacity: 0.25;
+    opacity: 0.2;
+    animation: none; /* Disable animation on mobile for performance */
   }
 }
 
 @media (max-width: 360px) {
   .orb {
     filter: blur(40px);
-    opacity: 0.2;
+    opacity: 0.15;
+    animation: none;
   }
 }
 

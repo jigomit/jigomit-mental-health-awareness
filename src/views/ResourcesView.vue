@@ -34,7 +34,7 @@ import { resourceLibrary } from '../data/content';
 const route = useRoute();
 usePageMeta(route.meta?.title, route.meta?.description);
 
-const resourcesImage = 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&q=80';
+const resourcesImage = 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&q=80'; // Self-help meditation - mental wellness resources
 </script>
 
 <style scoped>

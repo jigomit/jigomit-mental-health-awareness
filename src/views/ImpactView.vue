@@ -42,7 +42,7 @@ import { quickStats, impactTimeline } from '../data/content';
 const route = useRoute();
 usePageMeta(route.meta?.title, route.meta?.description);
 
-const impactImage = 'https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=600&q=80';
+const impactImage = 'https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=600&q=80'; // Positive impact - healing hands together
 
 const stories = [
   {

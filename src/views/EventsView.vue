@@ -39,8 +39,8 @@ import { eventsSchedule } from '../data/content';
 const route = useRoute();
 usePageMeta(route.meta?.title, route.meta?.description);
 
-const eventsImage = 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=600&q=80';
-const campaignImage = 'https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?w=600&q=80';
+const eventsImage = 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=600&q=80'; // Mental health workshop - group support event
+const campaignImage = 'https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?w=600&q=80'; // Awareness campaign - community gathering
 </script>
 
 <style scoped>

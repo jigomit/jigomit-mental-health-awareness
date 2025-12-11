@@ -33,7 +33,8 @@ const { reduceMotion } = useReducedMotion();
   position: relative;
   min-height: 100vh;
   background: linear-gradient(180deg, rgba(9, 13, 40, 0.55), rgba(7, 10, 27, 0.9));
-  overflow: hidden;
+  overflow-x: hidden;
+  contain: layout style;
 }
 
 .app-content {
@@ -69,32 +70,39 @@ main {
   border-radius: 32px;
   padding: 3rem;
   box-shadow: 0 30px 90px rgba(6, 10, 38, 0.4);
+  contain: layout style;
 }
 
 .page-view {
   min-height: 60vh;
 }
 
+/* Disable page transitions for better CLS */
 .page-shift-enter-active,
 .page-shift-leave-active {
-  transition: opacity 0.35s ease, transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition: opacity 0.2s ease;
 }
 
 .page-shift-enter-from,
 .page-shift-leave-to {
   opacity: 0;
-  transform: translateY(30px) scale(0.98);
 }
 
 .page-shift-enter-to,
 .page-shift-leave-from {
   opacity: 1;
-  transform: translateY(0) scale(1);
 }
 
 .reduce-motion .page-shift-enter-active,
 .reduce-motion .page-shift-leave-active {
   transition-duration: 0s;
+}
+
+@media (max-width: 768px) {
+  .page-shift-enter-active,
+  .page-shift-leave-active {
+    transition: none;
+  }
 }
 
 @media (max-width: 768px) {

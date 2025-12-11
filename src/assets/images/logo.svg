@@ -6,11 +6,11 @@
       <stop offset="0%" stop-color="#0f172a"/>
       <stop offset="100%" stop-color="#1e1b4b"/>
     </linearGradient>
-    <!-- Teal to blue gradient -->
+    <!-- Indigo to purple gradient (matches site theme) -->
     <linearGradient id="main-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#5eead4"/>
-      <stop offset="50%" stop-color="#2dd4bf"/>
-      <stop offset="100%" stop-color="#3b82f6"/>
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
     </linearGradient>
     <!-- Glow effect -->
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
@@ -20,7 +20,7 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <!-- Heart gradient -->
+    <!-- Heart gradient (pink) -->
     <linearGradient id="heart-grad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#f472b6"/>
       <stop offset="100%" stop-color="#ec4899"/>
@@ -71,10 +71,10 @@
         fill="url(#heart-grad)" opacity="0.9"/>
 
   <!-- Sparkle dots - representing hope -->
-  <circle cx="12" cy="12" r="1.5" fill="#5eead4" opacity="0.8"/>
-  <circle cx="36" cy="12" r="1.5" fill="#3b82f6" opacity="0.8"/>
-  <circle cx="12" cy="36" r="1" fill="#3b82f6" opacity="0.6"/>
-  <circle cx="36" cy="36" r="1" fill="#5eead4" opacity="0.6"/>
+  <circle cx="12" cy="12" r="1.5" fill="#a5b4fc" opacity="0.8"/>
+  <circle cx="36" cy="12" r="1.5" fill="#c4b5fd" opacity="0.8"/>
+  <circle cx="12" cy="36" r="1" fill="#c4b5fd" opacity="0.6"/>
+  <circle cx="36" cy="36" r="1" fill="#a5b4fc" opacity="0.6"/>
 
   <!-- Plus sign - representing health/care -->
   <g opacity="0.7">

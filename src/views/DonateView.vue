@@ -37,7 +37,7 @@ import { donationTiers, confidentialityNotes } from '../data/content';
 const route = useRoute();
 usePageMeta(route.meta?.title, route.meta?.description);
 
-const donationImage = 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=600&q=80';
+const donationImage = 'https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=600&q=80'; // Donate - giving heart hands support
 </script>
 
 <style scoped>

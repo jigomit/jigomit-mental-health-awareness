@@ -13,32 +13,37 @@ const registerPlugins = () => {
 const snapToVisible = elements => {
   elements.forEach(el => {
     el.style.opacity = '1';
+    el.style.visibility = 'visible';
     el.style.transform = 'none';
   });
 };
 
 export const createRevealAnimations = (elements, reduceMotion, options = {}) => {
   if (!elements || elements.length === 0) return () => {};
-  if (reduceMotion) {
+  // Disable animations on mobile for better CLS
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
+  if (reduceMotion || isMobile) {
     snapToVisible(Array.from(elements));
     return () => {};
   }
   registerPlugins();
   const timelines = [];
   elements.forEach((el, index) => {
+    // Use transform instead of y for GPU acceleration
     const tl = gsap.fromTo(
       el,
-      { autoAlpha: 0, y: 40 },
+      { autoAlpha: 0, yPercent: 10, force3D: true },
       {
         autoAlpha: 1,
-        y: 0,
-        duration: 0.8,
+        yPercent: 0,
+        duration: 0.6,
         ease: 'power2.out',
-        delay: index * 0.08,
+        delay: index * 0.05,
+        force3D: true,
         scrollTrigger: {
           trigger: el,
-          start: 'top 85%',
-          toggleActions: 'play none none reverse'
+          start: 'top 90%',
+          toggleActions: 'play none none none'
         },
         ...options
       }
@@ -52,7 +57,9 @@ export const createRevealAnimations = (elements, reduceMotion, options = {}) => 
 
 export const createHeroDepthAnimation = (element, reduceMotion) => {
   if (!element) return () => {};
-  if (reduceMotion) {
+  // Disable animations on mobile for better CLS
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
+  if (reduceMotion || isMobile) {
     element.style.transform = 'translate3d(0,0,0)';
     return () => {};
   }

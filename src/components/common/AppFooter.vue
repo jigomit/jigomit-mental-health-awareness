@@ -1,5 +1,5 @@
 <template>
-  <footer class="site-footer">
+  <footer class="site-footer" role="contentinfo" aria-label="Site footer">
     <!-- Main Footer -->
     <div class="footer-main">
       <div class="footer-container">
@@ -7,7 +7,7 @@
           <!-- Brand Column -->
           <div class="footer-brand">
             <div class="brand-header">
-              <img :src="logoSrc" alt="" class="brand-logo" />
+              <img :src="logoSrc" alt="Mental Health Awareness logo" class="brand-logo" width="48" height="48" />
               <span class="brand-name">Mental Health Awareness</span>
             </div>
             <p class="brand-desc">Confidential, culturally humble care teams providing helplines, counselling, and policy-shifting campaigns.</p>
@@ -28,7 +28,7 @@
           </div>
 
           <!-- Quick Links -->
-          <div class="footer-col">
+          <nav class="footer-col" aria-label="Quick links">
             <h4 class="footer-col__title">Quick Links</h4>
             <ul class="footer-links">
               <li><RouterLink to="/">Home</RouterLink></li>
@@ -37,10 +37,10 @@
               <li><RouterLink to="/resources">Resources</RouterLink></li>
               <li><RouterLink to="/blog">Blog</RouterLink></li>
             </ul>
-          </div>
+          </nav>
 
           <!-- Get Involved -->
-          <div class="footer-col">
+          <nav class="footer-col" aria-label="Get involved">
             <h4 class="footer-col__title">Get Involved</h4>
             <ul class="footer-links">
               <li><RouterLink to="/impact">Our Impact</RouterLink></li>
@@ -48,10 +48,10 @@
               <li><RouterLink to="/donate">Donate</RouterLink></li>
               <li><RouterLink to="/contact">Contact Us</RouterLink></li>
             </ul>
-          </div>
+          </nav>
 
           <!-- Contact -->
-          <div class="footer-col">
+          <div class="footer-col" role="region" aria-label="Contact information">
             <h4 class="footer-col__title">Get Help 24/7</h4>
             <ul class="contact-list">
               <li>

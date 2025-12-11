@@ -49,7 +49,7 @@ import { helplineDirectory } from '../data/content';
 const route = useRoute();
 usePageMeta(route.meta?.title, route.meta?.description);
 
-const crisisImage = 'https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?w=600&q=80';
+const crisisImage = 'https://images.unsplash.com/photo-1493836512294-502baa1986e2?w=600&q=80'; // Crisis helpline - urgent support hand reaching
 
 const modalOpen = ref(false);
 </script>

@@ -37,7 +37,7 @@ import { volunteerOptions } from '../data/content';
 const route = useRoute();
 usePageMeta(route.meta?.title, route.meta?.description);
 
-const contactImage = 'https://images.unsplash.com/photo-1620147461831-a97b99ade1d3?w=600&q=80';
+const contactImage = 'https://images.unsplash.com/photo-1516302752625-fcc3c50ae61f?w=600&q=80'; // Contact - reaching out for help
 </script>
 
 <style scoped>

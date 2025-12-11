@@ -23,10 +23,10 @@ export const serviceHighlights = [
 ];
 
 export const quickStats = [
-  { label: 'People Stabilized Since 2021', value: '18,240+' },
-  { label: 'Clinicians & Peer Responders', value: '120' },
-  { label: 'Communities Reached Globally', value: '42' },
-  { label: 'Average Helpline Pickup', value: '12 sec' }
+  { label: 'People Helped', value: '18,000+' },
+  { label: 'Expert Counsellors', value: '120+' },
+  { label: 'Countries Served', value: '42' },
+  { label: 'Response Time', value: '<30 sec' }
 ];
 
 export const testimonials = [

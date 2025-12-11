@@ -75,7 +75,7 @@ import { usePageMeta } from '../composables/usePageMeta';
 const route = useRoute();
 usePageMeta(route.meta?.title, route.meta?.description);
 
-const servicesImage = 'https://images.unsplash.com/photo-1573497620053-ea5300f94f21?w=600&q=80';
+const servicesImage = 'https://images.unsplash.com/photo-1573497620053-ea5300f94f21?w=600&q=80'; // Therapy session - counseling services
 </script>
 
 <style scoped>

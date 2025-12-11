@@ -54,8 +54,8 @@ import { usePageMeta } from '../composables/usePageMeta';
 const route = useRoute();
 usePageMeta(route.meta?.title, route.meta?.description);
 
-const aboutImage = 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=600&q=80';
-const teamImage = 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&q=80';
+const aboutImage = 'https://images.unsplash.com/photo-1559757175-5700dde675bc?w=600&q=80'; // Our mission - mental health journey
+const teamImage = 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=600&q=80'; // Team collaboration - caring professionals
 
 const team = [
   { name: 'Dr. Lila Morgan', role: 'Clinical Director', focus: 'Trauma-informed therapy + telehealth quality.' },

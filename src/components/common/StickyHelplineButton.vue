@@ -1,7 +1,7 @@
 <template>
-  <div class="helpline" role="complementary" aria-label="Sticky helpline">
-    <a class="primary" href="tel:988">Call 988</a>
-    <RouterLink class="secondary" to="/get-help">Chat / Text</RouterLink>
+  <div class="helpline" role="complementary" aria-label="Emergency helpline">
+    <a class="primary" href="tel:988" aria-label="Call 988 suicide and crisis lifeline">Call 988</a>
+    <RouterLink class="secondary" to="/get-help" aria-label="Get help via chat or text">Chat / Text</RouterLink>
   </div>
 </template>
 
