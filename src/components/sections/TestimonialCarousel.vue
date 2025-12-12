@@ -92,16 +92,6 @@ onBeforeUnmount(() => clearInterval(interval.value));
     transparent 60%
   );
   pointer-events: none;
-  animation: glowMove 15s ease-in-out infinite;
-}
-
-@keyframes glowMove {
-  0%, 100% {
-    transform: translate(0, 0);
-  }
-  50% {
-    transform: translate(20%, 20%);
-  }
 }
 
 .testimonials__quote-icon {

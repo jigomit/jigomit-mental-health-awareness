@@ -27,8 +27,6 @@
   border-radius: 50%;
   filter: blur(80px);
   opacity: 0.35;
-  animation: drift 18s ease-in-out infinite alternate;
-  will-change: transform;
   transform: translateZ(0);
   backface-visibility: hidden;
   contain: layout style paint;
@@ -44,23 +42,12 @@
   top: 10%;
   right: -25%;
   background: radial-gradient(circle, rgba(255, 139, 213, 0.7), transparent 60%);
-  animation-delay: 3s;
 }
 
 .orb-three {
   bottom: -25%;
   left: 30%;
   background: radial-gradient(circle, rgba(111, 255, 210, 0.6), transparent 60%);
-  animation-delay: 6s;
-}
-
-@keyframes drift {
-  0% {
-    transform: translate3d(0, 0, 0) scale(1);
-  }
-  100% {
-    transform: translate3d(-10%, 10%, 0) scale(1.1);
-  }
 }
 
 @media (max-width: 768px) {

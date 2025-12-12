@@ -74,19 +74,6 @@ onBeforeUnmount(() => cleanup?.());
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
-  animation: statFadeIn 0.6s ease-out backwards;
-  animation-delay: var(--delay);
-}
-
-@keyframes statFadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px) scale(0.95);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
 }
 
 .stat__glow {

@@ -134,7 +134,6 @@ onBeforeUnmount(() => {
   border-radius: 50%;
   filter: blur(80px);
   opacity: 0.5;
-  animation: blobFloat 20s ease-in-out infinite;
 }
 
 .blob-1 {
@@ -151,7 +150,6 @@ onBeforeUnmount(() => {
   background: linear-gradient(135deg, rgba(236, 72, 153, 0.3), rgba(244, 114, 182, 0.2));
   bottom: -10%;
   right: -5%;
-  animation-delay: -7s;
 }
 
 .blob-3 {
@@ -160,22 +158,6 @@ onBeforeUnmount(() => {
   background: linear-gradient(135deg, rgba(6, 182, 212, 0.3), rgba(99, 102, 241, 0.2));
   top: 50%;
   left: 30%;
-  animation-delay: -14s;
-}
-
-@keyframes blobFloat {
-  0%, 100% {
-    transform: translate(0, 0) scale(1) rotate(0deg);
-  }
-  25% {
-    transform: translate(30px, -30px) scale(1.1) rotate(5deg);
-  }
-  50% {
-    transform: translate(-20px, 20px) scale(0.95) rotate(-5deg);
-  }
-  75% {
-    transform: translate(20px, 30px) scale(1.05) rotate(3deg);
-  }
 }
 
 .hero__content {
@@ -201,12 +183,6 @@ onBeforeUnmount(() => {
 
 .eyebrow__icon {
   font-size: 1rem;
-  animation: sparkle 2s ease-in-out infinite;
-}
-
-@keyframes sparkle {
-  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }
-  50% { transform: scale(1.2) rotate(15deg); opacity: 0.8; }
 }
 
 .hero__title {
@@ -215,16 +191,9 @@ onBeforeUnmount(() => {
   font-weight: 800;
   margin-bottom: 1.25rem;
   background: linear-gradient(135deg, #1e293b 0%, #6366f1 50%, #ec4899 100%);
-  background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  animation: gradientFlow 5s ease infinite;
-}
-
-@keyframes gradientFlow {
-  0%, 100% { background-position: 0% center; }
-  50% { background-position: 100% center; }
 }
 
 .lead {
@@ -361,13 +330,8 @@ onBeforeUnmount(() => {
   inset: -20%;
   background: radial-gradient(circle, rgba(99, 102, 241, 0.3) 0%, rgba(236, 72, 153, 0.2) 40%, transparent 70%);
   filter: blur(40px);
-  animation: glowPulse 4s ease-in-out infinite;
+  opacity: 0.7;
   z-index: -1;
-}
-
-@keyframes glowPulse {
-  0%, 100% { opacity: 0.6; transform: scale(1); }
-  50% { opacity: 0.9; transform: scale(1.1); }
 }
 
 .hero__image-container {
@@ -401,7 +365,7 @@ onBeforeUnmount(() => {
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
 }
 
-/* Floating Elements */
+/* Floating Elements - static for better CLS */
 .floating-element {
   position: absolute;
   display: flex;
@@ -414,41 +378,25 @@ onBeforeUnmount(() => {
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   font-size: 1.5rem;
-  animation: floatElement 6s ease-in-out infinite;
 }
 
 .floating-1 {
   top: 5%;
   right: 10%;
-  animation-delay: 0s;
 }
 
 .floating-2 {
   bottom: 15%;
   left: -5%;
-  animation-delay: -2s;
 }
 
 .floating-3 {
   top: 50%;
   right: -8%;
-  animation-delay: -4s;
 }
 
-@keyframes floatElement {
-  0%, 100% { transform: translateY(0) rotate(0deg); }
-  25% { transform: translateY(-15px) rotate(5deg); }
-  75% { transform: translateY(15px) rotate(-5deg); }
-}
-
-/* Float animation for image */
+/* Float animation disabled for CLS */
 .float {
-  animation: floatImage 6s ease-in-out infinite;
-}
-
-@keyframes floatImage {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-15px); }
 }
 
 @media (max-width: 968px) {

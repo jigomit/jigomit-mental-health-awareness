@@ -68,12 +68,6 @@ const props = defineProps({
     transparent 60%
   );
   pointer-events: none;
-  animation: ctaGlow 10s ease-in-out infinite;
-}
-
-@keyframes ctaGlow {
-  0%, 100% { transform: translate(0, 0) scale(1); }
-  50% { transform: translate(-10%, 10%) scale(1.1); }
 }
 
 .cta__blob {
@@ -90,7 +84,6 @@ const props = defineProps({
   background: linear-gradient(135deg, rgba(99, 102, 241, 0.5), rgba(139, 92, 246, 0.3));
   top: -30%;
   right: 10%;
-  animation: blobFloat1 12s ease-in-out infinite;
 }
 
 .cta__blob--2 {
@@ -99,17 +92,6 @@ const props = defineProps({
   background: linear-gradient(135deg, rgba(236, 72, 153, 0.4), rgba(244, 114, 182, 0.2));
   bottom: -20%;
   left: 20%;
-  animation: blobFloat2 15s ease-in-out infinite;
-}
-
-@keyframes blobFloat1 {
-  0%, 100% { transform: translate(0, 0) scale(1); }
-  50% { transform: translate(-20px, 20px) scale(1.1); }
-}
-
-@keyframes blobFloat2 {
-  0%, 100% { transform: translate(0, 0) scale(1); }
-  50% { transform: translate(20px, -20px) scale(0.9); }
 }
 
 .cta__content {
