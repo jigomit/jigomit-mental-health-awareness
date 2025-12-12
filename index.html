@@ -40,26 +40,22 @@
 
     <title>Mental Health Awareness</title>
 
-    <!-- Critical CSS - minimal for fastest FCP -->
+    <!-- Critical CSS - minimal for fastest FCP, font-display:optional prevents CLS -->
     <style>
-      @font-face{font-family:'Space Grotesk';font-style:normal;font-weight:400 700;font-display:swap;src:url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7oUUsj.ttf) format('truetype')}
+      @font-face{font-family:'Space Grotesk';font-style:normal;font-weight:400 700;font-display:optional;src:url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7oUUsj.ttf) format('truetype')}
       :root{--color-bg:#0f172a;--color-text:#e2e8f0;--color-primary:#6366f1}
       *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
       html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;text-size-adjust:100%}
       body{font-family:'Space Grotesk',system-ui,-apple-system,BlinkMacSystemFont,sans-serif;background:var(--color-bg);color:var(--color-text);min-height:100vh;min-height:100dvh;line-height:1.5;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}
       #app{min-height:100vh;min-height:100dvh;contain:layout style}
-      img,video{max-width:100%;height:auto;display:block}
+      img,video{max-width:100%;height:auto;display:block;content-visibility:auto}
       a{color:inherit;text-decoration:none}
       button{font:inherit;cursor:pointer;border:none;background:none}
-      /* Skeleton loading for LCP */
-      .hero-skeleton{width:100%;aspect-ratio:1;background:linear-gradient(90deg,#1e293b 25%,#334155 50%,#1e293b 75%);background-size:200% 100%;animation:shimmer 1.5s infinite}
-      @keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
-      @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:0.01ms!important;animation-iteration-count:1!important;transition-duration:0.01ms!important;scroll-behavior:auto!important}.hero-skeleton{animation:none}}
+      /* Prevent CLS - reserve space for key elements */
+      .site-header{min-height:60px}
+      .hero{min-height:500px}
+      .helpline{min-height:48px}
     </style>
-
-    <!-- Non-blocking font stylesheet -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'" />
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" /></noscript>
   </head>
   <body>
     <div id="app" role="main"></div>
