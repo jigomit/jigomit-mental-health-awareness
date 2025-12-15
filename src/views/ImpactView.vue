@@ -10,7 +10,7 @@
         </p>
       </header>
       <figure class="hero-image">
-        <img :src="impactImage" alt="Mental health impact and positive outcomes" loading="lazy" />
+        <img :src="impactImage" alt="Mental health impact and positive outcomes" loading="lazy" width="600" height="400" decoding="async" />
       </figure>
     </section>
     <StatsShowcase :stats="quickStats" />
@@ -42,7 +42,7 @@ import { quickStats, impactTimeline } from '../data/content';
 const route = useRoute();
 usePageMeta(route.meta?.title, route.meta?.description);
 
-const impactImage = 'https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=600&q=80'; // Positive impact - healing hands together
+const impactImage = '/impact-image.jpg'; // Positive impact - healing hands together
 
 const stories = [
   {
@@ -82,6 +82,10 @@ const stories = [
 .hero-image img {
   width: 100%;
   border-radius: clamp(16px, 3vw, 24px);
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  background: #1e293b;
+  contain: layout;
 }
 
 .eyebrow {

@@ -14,7 +14,7 @@
         </div>
       </header>
       <figure class="hero-image">
-        <img :src="crisisImage" alt="Crisis support and mental health help" loading="lazy" />
+        <img :src="crisisImage" alt="Crisis support and mental health help" loading="lazy" width="600" height="400" decoding="async" />
       </figure>
     </section>
 
@@ -49,7 +49,7 @@ import { helplineDirectory } from '../data/content';
 const route = useRoute();
 usePageMeta(route.meta?.title, route.meta?.description);
 
-const crisisImage = 'https://images.unsplash.com/photo-1493836512294-502baa1986e2?w=600&q=80'; // Crisis helpline - urgent support hand reaching
+const crisisImage = '/crisis-image.jpg'; // Crisis helpline - urgent support hand reaching
 
 const modalOpen = ref(false);
 </script>
@@ -79,6 +79,10 @@ const modalOpen = ref(false);
   margin: 0 auto;
   display: block;
   border-radius: clamp(16px, 3vw, 24px);
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  background: #1e293b;
+  contain: layout;
 }
 
 .eyebrow {

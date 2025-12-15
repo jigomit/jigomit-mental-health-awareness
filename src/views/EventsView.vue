@@ -10,7 +10,7 @@
         </p>
       </header>
       <figure class="hero-image">
-        <img :src="eventsImage" alt="Mental health awareness events and community gatherings" loading="lazy" />
+        <img :src="eventsImage" alt="Mental health awareness events and community gatherings" loading="lazy" width="600" height="400" decoding="async" />
       </figure>
     </section>
     <EventsCalendar :events="eventsSchedule" />
@@ -24,7 +24,7 @@
         <RouterLink class="primary" to="/contact">Host a stop</RouterLink>
       </div>
       <figure>
-        <img :src="campaignImage" alt="Mental health awareness campaigns" loading="lazy" />
+        <img :src="campaignImage" alt="Mental health awareness campaigns" loading="lazy" width="400" height="300" decoding="async" />
       </figure>
     </section>
   </div>
@@ -39,8 +39,8 @@ import { eventsSchedule } from '../data/content';
 const route = useRoute();
 usePageMeta(route.meta?.title, route.meta?.description);
 
-const eventsImage = 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=600&q=80'; // Mental health workshop - group support event
-const campaignImage = 'https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?w=600&q=80'; // Awareness campaign - community gathering
+const eventsImage = '/events-image.jpg'; // Mental health workshop - group support event
+const campaignImage = '/campaign-image.jpg'; // Awareness campaign - community gathering
 </script>
 
 <style scoped>
@@ -65,6 +65,10 @@ const campaignImage = 'https://images.unsplash.com/photo-1491438590914-bc09fcaaf
 .hero-image img {
   width: 100%;
   border-radius: clamp(16px, 3vw, 24px);
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  background: #1e293b;
+  contain: layout;
 }
 
 .eyebrow {
@@ -93,6 +97,10 @@ const campaignImage = 'https://images.unsplash.com/photo-1491438590914-bc09fcaaf
 figure img {
   width: 100%;
   border-radius: 24px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: #1e293b;
+  contain: layout;
 }
 
 @media (max-width: 768px) {

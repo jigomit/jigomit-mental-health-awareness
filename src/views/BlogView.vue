@@ -18,7 +18,7 @@
         :to="`/blog/${post.slug}`"
         class="blog-card"
       >
-        <img :src="post.image" :alt="post.title" class="blog-card__img" />
+        <img :src="post.image" :alt="post.title" class="blog-card__img" loading="lazy" width="800" height="450" decoding="async" />
         <div class="blog-card__content">
           <span class="blog-card__tag" :class="`tag--${post.tagColor}`">{{ post.tag }}</span>
           <h2 class="blog-card__heading">{{ post.title }}</h2>

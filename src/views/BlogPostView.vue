@@ -12,7 +12,7 @@
       </header>
 
       <figure class="post-image">
-        <img :src="post.image" :alt="post.title" />
+        <img :src="post.image" :alt="post.title" loading="eager" width="800" height="450" decoding="async" />
       </figure>
 
       <div class="post-content" v-html="post.content"></div>
@@ -36,7 +36,7 @@
               :to="`/blog/${related.slug}`"
               class="related-card"
             >
-              <img :src="related.image" :alt="related.title" class="related-card__img" />
+              <img :src="related.image" :alt="related.title" class="related-card__img" loading="lazy" width="400" height="225" decoding="async" />
               <div class="related-card__content">
                 <span class="related-card__tag" :class="`tag--${related.tagColor}`">{{ related.tag }}</span>
                 <h4>{{ related.title }}</h4>

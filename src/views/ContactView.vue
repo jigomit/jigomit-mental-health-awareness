@@ -10,7 +10,7 @@
         </p>
       </header>
       <figure class="hero-image">
-        <img :src="contactImage" alt="Contact our mental health support team" loading="lazy" />
+        <img :src="contactImage" alt="Contact our mental health support team" loading="lazy" width="600" height="400" decoding="async" />
       </figure>
     </section>
     <section class="grid">
@@ -37,7 +37,7 @@ import { volunteerOptions } from '../data/content';
 const route = useRoute();
 usePageMeta(route.meta?.title, route.meta?.description);
 
-const contactImage = 'https://images.unsplash.com/photo-1516302752625-fcc3c50ae61f?w=600&q=80'; // Contact - reaching out for help
+const contactImage = '/contact-image.jpg'; // Contact - reaching out for help
 </script>
 
 <style scoped>
@@ -62,6 +62,10 @@ const contactImage = 'https://images.unsplash.com/photo-1516302752625-fcc3c50ae6
 .hero-image img {
   width: 100%;
   border-radius: clamp(16px, 3vw, 24px);
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  background: #1e293b;
+  contain: layout;
 }
 
 .eyebrow {

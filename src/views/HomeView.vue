@@ -64,12 +64,12 @@ const route = useRoute();
 usePageMeta(route.meta?.title, route.meta?.description);
 
 const heroImage = {
-  src: 'https://i.pinimg.com/564x/9f/a4/3d/9fa43da63004514558bc7b7f80511261.jpg',
+  src: '/hero-image.jpg',
   srcset: '',
   alt: 'Glowing brain held by hands - mental health awareness and neural wellness'
 };
 
-const communityImage = 'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=600&q=80'; // Community support circle
+const communityImage = '/community-image.jpg';
 </script>
 
 <style scoped>

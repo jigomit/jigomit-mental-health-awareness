@@ -10,7 +10,7 @@
         </p>
       </header>
       <figure class="hero-image">
-        <img :src="servicesImage" alt="Mental health therapy and counseling services" loading="lazy" />
+        <img :src="servicesImage" alt="Mental health therapy and counseling services" loading="lazy" width="600" height="400" decoding="async" />
       </figure>
     </section>
 
@@ -75,7 +75,7 @@ import { usePageMeta } from '../composables/usePageMeta';
 const route = useRoute();
 usePageMeta(route.meta?.title, route.meta?.description);
 
-const servicesImage = 'https://images.unsplash.com/photo-1573497620053-ea5300f94f21?w=600&q=80'; // Therapy session - counseling services
+const servicesImage = '/services-image.jpg'; // Therapy session - counseling services
 </script>
 
 <style scoped>
@@ -100,6 +100,10 @@ const servicesImage = 'https://images.unsplash.com/photo-1573497620053-ea5300f94
 .hero-image img {
   width: 100%;
   border-radius: clamp(16px, 3vw, 24px);
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  background: #1e293b;
+  contain: layout;
 }
 
 .eyebrow {

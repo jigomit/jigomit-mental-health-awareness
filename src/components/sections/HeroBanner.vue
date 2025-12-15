@@ -36,14 +36,14 @@
     <div class="hero__media" ref="mediaRef">
       <div class="hero__image-wrapper">
         <div class="hero__image-glow"></div>
-        <div class="hero__image-container float">
+        <div class="hero__image-container">
           <img
             :src="image.src"
             :alt="image.alt"
-            width="400"
-            height="400"
+            width="564"
+            height="564"
             fetchpriority="high"
-            decoding="sync"
+            decoding="async"
             loading="eager"
           />
         </div>
@@ -134,6 +134,7 @@ onBeforeUnmount(() => {
   border-radius: 50%;
   filter: blur(80px);
   opacity: 0.5;
+  contain: strict;
 }
 
 .blob-1 {
@@ -317,6 +318,7 @@ onBeforeUnmount(() => {
   align-items: center;
   justify-content: center;
   z-index: 1;
+  contain: layout style;
 }
 
 .hero__image-wrapper {
@@ -363,6 +365,8 @@ onBeforeUnmount(() => {
   border-radius: clamp(20px, 4vw, 36px);
   object-fit: cover;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+  contain: layout;
+  background: #1e293b;
 }
 
 /* Floating Elements - static for better CLS */
@@ -378,6 +382,8 @@ onBeforeUnmount(() => {
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   font-size: 1.5rem;
+  contain: strict;
+  pointer-events: none;
 }
 
 .floating-1 {

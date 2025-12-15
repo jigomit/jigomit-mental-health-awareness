@@ -10,7 +10,7 @@
         </p>
       </header>
       <figure class="hero-image">
-        <img :src="donationImage" alt="Support mental health through donations" loading="lazy" />
+        <img :src="donationImage" alt="Support mental health through donations" loading="lazy" width="600" height="400" decoding="async" />
       </figure>
     </section>
     <section class="grid">
@@ -37,7 +37,7 @@ import { donationTiers, confidentialityNotes } from '../data/content';
 const route = useRoute();
 usePageMeta(route.meta?.title, route.meta?.description);
 
-const donationImage = 'https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=600&q=80'; // Donate - giving heart hands support
+const donationImage = '/donate-image.jpg'; // Donate - giving heart hands support
 </script>
 
 <style scoped>
@@ -65,6 +65,10 @@ const donationImage = 'https://images.unsplash.com/photo-1532629345422-7515f3d16
   margin: 0 auto;
   display: block;
   border-radius: clamp(16px, 3vw, 24px);
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  background: #1e293b;
+  contain: layout;
 }
 
 .eyebrow {

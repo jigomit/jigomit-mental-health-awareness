@@ -160,11 +160,11 @@ export const heroAlternatives = {
   ctas: ['Talk to Someone Now', 'Book a Counselling Intro Call', 'Download the Safety Planning Guide']
 };
 
-// Blog post images - 4 main mental health topics with unique images
-const blogImg1 = 'https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=800&q=80'; // Anxiety - peaceful woman relaxing
-const blogImg2 = 'https://images.unsplash.com/photo-1516302752625-fcc3c50ae61f?w=800&q=80'; // Depression - supportive therapy
-const blogImg3 = 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80'; // Stress - yoga meditation wellness
-const blogImg4 = 'https://images.unsplash.com/photo-1509909756405-be0199881695?w=800&q=80'; // Mental wellness - hopeful sunrise
+// Blog post images - 4 main mental health topics with local images
+const blogImg1 = '/blog-anxiety.jpg'; // Anxiety - peaceful woman relaxing
+const blogImg2 = '/blog-depression.jpg'; // Depression - supportive therapy
+const blogImg3 = '/blog-stress.jpg'; // Stress - yoga meditation wellness
+const blogImg4 = '/blog-wellness.jpg'; // Mental wellness - hopeful sunrise
 
 export const blogPosts = [
   {

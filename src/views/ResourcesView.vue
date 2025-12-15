@@ -10,7 +10,7 @@
         </p>
       </header>
       <figure class="hero-image">
-        <img :src="resourcesImage" alt="Mental health self-help resources and guides" loading="lazy" />
+        <img :src="resourcesImage" alt="Mental health self-help resources and guides" loading="lazy" width="600" height="400" decoding="async" />
       </figure>
     </section>
     <ResourceList :resources="resourceLibrary" />
@@ -34,7 +34,7 @@ import { resourceLibrary } from '../data/content';
 const route = useRoute();
 usePageMeta(route.meta?.title, route.meta?.description);
 
-const resourcesImage = 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&q=80'; // Self-help meditation - mental wellness resources
+const resourcesImage = '/resources-image.jpg'; // Self-help meditation - mental wellness resources
 </script>
 
 <style scoped>
@@ -55,6 +55,10 @@ const resourcesImage = 'https://images.unsplash.com/photo-1506126613408-eca07ce6
 .hero-image img {
   width: 100%;
   border-radius: clamp(16px, 3vw, 24px);
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  background: #1e293b;
+  contain: layout;
 }
 
 .eyebrow {

@@ -116,12 +116,7 @@ onBeforeUnmount(() => cleanup?.());
   -webkit-text-fill-color: transparent;
   background-clip: text;
   margin-bottom: 0.5rem;
-  animation: gradientShift 5s ease infinite;
-}
-
-@keyframes gradientShift {
-  0%, 100% { background-position: 0% center; }
-  50% { background-position: 100% center; }
+  /* animation disabled for CLS optimization */
 }
 
 .label {

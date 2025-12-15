@@ -10,7 +10,7 @@
         </p>
       </header>
       <figure class="hero-image">
-        <img :src="aboutImage" alt="About our mental health community and mission" loading="lazy" />
+        <img :src="aboutImage" alt="About our mental health community and mission" loading="lazy" width="600" height="400" decoding="async" />
       </figure>
     </section>
     <section class="grid">
@@ -30,7 +30,7 @@
         </ul>
       </article>
       <figure>
-        <img :src="teamImage" alt="Collaborative counselling session" loading="lazy" />
+        <img :src="teamImage" alt="Collaborative counselling session" loading="lazy" width="400" height="300" decoding="async" />
         <figcaption>Illustration of collaborative counselling.</figcaption>
       </figure>
     </section>
@@ -54,8 +54,8 @@ import { usePageMeta } from '../composables/usePageMeta';
 const route = useRoute();
 usePageMeta(route.meta?.title, route.meta?.description);
 
-const aboutImage = 'https://images.unsplash.com/photo-1559757175-5700dde675bc?w=600&q=80'; // Our mission - mental health journey
-const teamImage = 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=600&q=80'; // Team collaboration - caring professionals
+const aboutImage = '/about-image.jpg'; // Our mission - mental health journey
+const teamImage = '/team-image.jpg'; // Team collaboration - caring professionals
 
 const team = [
   { name: 'Dr. Lila Morgan', role: 'Clinical Director', focus: 'Trauma-informed therapy + telehealth quality.' },
@@ -86,6 +86,10 @@ const team = [
 .hero-image img {
   width: 100%;
   border-radius: clamp(16px, 3vw, 24px);
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  background: #1e293b;
+  contain: layout;
 }
 
 .eyebrow {
@@ -125,6 +129,10 @@ const team = [
 figure img {
   width: 100%;
   border-radius: 24px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: #1e293b;
+  contain: layout;
 }
 
 @media (max-width: 768px) {
