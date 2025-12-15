@@ -1,0 +1,6 @@
+# Robots.txt for Mental Health Awareness
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://jigomit-mentalhealth.netlify.app/sitemap.xml
