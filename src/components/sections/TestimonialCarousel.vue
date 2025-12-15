@@ -168,30 +168,44 @@ onBeforeUnmount(() => clearInterval(interval.value));
 }
 
 .controls button {
-  width: 12px;
-  height: 12px;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
   border-radius: 50%;
   border: none;
   background: rgba(99, 102, 241, 0.2);
   cursor: pointer;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .controls button:hover {
   background: rgba(99, 102, 241, 0.4);
-  transform: scale(1.1);
-}
-
-.controls button:active {
-  transform: scale(0.95);
 }
 
 .controls button.active {
   background: linear-gradient(135deg, #6366f1, #ec4899);
-  width: 32px;
-  border-radius: 6px;
+  width: 56px;
+  border-radius: 22px;
   box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+}
+
+.controls button::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: currentColor;
+  border-radius: 50%;
+  opacity: 0.6;
+}
+
+.controls button.active::before {
+  width: 14px;
+  opacity: 1;
+  background: white;
 }
 
 @media (max-width: 640px) {
@@ -252,12 +266,14 @@ onBeforeUnmount(() => clearInterval(interval.value));
   }
 
   .controls button {
-    width: 10px;
-    height: 10px;
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
   }
 
   .controls button.active {
-    width: 24px;
+    width: 48px;
   }
 }
 

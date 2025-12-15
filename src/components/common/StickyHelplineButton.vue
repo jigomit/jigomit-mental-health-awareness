@@ -21,8 +21,7 @@ import { RouterLink } from 'vue-router';
   background: rgba(255, 255, 255, 0.98);
   box-shadow: 0 10px 30px rgba(40, 60, 120, 0.22);
   z-index: 12;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  contain: layout style;
 }
 
 .primary,

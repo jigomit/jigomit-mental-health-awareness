@@ -143,7 +143,7 @@
       /* Prevent CLS - reserve space with contain and explicit dimensions */
       .site-header{min-height:60px;contain:layout style}
       .hero{min-height:500px;contain:layout style}
-      .helpline{min-height:48px}
+      .helpline{position:fixed;contain:layout style}
       /* Image placeholders with background and aspect-ratio to prevent CLS */
       img{background:#1e293b;contain:layout}
       .hero__media img,.hero-image img,.hero__image-container img{aspect-ratio:1/1;min-height:280px;width:100%;object-fit:cover}
@@ -154,21 +154,23 @@
       .stats{min-height:120px;contain:strict}
       .stat{min-height:100px;contain:layout style}
       .testimonials{height:280px;contain:strict;overflow:hidden}
-      .slide{position:absolute!important}
+      .slide{position:absolute!important;opacity:0}
+      .slide[data-active="true"]{opacity:1}
       .grid{min-height:200px;contain:layout style}
+      .card{contain:layout style}
       /* Floating elements should not affect layout */
       .floating-element{position:absolute;contain:strict}
       .blob{position:absolute;contain:strict}
       .aurora{contain:strict;position:fixed}
+      /* Disable ALL transitions and animations */
+      *{transition:none!important;animation:none!important}
       /* Mobile performance optimizations */
       @media (max-width:768px){
         .hero{min-height:550px}
         .testimonials{height:320px}
-        .blob,.floating-element,.aurora,.orb{display:none!important}
-        .hero__blobs{display:none}
+        .blob,.floating-element,.aurora,.orb,.hero__blobs{display:none!important}
         [data-animate]{opacity:1!important;transform:none!important}
-        .glass,.glass-dark{backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
-        .site-header{backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
+        .glass,.glass-dark,.site-header,.stat,.card{backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
       }
       /* Optimize rendering for below-fold content */
       .testimonials,.grid,.stats{content-visibility:auto;contain-intrinsic-size:auto 300px}
