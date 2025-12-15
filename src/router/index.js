@@ -10,9 +10,9 @@ const routes = [
     name: 'home',
     component: HomeView,
     meta: {
-      title: '24/7 Mental Health Crisis Helpline | Free Counselling Support',
+      title: 'Free 24/7 Mental Health Helpline | Talk to Someone Now',
       description:
-        'Get free 24/7 mental health crisis support. Connect with licensed therapists for anxiety, depression, and stress. Confidential online counselling and crisis helpline available now.'
+        'Need someone to talk to? Free 24/7 mental health helpline with licensed counselors. Get immediate support for anxiety, depression, and crisis situations. Confidential and free.'
     }
   },
   {
@@ -20,9 +20,9 @@ const routes = [
     name: 'about',
     component: () => import('../views/AboutView.vue'),
     meta: {
-      title: 'About Us | Licensed Mental Health Professionals & Crisis Counsellors',
+      title: 'About Us | Mental Health Nonprofit Organization',
       description:
-        'Meet our team of licensed therapists and crisis counsellors providing 24/7 mental health support. Evidence-based treatment for anxiety, depression, and trauma.'
+        'Meet our team of licensed therapists providing free 24/7 mental health support. Trusted nonprofit organization helping thousands with anxiety, depression, and crisis intervention.'
     }
   },
   {
@@ -30,9 +30,9 @@ const routes = [
     name: 'services',
     component: () => import('../views/ServicesView.vue'),
     meta: {
-      title: 'Mental Health Services | Online Therapy, Crisis Support & Counselling',
+      title: 'Free Online Therapy for Depression & Anxiety | No Insurance Needed',
       description:
-        'Explore our mental health services: free online counselling for anxiety, depression therapy, 24/7 crisis intervention, stress management programs, and confidential support.'
+        'Free online therapy and counseling services. Affordable anxiety treatment, trauma therapy, cognitive behavioral therapy, and depression support without insurance required.'
     }
   },
   {
@@ -40,9 +40,9 @@ const routes = [
     name: 'resources',
     component: () => import('../views/ResourcesView.vue'),
     meta: {
-      title: 'Free Mental Health Resources | Anxiety & Depression Self-Help Guides',
+      title: 'Free Mental Health Worksheets PDF | Anxiety & Depression Guides',
       description:
-        'Download free mental health resources: anxiety coping strategies, depression self-help guides, stress management worksheets, and mindfulness exercises.'
+        'Download free mental health worksheets PDF. Anxiety self-help guides, depression coping skills, stress management techniques, mindfulness exercises, and panic attack relief.'
     }
   },
   {
@@ -50,9 +50,9 @@ const routes = [
     name: 'impact',
     component: () => import('../views/ImpactView.vue'),
     meta: {
-      title: 'Our Impact | Mental Health Crisis Support Success Stories',
+      title: 'Our Impact | Free Mental Health Helpline Success Stories',
       description:
-        'See how our 24/7 mental health helpline has helped thousands. Read success stories of anxiety recovery, depression support, and crisis intervention outcomes.'
+        'See how our free 24/7 mental health helpline has helped thousands. Read success stories of anxiety recovery, depression support, and crisis intervention outcomes.'
     }
   },
   {
@@ -60,9 +60,9 @@ const routes = [
     name: 'get-help',
     component: GetHelpView,
     meta: {
-      title: 'Get Help Now | 24/7 Mental Health Crisis Hotline & Free Chat',
+      title: 'Get Free Mental Health Help Now | 24/7 Crisis Support Chat',
       description:
-        'Need help now? Call our 24/7 mental health crisis hotline or chat free with licensed counsellors. Immediate support for anxiety, depression, suicidal thoughts, and emotional crisis.'
+        'Talk to a therapist online free right now. 24/7 suicide prevention hotline, depression helpline, anxiety crisis support. Free therapy chat online - confidential and immediate.'
     }
   },
   {
@@ -70,9 +70,9 @@ const routes = [
     name: 'events',
     component: () => import('../views/EventsView.vue'),
     meta: {
-      title: 'Mental Health Events | Awareness Workshops & Support Groups',
+      title: 'Free Mental Health Workshops & Support Groups Online',
       description:
-        'Join free mental health workshops, anxiety support groups, depression awareness events, and wellness seminars. Community mental health programs near you.'
+        'Join free mental health workshops online. Anxiety support groups near me, depression support group meetings, mental health awareness events 2025. All free to attend.'
     }
   },
   {
@@ -80,9 +80,9 @@ const routes = [
     name: 'donate',
     component: () => import('../views/DonateView.vue'),
     meta: {
-      title: 'Donate | Support Free Mental Health Services & Crisis Helplines',
+      title: 'Donate to Mental Health Charity | Support Free Helplines',
       description:
-        'Support free mental health services. Your donation funds 24/7 crisis helplines, free counselling for anxiety and depression, and suicide prevention programs.'
+        'Donate to mental health research and free crisis helplines. Your tax-deductible donation funds free therapy, suicide prevention programs, and 24/7 counseling services.'
     }
   },
   {
@@ -90,9 +90,9 @@ const routes = [
     name: 'contact',
     component: () => import('../views/ContactView.vue'),
     meta: {
-      title: 'Contact Us | Mental Health Support & Volunteer Opportunities',
+      title: 'Contact Mental Health Professional Online | Volunteer With Us',
       description:
-        'Contact our mental health support team. Volunteer as a crisis counsellor, request workplace wellness programs, or inquire about therapy services.'
+        'Contact our mental health support team. Volunteer for mental health organization, request workplace wellness programs, or inquire about free therapy services.'
     }
   },
   {
@@ -100,9 +100,9 @@ const routes = [
     name: 'blog',
     component: () => import('../views/BlogView.vue'),
     meta: {
-      title: 'Mental Health Blog | Expert Tips for Anxiety, Depression & Wellness',
+      title: 'Mental Health Blog | How to Calm Anxiety & Depression Tips',
       description:
-        'Read expert mental health articles: how to cope with anxiety, depression recovery tips, stress management techniques, mindfulness guides, and self-care strategies.'
+        'Expert mental health articles. Learn how to calm anxiety at work fast, am I depressed quiz, stress relief techniques, how to sleep better with anxiety, and self-care tips.'
     }
   },
   {
@@ -111,7 +111,8 @@ const routes = [
     component: () => import('../views/BlogPostView.vue'),
     meta: {
       title: 'Mental Health Article | Expert Advice & Coping Strategies',
-      description: 'In-depth mental health article with expert advice, practical coping strategies for anxiety and depression, and evidence-based wellness tips.'
+      description:
+        'In-depth mental health article with expert advice. Learn practical coping strategies for anxiety and depression, panic attack relief, and evidence-based wellness tips.'
     }
   }
 ];
