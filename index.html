@@ -16,9 +16,9 @@
     <link rel="apple-touch-icon" href="/favicon.svg" />
 
     <!-- SEO Meta Tags -->
-    <title>Mental Health Awareness | 24/7 Support & Counselling</title>
-    <meta name="description" content="Mental Health Awareness provides 24/7 helpline support, professional counselling, and mental health resources. Get immediate help from licensed counsellors." />
-    <meta name="keywords" content="mental health, counselling, therapy, helpline, crisis support, anxiety, depression, wellness" />
+    <title>Mental Health Awareness | 24/7 Crisis Helpline & Free Counselling Support</title>
+    <meta name="description" content="Get 24/7 mental health crisis support and free online counselling. Connect with licensed therapists for anxiety, depression, and stress. Confidential helpline available now." />
+    <meta name="keywords" content="24/7 mental health crisis helpline, free online counselling for anxiety, depression support hotline, confidential mental health chat, licensed therapist near me, stress management resources, suicide prevention helpline, mental health awareness programs, emotional support services, anxiety disorder treatment online, depression counselling free, mental wellness support groups, crisis intervention services, teen mental health support, workplace mental health resources" />
     <meta name="author" content="Mental Health Awareness" />
     <meta name="theme-color" content="#6366f1" />
     <meta name="color-scheme" content="light dark" />
@@ -28,48 +28,102 @@
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Mental Health Awareness" />
-    <meta property="og:title" content="Mental Health Awareness | 24/7 Support & Counselling" />
-    <meta property="og:description" content="Get immediate mental health support from licensed counsellors. 24/7 helpline, crisis intervention, and professional therapy services." />
+    <meta property="og:title" content="24/7 Mental Health Crisis Helpline | Free Counselling & Anxiety Support" />
+    <meta property="og:description" content="Free 24/7 mental health crisis support. Connect with licensed therapists for anxiety, depression, and stress management. Confidential online counselling available." />
     <meta property="og:image" content="https://jigomit-mentalhealth.netlify.app/hero-image.jpg" />
     <meta property="og:image:width" content="564" />
     <meta property="og:image:height" content="750" />
+    <meta property="og:image:alt" content="Mental health support and counselling services" />
     <meta property="og:url" content="https://jigomit-mentalhealth.netlify.app/" />
     <meta property="og:locale" content="en_US" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Mental Health Awareness | 24/7 Support" />
-    <meta name="twitter:description" content="Get immediate mental health support from licensed counsellors. 24/7 helpline available." />
+    <meta name="twitter:title" content="24/7 Mental Health Crisis Helpline | Free Online Counselling" />
+    <meta name="twitter:description" content="Get free 24/7 mental health support. Licensed therapists for anxiety & depression. Confidential crisis helpline." />
     <meta name="twitter:image" content="https://jigomit-mentalhealth.netlify.app/hero-image.jpg" />
+    <meta name="twitter:image:alt" content="Mental health awareness and support services" />
 
     <!-- Structured Data - Organization -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Organization",
+      "@type": "MedicalOrganization",
       "name": "Mental Health Awareness",
-      "description": "24/7 mental health support, counselling, and crisis intervention services",
+      "alternateName": "MHA Mental Health Support",
+      "description": "24/7 mental health crisis helpline providing free online counselling, anxiety support, depression treatment, and confidential therapy services with licensed professionals",
       "url": "https://jigomit-mentalhealth.netlify.app",
       "logo": "https://jigomit-mentalhealth.netlify.app/favicon.svg",
-      "contactPoint": {
+      "image": "https://jigomit-mentalhealth.netlify.app/hero-image.jpg",
+      "telephone": "+1-988",
+      "email": "help@mentalhealthawareness.org",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "US"
+      },
+      "contactPoint": [{
         "@type": "ContactPoint",
         "telephone": "+1-988",
-        "contactType": "crisis helpline",
-        "availableLanguage": "English",
-        "areaServed": "US"
-      },
+        "contactType": "24/7 crisis helpline",
+        "availableLanguage": ["English", "Spanish"],
+        "areaServed": "US",
+        "contactOption": ["TollFree", "HearingImpairedSupported"]
+      }],
+      "medicalSpecialty": ["Psychiatric", "Psychology"],
+      "availableService": [
+        {"@type": "MedicalTherapy", "name": "Crisis Intervention Services"},
+        {"@type": "MedicalTherapy", "name": "Online Counselling for Anxiety"},
+        {"@type": "MedicalTherapy", "name": "Depression Support Therapy"},
+        {"@type": "MedicalTherapy", "name": "Stress Management Programs"}
+      ],
       "sameAs": []
     }
     </script>
 
-    <!-- Structured Data - WebSite for search -->
+    <!-- Structured Data - WebSite with SearchAction -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "Mental Health Awareness",
+      "alternateName": "24/7 Mental Health Crisis Support",
       "url": "https://jigomit-mentalhealth.netlify.app",
-      "description": "Mental health support, counselling, and resources"
+      "description": "Free 24/7 mental health crisis helpline, online counselling for anxiety and depression, licensed therapists, confidential support services",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://jigomit-mentalhealth.netlify.app/resources?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <!-- Structured Data - FAQPage for rich snippets -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How can I get free mental health counselling?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Call our 24/7 crisis helpline at 988 or use our free online chat to connect with licensed counsellors immediately. We offer confidential support for anxiety, depression, and stress."
+        }
+      },{
+        "@type": "Question",
+        "name": "Is the mental health helpline available 24/7?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, our mental health crisis helpline operates 24 hours a day, 7 days a week. You can call, text, or chat online anytime for immediate support."
+        }
+      },{
+        "@type": "Question",
+        "name": "What mental health services do you offer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We provide crisis intervention, online counselling for anxiety and depression, stress management programs, therapy referrals, and mental wellness resources - all confidential and many free of charge."
+        }
+      }]
     }
     </script>
 

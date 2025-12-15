@@ -10,9 +10,9 @@ const routes = [
     name: 'home',
     component: HomeView,
     meta: {
-      title: 'Hope-centered mental health support',
+      title: '24/7 Mental Health Crisis Helpline | Free Counselling Support',
       description:
-        'Immediate helpline access, compassionate counselling, and action-focused mental health campaigns built to empower every visitor to seek support sooner.'
+        'Get free 24/7 mental health crisis support. Connect with licensed therapists for anxiety, depression, and stress. Confidential online counselling and crisis helpline available now.'
     }
   },
   {
@@ -20,9 +20,9 @@ const routes = [
     name: 'about',
     component: () => import('../views/AboutView.vue'),
     meta: {
-      title: 'About our mission-driven mental health collective',
+      title: 'About Us | Licensed Mental Health Professionals & Crisis Counsellors',
       description:
-        'Learn about the clinicians, advocates, and evidence-based strategies driving Mental Health Awareness initiatives across counselling, crisis response, and advocacy.'
+        'Meet our team of licensed therapists and crisis counsellors providing 24/7 mental health support. Evidence-based treatment for anxiety, depression, and trauma.'
     }
   },
   {
@@ -30,9 +30,9 @@ const routes = [
     name: 'services',
     component: () => import('../views/ServicesView.vue'),
     meta: {
-      title: 'Counselling, crisis support, and prevention services',
+      title: 'Mental Health Services | Online Therapy, Crisis Support & Counselling',
       description:
-        'Discover confidential counselling pathways, real-time crisis interventions, and public campaigns that make professional mental health care approachable.'
+        'Explore our mental health services: free online counselling for anxiety, depression therapy, 24/7 crisis intervention, stress management programs, and confidential support.'
     }
   },
   {
@@ -40,9 +40,9 @@ const routes = [
     name: 'resources',
     component: () => import('../views/ResourcesView.vue'),
     meta: {
-      title: 'Articles, toolkits, and downloadable guides',
+      title: 'Free Mental Health Resources | Anxiety & Depression Self-Help Guides',
       description:
-        'Browse curated mental health toolkits, trauma-informed tip sheets, and downloadable guides crafted with clinical review and inclusive language.'
+        'Download free mental health resources: anxiety coping strategies, depression self-help guides, stress management worksheets, and mindfulness exercises.'
     }
   },
   {
@@ -50,9 +50,9 @@ const routes = [
     name: 'impact',
     component: () => import('../views/ImpactView.vue'),
     meta: {
-      title: 'Impact metrics and lived-experience stories',
+      title: 'Our Impact | Mental Health Crisis Support Success Stories',
       description:
-        'Track the lives supported, volunteer hours logged, and policy wins from Mental Health Awareness programs alongside immersive community stories.'
+        'See how our 24/7 mental health helpline has helped thousands. Read success stories of anxiety recovery, depression support, and crisis intervention outcomes.'
     }
   },
   {
@@ -60,9 +60,9 @@ const routes = [
     name: 'get-help',
     component: GetHelpView,
     meta: {
-      title: 'Get help now — helplines and urgent actions',
+      title: 'Get Help Now | 24/7 Mental Health Crisis Hotline & Free Chat',
       description:
-        'Call, chat, or text a counsellor immediately, find local helplines, and review safety planning steps tailored for individuals and supporters.'
+        'Need help now? Call our 24/7 mental health crisis hotline or chat free with licensed counsellors. Immediate support for anxiety, depression, suicidal thoughts, and emotional crisis.'
     }
   },
   {
@@ -70,9 +70,9 @@ const routes = [
     name: 'events',
     component: () => import('../views/EventsView.vue'),
     meta: {
-      title: 'Upcoming events and awareness campaigns',
+      title: 'Mental Health Events | Awareness Workshops & Support Groups',
       description:
-        'Join training sessions, community walks, and advocacy campaigns designed to normalize mental wellness conversations year-round.'
+        'Join free mental health workshops, anxiety support groups, depression awareness events, and wellness seminars. Community mental health programs near you.'
     }
   },
   {
@@ -80,9 +80,9 @@ const routes = [
     name: 'donate',
     component: () => import('../views/DonateView.vue'),
     meta: {
-      title: 'Donate or fundraise for suicide prevention',
+      title: 'Donate | Support Free Mental Health Services & Crisis Helplines',
       description:
-        'Fuel 24/7 helplines, culturally competent counselling, and school-based prevention workshops through a transparent donation experience.'
+        'Support free mental health services. Your donation funds 24/7 crisis helplines, free counselling for anxiety and depression, and suicide prevention programs.'
     }
   },
   {
@@ -90,9 +90,9 @@ const routes = [
     name: 'contact',
     component: () => import('../views/ContactView.vue'),
     meta: {
-      title: 'Contact, media inquiries, and volunteer signup',
+      title: 'Contact Us | Mental Health Support & Volunteer Opportunities',
       description:
-        'Reach our care coordinators, request a speaker, or pledge volunteer hours with privacy-first forms and rapid follow ups.'
+        'Contact our mental health support team. Volunteer as a crisis counsellor, request workplace wellness programs, or inquire about therapy services.'
     }
   },
   {
@@ -100,9 +100,9 @@ const routes = [
     name: 'blog',
     component: () => import('../views/BlogView.vue'),
     meta: {
-      title: 'Mental Health Blog - Articles, Tips & Resources',
+      title: 'Mental Health Blog | Expert Tips for Anxiety, Depression & Wellness',
       description:
-        'Expert mental health articles covering anxiety management, depression support, self-care routines, and workplace wellness strategies.'
+        'Read expert mental health articles: how to cope with anxiety, depression recovery tips, stress management techniques, mindfulness guides, and self-care strategies.'
     }
   },
   {
@@ -110,8 +110,8 @@ const routes = [
     name: 'blog-post',
     component: () => import('../views/BlogPostView.vue'),
     meta: {
-      title: 'Mental Health Article',
-      description: 'In-depth mental health article with practical advice and resources.'
+      title: 'Mental Health Article | Expert Advice & Coping Strategies',
+      description: 'In-depth mental health article with expert advice, practical coping strategies for anxiety and depression, and evidence-based wellness tips.'
     }
   }
 ];
