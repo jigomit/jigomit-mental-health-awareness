@@ -27,10 +27,14 @@ import { RouterLink } from 'vue-router';
 .primary,
 .secondary {
   border-radius: 999px;
-  padding: clamp(0.55rem, 1.5vw, 0.65rem) clamp(0.75rem, 2vw, 1rem);
+  padding: clamp(0.65rem, 1.5vw, 0.75rem) clamp(1rem, 2vw, 1.25rem);
   font-weight: 600;
   font-size: var(--text-sm);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .primary:active,

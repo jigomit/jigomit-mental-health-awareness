@@ -224,7 +224,8 @@ onBeforeUnmount(() => cleanup?.());
   font-weight: 600;
   font-size: var(--text-sm);
   margin-top: auto;
-  padding-top: 1rem;
+  padding: 0.75rem 0;
+  min-height: 44px;
   transition: all 0.3s ease;
   position: relative;
 }
