@@ -116,8 +116,9 @@ onBeforeUnmount(() => {
   gap: clamp(2rem, 5vw, 4rem);
   align-items: center;
   padding: clamp(2rem, 5vw, 5rem) clamp(1.5rem, 4vw, 3rem);
-  min-height: min(90vh, 700px);
+  min-height: 500px;
   overflow: hidden;
+  contain: layout style;
 }
 
 /* Animated Blobs */
@@ -409,8 +410,8 @@ onBeforeUnmount(() => {
   .hero {
     grid-template-columns: 1fr;
     text-align: center;
-    gap: 2.5rem;
-    min-height: auto;
+    gap: 2rem;
+    min-height: 600px;
     padding: clamp(1.5rem, 4vw, 3rem) clamp(1rem, 3vw, 2rem);
   }
 
@@ -468,7 +469,8 @@ onBeforeUnmount(() => {
 @media (max-width: 480px) {
   .hero {
     padding: 1.25rem 1rem;
-    gap: 2rem;
+    gap: 1.5rem;
+    min-height: 550px;
   }
 
   .hero__actions {

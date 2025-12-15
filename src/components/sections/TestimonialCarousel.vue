@@ -67,13 +67,11 @@ onBeforeUnmount(() => clearInterval(interval.value));
   position: relative;
   padding: clamp(2.5rem, 5vw, 4rem);
   border-radius: clamp(24px, 4vw, 36px);
-  background: rgba(255, 255, 255, 0.9);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(255, 255, 255, 0.5);
   overflow: hidden;
-  min-height: 240px;
-  contain: layout style;
+  height: 280px;
+  contain: strict;
   box-shadow:
     0 4px 20px rgba(99, 102, 241, 0.08),
     0 8px 40px rgba(0, 0, 0, 0.04);
@@ -110,22 +108,22 @@ onBeforeUnmount(() => clearInterval(interval.value));
 
 .slide {
   opacity: 0;
-  transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  visibility: hidden;
   position: absolute;
   inset: 0;
   padding: clamp(2.5rem, 5vw, 4rem);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  transform: translateY(10px);
   backface-visibility: hidden;
-  contain: layout style paint;
+  contain: strict;
+  pointer-events: none;
 }
 
 .slide[data-active='true'] {
-  position: relative;
   opacity: 1;
-  transform: translateY(0);
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .quote {
@@ -200,6 +198,7 @@ onBeforeUnmount(() => clearInterval(interval.value));
   .testimonials {
     text-align: center;
     padding: clamp(2rem, 4vw, 3rem);
+    height: 320px;
   }
 
   .testimonials__quote-icon {
@@ -230,7 +229,7 @@ onBeforeUnmount(() => clearInterval(interval.value));
 @media (max-width: 360px) {
   .testimonials {
     padding: 1.5rem;
-    min-height: 200px;
+    height: 280px;
     border-radius: 20px;
   }
 

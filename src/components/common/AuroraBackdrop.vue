@@ -51,29 +51,26 @@
 }
 
 @media (max-width: 768px) {
+  .aurora {
+    display: none; /* Hide completely on mobile for CLS and performance */
+  }
+
   .orb {
-    width: 80vw;
-    height: 80vw;
-    filter: blur(60px);
-    animation: none; /* Disable animation on tablet/mobile for CLS */
+    display: none;
   }
 }
 
 @media (max-width: 480px) {
+  .aurora,
   .orb {
-    width: 90vw;
-    height: 90vw;
-    filter: blur(50px);
-    opacity: 0.2;
-    animation: none; /* Disable animation on mobile for performance */
+    display: none;
   }
 }
 
 @media (max-width: 360px) {
+  .aurora,
   .orb {
-    filter: blur(40px);
-    opacity: 0.15;
-    animation: none;
+    display: none;
   }
 }
 

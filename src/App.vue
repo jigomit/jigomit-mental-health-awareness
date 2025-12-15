@@ -77,32 +77,17 @@ main {
   min-height: 60vh;
 }
 
-/* Disable page transitions for better CLS */
+/* Disable ALL page transitions for CLS optimization */
 .page-shift-enter-active,
 .page-shift-leave-active {
-  transition: opacity 0.2s ease;
+  transition: none;
 }
 
 .page-shift-enter-from,
-.page-shift-leave-to {
-  opacity: 0;
-}
-
+.page-shift-leave-to,
 .page-shift-enter-to,
 .page-shift-leave-from {
   opacity: 1;
-}
-
-.reduce-motion .page-shift-enter-active,
-.reduce-motion .page-shift-leave-active {
-  transition-duration: 0s;
-}
-
-@media (max-width: 768px) {
-  .page-shift-enter-active,
-  .page-shift-leave-active {
-    transition: none;
-  }
 }
 
 @media (max-width: 768px) {

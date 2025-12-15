@@ -145,6 +145,9 @@ onBeforeUnmount(() => cleanup?.());
     min-height: 100px;
     border-radius: 18px;
     animation: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    background: rgba(255, 255, 255, 0.98);
   }
 
   .value {

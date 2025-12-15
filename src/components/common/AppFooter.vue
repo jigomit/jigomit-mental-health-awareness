@@ -162,8 +162,10 @@ const currentYear = computed(() => new Date().getFullYear());
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  min-height: 48px;
   background: rgba(255, 255, 255, 0.08);
   border-radius: 10px;
   color: var(--text-secondary);
@@ -373,8 +375,10 @@ const currentYear = computed(() => new Date().getFullYear());
   }
 
   .social-btn {
-    width: 36px;
-    height: 36px;
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    min-height: 44px;
   }
 
   .social-btn svg {

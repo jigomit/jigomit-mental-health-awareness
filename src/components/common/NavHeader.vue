@@ -278,8 +278,10 @@ watch(() => route.fullPath, () => closeNav());
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 44px;
-  height: 44px;
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  min-height: 48px;
   padding: 0;
   background: rgba(99, 102, 241, 0.15);
   border: 1px solid rgba(99, 102, 241, 0.3);
@@ -439,6 +441,9 @@ watch(() => route.fullPath, () => closeNav());
     padding: 0.5rem 1rem;
     top: 0.5rem;
     border-radius: 14px;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    background: rgba(15, 23, 42, 0.98);
   }
 
   .brand__logo {
@@ -455,8 +460,10 @@ watch(() => route.fullPath, () => closeNav());
   }
 
   .menu-toggle {
-    width: 42px;
-    height: 42px;
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    min-height: 48px;
   }
 }
 
@@ -495,8 +502,10 @@ watch(() => route.fullPath, () => closeNav());
   }
 
   .menu-toggle {
-    width: 38px;
-    height: 38px;
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    min-height: 44px;
     border-radius: 10px;
     gap: 5px;
   }
@@ -544,8 +553,10 @@ watch(() => route.fullPath, () => closeNav());
   }
 
   .menu-toggle {
-    width: 34px;
-    height: 34px;
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    min-height: 44px;
   }
 
   .menu-toggle__bar {
