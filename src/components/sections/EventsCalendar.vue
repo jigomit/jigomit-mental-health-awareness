@@ -7,7 +7,7 @@
         <p class="location">{{ event.location }}</p>
         <p>{{ event.detail }}</p>
       </div>
-      <RouterLink class="link" to="/contact">RSVP</RouterLink>
+      <RouterLink class="link" to="/contact" :aria-label="`RSVP for ${event.name}`">RSVP</RouterLink>
     </article>
   </section>
 </template>

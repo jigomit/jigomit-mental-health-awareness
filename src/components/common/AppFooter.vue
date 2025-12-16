@@ -67,7 +67,7 @@
                 </a>
               </li>
             </ul>
-            <RouterLink to="/get-help" class="help-btn">Get Help Now</RouterLink>
+            <RouterLink to="/get-help" class="help-btn" aria-label="Get immediate mental health help and support">Get Help Now</RouterLink>
           </div>
         </div>
       </div>

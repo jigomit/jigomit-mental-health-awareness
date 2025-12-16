@@ -16,7 +16,7 @@
             <li>Pairs you with a clinician in under 2 minutes</li>
             <li>Shares consent settings before any personal question</li>
           </ul>
-          <RouterLink class="primary" to="/get-help">Preview hotline scripts</RouterLink>
+          <RouterLink class="primary" to="/get-help" aria-label="Preview mental health hotline scripts and get help">Preview hotline scripts</RouterLink>
         </div>
       </section>
     </div>

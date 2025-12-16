@@ -32,7 +32,7 @@
 
       <div class="success-actions">
         <button type="button" class="btn-primary" @click="resetForm">Make Another Donation</button>
-        <RouterLink to="/impact" class="btn-secondary">See Your Impact</RouterLink>
+        <RouterLink to="/impact" class="btn-secondary" aria-label="See your donation impact on mental health programs">See Your Impact</RouterLink>
       </div>
     </div>
 
