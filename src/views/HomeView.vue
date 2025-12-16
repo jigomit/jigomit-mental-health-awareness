@@ -4,7 +4,7 @@
       eyebrow="Your Mental Wellness Matters"
       title="Find Peace, Support & Healing Today"
       description="Connect with compassionate counsellors and mental health professionals available 24/7. You're not alone in this journey."
-      :primary-cta="{ label: 'Get Help Now', to: '/get-help' }"
+      :primary-cta="{ label: 'Get Help Now', to: '/get-help', ariaLabel: 'Get immediate 24/7 mental health crisis support' }"
       :secondary-cta="{ label: 'Learn More', to: '/resources', ariaLabel: 'Learn more about our mental health resources and guides' }"
       :image="heroImage"
     />
