@@ -22,7 +22,7 @@
           <li>Pop-up calm rooms during campaign activations</li>
           <li>Scholarships for ongoing counselling post-crisis</li>
         </ul>
-        <RouterLink class="secondary" to="/impact">See transparency report</RouterLink>
+        <RouterLink class="secondary" to="/impact" aria-label="View our transparency report showing how donations support mental health programs">See transparency report</RouterLink>
       </article>
     </section>
   </div>

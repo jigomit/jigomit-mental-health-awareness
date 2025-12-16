@@ -21,7 +21,7 @@
           The "Hold Space" tour mirrors best practices from Movember and Bell Let’s Talk—paired-down copy,
           a single CTA per screen, and community testimonials recorded with consent.
         </p>
-        <RouterLink class="primary" to="/contact">Host a stop</RouterLink>
+        <RouterLink class="primary" to="/contact" aria-label="Contact us to host a mental health awareness event in your community">Host a stop</RouterLink>
       </div>
       <figure>
         <img :src="campaignImage" alt="Mental health awareness campaigns" loading="lazy" width="400" height="300" decoding="async" />

@@ -62,7 +62,7 @@
           <li>Complete the secure intake in 3 questions</li>
           <li>Schedule or connect immediately</li>
         </ol>
-        <RouterLink class="primary" to="/get-help">Start intake</RouterLink>
+        <RouterLink class="primary" to="/get-help" aria-label="Start your mental health intake assessment to connect with support">Start intake</RouterLink>
       </article>
     </section>
   </div>

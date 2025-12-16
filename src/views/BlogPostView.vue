@@ -2,7 +2,7 @@
   <div class="page" v-if="post">
     <article class="blog-post">
       <header class="post-header">
-        <RouterLink to="/blog" class="back-link">← Back to Blog</RouterLink>
+        <RouterLink to="/blog" class="back-link" aria-label="Return to blog articles list">← Back to Blog</RouterLink>
         <span class="post-tag" :class="`tag--${post.tagColor}`">{{ post.tag }}</span>
         <h1>{{ post.title }}</h1>
         <div class="post-meta">
@@ -58,7 +58,7 @@
         <div class="cta-section">
           <h3>Need Support?</h3>
           <p>If you're struggling with any of the topics discussed in this article, help is available.</p>
-          <RouterLink to="/get-help" class="cta-btn">Get Help Now</RouterLink>
+          <RouterLink to="/get-help" class="cta-btn" aria-label="Get immediate mental health support and crisis help">Get Help Now</RouterLink>
         </div>
       </footer>
     </article>
@@ -66,7 +66,7 @@
   <div class="page not-found" v-else>
     <h1>Article Not Found</h1>
     <p>The article you're looking for doesn't exist.</p>
-    <RouterLink to="/blog" class="back-btn">Browse All Articles</RouterLink>
+    <RouterLink to="/blog" class="back-btn" aria-label="Browse all mental health blog articles">Browse All Articles</RouterLink>
   </div>
 </template>
 
