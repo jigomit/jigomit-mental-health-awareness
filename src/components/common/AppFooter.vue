@@ -31,10 +31,10 @@
           <nav class="footer-col" aria-label="Quick links">
             <h4 class="footer-col__title">Quick Links</h4>
             <ul class="footer-links">
-              <li><RouterLink to="/">Home</RouterLink></li>
-              <li><RouterLink to="/about">About Us</RouterLink></li>
-              <li><RouterLink to="/services">Our Services</RouterLink></li>
-              <li><RouterLink to="/resources">Free Guides</RouterLink></li>
+              <li><RouterLink to="/" aria-label="Go to homepage">Home</RouterLink></li>
+              <li><RouterLink to="/about" aria-label="Learn about our mental health mission">About Us</RouterLink></li>
+              <li><RouterLink to="/services" aria-label="View our mental health services">Our Services</RouterLink></li>
+              <li><RouterLink to="/resources" aria-label="Download free mental health guides">Free Guides</RouterLink></li>
             </ul>
           </nav>
 
@@ -42,11 +42,11 @@
           <nav class="footer-col" aria-label="Resources">
             <h4 class="footer-col__title">Resources</h4>
             <ul class="footer-links">
-              <li><RouterLink to="/blog">Blog</RouterLink></li>
-              <li><RouterLink to="/impact">Our Impact</RouterLink></li>
-              <li><RouterLink to="/events">Events</RouterLink></li>
-              <li><RouterLink to="/donate">Donate</RouterLink></li>
-              <li><RouterLink to="/contact">Contact Us</RouterLink></li>
+              <li><RouterLink to="/blog" aria-label="Read mental health articles and tips">Blog</RouterLink></li>
+              <li><RouterLink to="/impact" aria-label="See our mental health impact stories">Our Impact</RouterLink></li>
+              <li><RouterLink to="/events" aria-label="Find mental health events and workshops">Events</RouterLink></li>
+              <li><RouterLink to="/donate" aria-label="Donate to support mental health programs">Donate</RouterLink></li>
+              <li><RouterLink to="/contact" aria-label="Contact our mental health support team">Contact Us</RouterLink></li>
             </ul>
           </nav>
 
