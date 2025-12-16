@@ -52,21 +52,21 @@ export const resourceLibrary = [
     title: 'Staying Present: Mindful Grounding Cards',
     type: 'Toolkit',
     length: '12 prompts',
-    link: '#',
+    link: '/blog/mindfulness-meditation-for-beginners-complete-guide',
     description: 'Printable deck with bilingual scripts to calm an anxious brain in under 90 seconds.'
   },
   {
     title: 'Guide: Talking About Suicide with Loved Ones',
     type: 'Guide',
     length: '8-minute read',
-    link: '#',
+    link: '/blog/warning-signs-of-depression-and-how-to-get-help',
     description: 'Evidence-based approach for asking caring questions and creating collaborative safety plans.'
   },
   {
     title: 'Article: Culturally Inclusive Teletherapy',
     type: 'Article',
     length: '6-minute read',
-    link: '#',
+    link: '/blog/building-mental-resilience-strategies-for-emotional-strength',
     description: 'Clinical insights on building belonging digitally for LGBTQIA+ and BIPOC communities.'
   }
 ];

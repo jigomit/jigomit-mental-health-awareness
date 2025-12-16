@@ -4,7 +4,7 @@
       <p class="type">{{ item.type }} · {{ item.length }}</p>
       <h3>{{ item.title }}</h3>
       <p>{{ item.description }}</p>
-      <a :href="item.link" class="link">Download / Read</a>
+      <a :href="item.link" class="link" :aria-label="`Read more about ${item.title}`">Download / Read</a>
     </article>
   </section>
 </template>
