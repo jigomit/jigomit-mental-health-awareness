@@ -21,9 +21,9 @@
 
     <!-- Desktop CTA Button -->
     <div class="desktop-ctas">
-      <RouterLink class="btn btn--primary" to="/get-help">
+      <RouterLink class="btn btn--primary" to="/get-help" aria-label="Get immediate mental health help and support">
         <span>Get Help Now</span>
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
           <path d="M5 12h14M12 5l7 7-7 7"/>
         </svg>
       </RouterLink>
@@ -31,7 +31,7 @@
 
     <!-- Mobile Actions -->
     <div class="mobile-actions">
-      <RouterLink class="btn btn--primary btn--sm" to="/get-help">Help</RouterLink>
+      <RouterLink class="btn btn--primary btn--sm" to="/get-help" aria-label="Get mental health help">Help</RouterLink>
       <button
         class="menu-toggle"
         @click="menuOpen = !menuOpen"
@@ -67,7 +67,7 @@
       <RouterLink to="/contact" @click="closeNav">
         <span class="nav-icon">📧</span> Contact
       </RouterLink>
-      <RouterLink to="/get-help" class="mobile-nav__cta" @click="closeNav">
+      <RouterLink to="/get-help" class="mobile-nav__cta" @click="closeNav" aria-label="Get immediate mental health help">
         Get Help Now
       </RouterLink>
     </nav>
