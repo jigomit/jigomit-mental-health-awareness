@@ -15,13 +15,13 @@
       <h1 id="hero-title" class="hero__title">{{ title }}</h1>
       <p class="lead">{{ description }}</p>
       <nav class="hero__actions" aria-label="Primary actions">
-        <RouterLink class="btn-primary" :to="primaryCta.to" role="button">
+        <RouterLink class="btn-primary" :to="primaryCta.to" role="button" :aria-label="primaryCta.label">
           <span>{{ primaryCta.label }}</span>
-          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
             <path d="M5 12h14M12 5l7 7-7 7"/>
           </svg>
         </RouterLink>
-        <RouterLink class="btn-secondary" :to="secondaryCta.to" role="button">
+        <RouterLink class="btn-secondary" :to="secondaryCta.to" role="button" :aria-label="secondaryCta.label">
           {{ secondaryCta.label }}
         </RouterLink>
       </nav>
