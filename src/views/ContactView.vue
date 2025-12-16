@@ -18,8 +18,8 @@
       <article class="details">
         <h2>Other ways to reach us</h2>
         <ul>
-          <li>Email: <a href="mailto:partners@mentalhealthawareness.org">partners@mentalhealthawareness.org</a></li>
-          <li>Media line: <a href="tel:+18005559876">+1 (800) 555-9876</a></li>
+          <li>Email: <a href="mailto:partners@mentalhealthawareness.org" aria-label="Email partners at partners@mentalhealthawareness.org">partners@mentalhealthawareness.org</a></li>
+          <li>Media line: <a href="tel:+18005559876" aria-label="Call media line at +1 (800) 555-9876">+1 (800) 555-9876</a></li>
           <li>Press kit: download via Resources page</li>
         </ul>
         <p class="microcopy">We never share submissions outside the support team.</p>

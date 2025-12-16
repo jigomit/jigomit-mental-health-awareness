@@ -3,7 +3,7 @@
     <article v-for="line in helplines" :key="line.region" class="card">
       <p class="region">{{ line.region }}</p>
       <p class="phone">
-        <a :href="`tel:${line.phone.replace(/[^0-9]/g, '')}`">{{ line.phone }}</a>
+        <a :href="`tel:${line.phone.replace(/[^0-9]/g, '')}`" :aria-label="`Call ${line.region} helpline at ${line.phone}`">{{ line.phone }}</a>
       </p>
       <p>
         Text: <span>{{ line.text }}</span>

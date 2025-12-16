@@ -9,7 +9,7 @@
           danger, contact local emergency services.
         </p>
         <div class="actions">
-          <a class="primary" href="tel:988">Call 988 now</a>
+          <a class="primary" href="tel:988" aria-label="Call 988 Suicide and Crisis Lifeline now">Call 988 now</a>
           <button class="secondary" type="button" @click="modalOpen = true">Preview chatbot beta</button>
         </div>
       </header>

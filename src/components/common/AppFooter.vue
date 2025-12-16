@@ -55,13 +55,13 @@
             <h4 class="footer-col__title">Get Help 24/7</h4>
             <ul class="contact-list">
               <li>
-                <a href="tel:+18005551234" class="contact-link">
+                <a href="tel:+18005551234" class="contact-link" aria-label="Call Mental Health Helpline at +1 (800) 555-1234">
                   <span class="contact-icon">📞</span>
                   +1 (800) 555-1234
                 </a>
               </li>
               <li>
-                <a href="mailto:help@mentalhealthawareness.org" class="contact-link">
+                <a href="mailto:help@mentalhealthawareness.org" class="contact-link" aria-label="Email Mental Health Support at help@mentalhealthawareness.org">
                   <span class="contact-icon">✉️</span>
                   help@mentalhealthawareness.org
                 </a>
