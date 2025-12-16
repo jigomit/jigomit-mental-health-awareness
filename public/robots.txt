@@ -1,6 +1,43 @@
-# Robots.txt for Mental Health Awareness
+# Robots.txt for Mental Health Awareness - Free 24/7 Crisis Helpline
+# Updated: 2025-12-16
+
+# Allow all search engine crawlers
 User-agent: *
 Allow: /
+Allow: /blog/
+Allow: /services
+Allow: /resources
+Allow: /get-help
+Allow: /events
+Allow: /about
+Allow: /impact
+Allow: /donate
+Allow: /contact
+
+# Disallow admin and non-public paths
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /node_modules/
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1
 
 # Sitemap location
 Sitemap: https://jigomit-mental-health-a.netlify.app/sitemap.xml
+
+# Google-specific directives
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing-specific directives
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Allow image crawlers for image SEO
+User-agent: Googlebot-Image
+Allow: /*.jpg$
+Allow: /*.png$
+Allow: /*.svg$
+Allow: /*.webp$

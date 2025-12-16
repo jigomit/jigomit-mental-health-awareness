@@ -27,12 +27,48 @@
 <script setup>
 import { useRoute } from 'vue-router';
 import { usePageMeta } from '../composables/usePageMeta';
+import { useBreadcrumbSchema, useResourceSchema } from '../composables/useSeoSchema';
 import ResourceList from '../components/sections/ResourceList.vue';
 import CallToAction from '../components/sections/CallToAction.vue';
 import { resourceLibrary } from '../data/content';
 
 const route = useRoute();
-usePageMeta(route.meta?.title, route.meta?.description);
+usePageMeta(route.meta?.title, route.meta?.description, {
+  path: '/resources',
+  image: '/resources-image.jpg',
+  keywords: 'free mental health worksheets pdf, anxiety workbook, depression coping skills, DBT worksheets, grounding techniques, mindfulness exercises'
+});
+
+// SEO: Breadcrumb schema
+useBreadcrumbSchema([
+  { name: 'Home', path: '/' },
+  { name: 'Resources', path: '/resources' }
+]);
+
+// SEO: Resource schema for downloadable content
+useResourceSchema([
+  {
+    title: 'Free Anxiety Self-Help Workbook PDF',
+    description: 'Comprehensive anxiety management workbook with breathing exercises, grounding techniques, and CBT worksheets. Free download.'
+  },
+  {
+    title: 'Depression Coping Skills Worksheet',
+    description: 'Evidence-based depression coping strategies worksheet. Includes mood tracking, behavioral activation, and thought challenging exercises.'
+  },
+  {
+    title: 'DBT Skills Training Worksheets',
+    description: 'Dialectical Behavior Therapy worksheets covering mindfulness, distress tolerance, emotion regulation, and interpersonal effectiveness.'
+  },
+  {
+    title: '5-4-3-2-1 Grounding Technique Guide',
+    description: 'Step-by-step grounding technique guide for panic attacks and anxiety. Bilingual printable cards included.'
+  },
+  {
+    title: 'Mindfulness Meditation Scripts',
+    description: 'Guided mindfulness meditation scripts for stress relief, sleep, and anxiety management. Audio versions available.'
+  },
+  ...resourceLibrary
+]);
 
 const resourcesImage = '/resources-image.jpg'; // Self-help meditation - mental wellness resources
 </script>

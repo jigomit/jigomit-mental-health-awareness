@@ -34,15 +34,15 @@
               <li><RouterLink to="/">Home</RouterLink></li>
               <li><RouterLink to="/about">About Us</RouterLink></li>
               <li><RouterLink to="/services">Our Services</RouterLink></li>
-              <li><RouterLink to="/resources">Resources</RouterLink></li>
-              <li><RouterLink to="/blog">Blog</RouterLink></li>
+              <li><RouterLink to="/resources">Free Guides</RouterLink></li>
             </ul>
           </nav>
 
-          <!-- Get Involved -->
-          <nav class="footer-col" aria-label="Get involved">
-            <h4 class="footer-col__title">Get Involved</h4>
+          <!-- Resources -->
+          <nav class="footer-col" aria-label="Resources">
+            <h4 class="footer-col__title">Resources</h4>
             <ul class="footer-links">
+              <li><RouterLink to="/blog">Blog</RouterLink></li>
               <li><RouterLink to="/impact">Our Impact</RouterLink></li>
               <li><RouterLink to="/events">Events</RouterLink></li>
               <li><RouterLink to="/donate">Donate</RouterLink></li>

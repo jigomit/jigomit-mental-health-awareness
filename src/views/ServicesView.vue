@@ -71,9 +71,40 @@
 <script setup>
 import { RouterLink, useRoute } from 'vue-router';
 import { usePageMeta } from '../composables/usePageMeta';
+import { useBreadcrumbSchema, useServiceSchema } from '../composables/useSeoSchema';
 
 const route = useRoute();
-usePageMeta(route.meta?.title, route.meta?.description);
+usePageMeta(route.meta?.title, route.meta?.description, {
+  path: '/services',
+  image: '/services-image.jpg',
+  keywords: 'free online therapy, CBT counseling, trauma therapy, sliding scale therapists, mental health services'
+});
+
+// SEO: Breadcrumb schema
+useBreadcrumbSchema([
+  { name: 'Home', path: '/' },
+  { name: 'Services', path: '/services' }
+]);
+
+// SEO: Service schema for rich snippets
+useServiceSchema([
+  {
+    title: 'Free Online Therapy & Counseling',
+    description: 'Video, phone, and in-person therapy with trauma-informed clinicians. Sliding scale from $20, 17 languages supported, same-day scheduling available.'
+  },
+  {
+    title: '24/7 Crisis Support Helpline',
+    description: 'Round-the-clock helpline, text, and WhatsApp support. Average response time 12 seconds. Real human responders, not bots. Safety plans saved only with consent.'
+  },
+  {
+    title: 'Mental Health Campaigns & Training',
+    description: 'Toolkits for schools, workplaces, and governments. Turn-key creative for social media, facilitator guides, and impact dashboards.'
+  },
+  {
+    title: 'Cognitive Behavioral Therapy (CBT)',
+    description: 'Evidence-based CBT therapy for anxiety, depression, and PTSD. Free and low-cost options available without insurance.'
+  }
+]);
 
 const servicesImage = '/services-image.jpg'; // Therapy session - counseling services
 </script>

@@ -33,11 +33,25 @@
 <script setup>
 import { RouterLink, useRoute } from 'vue-router';
 import { usePageMeta } from '../composables/usePageMeta';
+import { useBreadcrumbSchema, useEventSchema } from '../composables/useSeoSchema';
 import EventsCalendar from '../components/sections/EventsCalendar.vue';
 import { eventsSchedule } from '../data/content';
 
 const route = useRoute();
-usePageMeta(route.meta?.title, route.meta?.description);
+usePageMeta(route.meta?.title, route.meta?.description, {
+  path: '/events',
+  image: '/events-image.jpg',
+  keywords: 'free mental health workshops 2025, anxiety support groups online, depression support group near me, mental health awareness events, wellness workshops free'
+});
+
+// SEO: Breadcrumb schema
+useBreadcrumbSchema([
+  { name: 'Home', path: '/' },
+  { name: 'Events', path: '/events' }
+]);
+
+// SEO: Event schema for rich snippets
+useEventSchema(eventsSchedule);
 
 const eventsImage = '/events-image.jpg'; // Mental health workshop - group support event
 const campaignImage = '/campaign-image.jpg'; // Awareness campaign - community gathering

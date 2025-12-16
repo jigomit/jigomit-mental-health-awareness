@@ -42,12 +42,43 @@
 import { ref } from 'vue';
 import { useRoute } from 'vue-router';
 import { usePageMeta } from '../composables/usePageMeta';
+import { useBreadcrumbSchema, useFaqSchema } from '../composables/useSeoSchema';
 import HelplinePanel from '../components/sections/HelplinePanel.vue';
 import SupportModal from '../components/sections/SupportModal.vue';
 import { helplineDirectory } from '../data/content';
 
 const route = useRoute();
-usePageMeta(route.meta?.title, route.meta?.description);
+usePageMeta(route.meta?.title, route.meta?.description, {
+  path: '/get-help',
+  image: '/crisis-image.jpg',
+  keywords: 'talk to someone now free, 988 crisis helpline, crisis text line, free therapy chat, depression helpline, anxiety crisis support, suicide prevention hotline'
+});
+
+// SEO: Breadcrumb schema
+useBreadcrumbSchema([
+  { name: 'Home', path: '/' },
+  { name: 'Get Help Now', path: '/get-help' }
+]);
+
+// SEO: FAQ schema for crisis help page
+useFaqSchema([
+  {
+    question: 'How do I get free mental health help right now?',
+    answer: 'Call 988 (free, 24/7), text HOME to 741741, or use our online chat. All services are completely free, confidential, and available immediately with no insurance required.'
+  },
+  {
+    question: 'Is the 988 crisis helpline really free?',
+    answer: 'Yes, the 988 Suicide and Crisis Lifeline is 100% free, available 24/7, and confidential. You can call, text, or chat online with trained counselors at no cost.'
+  },
+  {
+    question: 'What should I do if someone I know is suicidal?',
+    answer: 'Stay with them, listen without judgment, remove access to harmful items if possible, and call 988 together. Do not leave them alone. If in immediate danger, call 911.'
+  },
+  {
+    question: 'Can I text instead of calling a crisis line?',
+    answer: 'Yes! Text HOME to 741741 for the Crisis Text Line, or text 988. Both are free, confidential, and available 24/7 with trained crisis counselors.'
+  }
+]);
 
 const crisisImage = '/crisis-image.jpg'; // Crisis helpline - urgent support hand reaching
 

@@ -70,12 +70,13 @@
 </template>
 
 <script setup>
-import { computed } from 'vue';
+import { computed, watchEffect, onMounted } from 'vue';
 import { RouterLink, useRoute } from 'vue-router';
 import { usePageMeta } from '../composables/usePageMeta';
 import { blogPosts } from '../data/content';
 
 const route = useRoute();
+const BASE_URL = 'https://jigomit-mental-health-a.netlify.app';
 
 const post = computed(() => {
   return blogPosts.find(p => p.slug === route.params.slug);
@@ -90,6 +91,96 @@ usePageMeta(
   post.value?.title || 'Article Not Found',
   post.value?.excerpt || 'Mental health article'
 );
+
+// Add Article structured data for SEO
+const addStructuredData = () => {
+  if (!post.value) return;
+
+  // Remove any existing article schema
+  const existingSchema = document.querySelector('script[data-schema="article"]');
+  if (existingSchema) existingSchema.remove();
+
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    'headline': post.value.title,
+    'description': post.value.excerpt,
+    'image': `${BASE_URL}${post.value.image}`,
+    'datePublished': new Date(post.value.date).toISOString(),
+    'dateModified': new Date(post.value.date).toISOString(),
+    'author': {
+      '@type': 'Organization',
+      'name': 'Mental Health Awareness',
+      'url': BASE_URL
+    },
+    'publisher': {
+      '@type': 'Organization',
+      'name': 'Mental Health Awareness',
+      'logo': {
+        '@type': 'ImageObject',
+        'url': `${BASE_URL}/favicon.svg`
+      }
+    },
+    'mainEntityOfPage': {
+      '@type': 'WebPage',
+      '@id': `${BASE_URL}/blog/${post.value.slug}`
+    },
+    'articleSection': post.value.tag,
+    'wordCount': post.value.content.split(/\s+/).length,
+    'timeRequired': `PT${post.value.readTime}M`,
+    'keywords': getKeywordsForPost(post.value.tag)
+  };
+
+  const script = document.createElement('script');
+  script.type = 'application/ld+json';
+  script.setAttribute('data-schema', 'article');
+  script.textContent = JSON.stringify(articleSchema);
+  document.head.appendChild(script);
+
+  // Add BreadcrumbList schema
+  const existingBreadcrumb = document.querySelector('script[data-schema="breadcrumb"]');
+  if (existingBreadcrumb) existingBreadcrumb.remove();
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    'itemListElement': [
+      { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': BASE_URL },
+      { '@type': 'ListItem', 'position': 2, 'name': 'Blog', 'item': `${BASE_URL}/blog` },
+      { '@type': 'ListItem', 'position': 3, 'name': post.value.title, 'item': `${BASE_URL}/blog/${post.value.slug}` }
+    ]
+  };
+
+  const breadcrumbScript = document.createElement('script');
+  breadcrumbScript.type = 'application/ld+json';
+  breadcrumbScript.setAttribute('data-schema', 'breadcrumb');
+  breadcrumbScript.textContent = JSON.stringify(breadcrumbSchema);
+  document.head.appendChild(breadcrumbScript);
+};
+
+const getKeywordsForPost = (tag) => {
+  const keywordMap = {
+    'Anxiety': 'how to overcome anxiety naturally, anxiety relief techniques, natural remedies for panic attacks, anxiety coping strategies, 4-7-8 breathing technique, grounding exercises for anxiety',
+    'Depression': 'warning signs of depression, how to help someone with depression, depression treatment options, CBT for depression, signs you need a therapist, depression recovery stories',
+    'Stress Relief': 'stress management techniques for professionals, work life balance tips, burnout prevention strategies, how to reduce stress at work, mindfulness for busy people',
+    'Mental Wellness': 'building mental resilience, emotional strength techniques, how to develop mental toughness, self-care strategies, mental health tips for 2025',
+    'Mindfulness': 'mindfulness meditation for beginners, how to start meditating, meditation techniques, mindfulness benefits, guided meditation, body scan meditation, loving-kindness meditation',
+    'Self-Care': 'daily self-care routine, self-care tips for mental health, self-care habits, morning routine for mental health, self-care activities, mental wellness routine',
+    'Sleep Health': 'how sleep affects mental health, sleep and anxiety, insomnia and depression, better sleep tips, sleep hygiene, CBT for insomnia, sleep quality improvement',
+    'Social Anxiety': 'overcoming social anxiety, social anxiety tips, social anxiety treatment, how to be more confident, social phobia help, CBT for social anxiety, exposure therapy'
+  };
+  return keywordMap[tag] || 'mental health tips, wellness advice, self-care strategies';
+};
+
+onMounted(() => {
+  addStructuredData();
+});
+
+watchEffect(() => {
+  if (post.value) {
+    addStructuredData();
+  }
+});
 
 const shareOnTwitter = () => {
   const url = encodeURIComponent(window.location.href);
@@ -170,6 +261,10 @@ const copyLink = async () => {
 .tag--purple { background: #ede9fe; color: #6b21a8; }
 .tag--green { background: #dcfce7; color: #166534; }
 .tag--orange { background: #ffedd5; color: #c2410c; }
+.tag--teal { background: #ccfbf1; color: #0f766e; }
+.tag--cyan { background: #cffafe; color: #0e7490; }
+.tag--pink { background: #fce7f3; color: #be185d; }
+.tag--indigo { background: #e0e7ff; color: #4338ca; }
 
 .post-header h1 {
   font-size: clamp(1.75rem, 4vw, 2.5rem);

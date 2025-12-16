@@ -35,12 +35,59 @@
 </template>
 
 <script setup>
+import { onMounted } from 'vue';
 import { RouterLink, useRoute } from 'vue-router';
 import { usePageMeta } from '../composables/usePageMeta';
+import { useBreadcrumbSchema } from '../composables/useSeoSchema';
 import { blogPosts } from '../data/content';
 
 const route = useRoute();
-usePageMeta(route.meta?.title, route.meta?.description);
+const BASE_URL = 'https://jigomit-mental-health-a.netlify.app';
+
+usePageMeta(route.meta?.title, route.meta?.description, {
+  path: '/blog',
+  keywords: 'mental health blog, anxiety tips, depression advice, stress management, self-care strategies, mental wellness articles, how to calm anxiety fast, natural remedies for depression'
+});
+
+// SEO: Breadcrumb schema
+useBreadcrumbSchema([
+  { name: 'Home', path: '/' },
+  { name: 'Blog', path: '/blog' }
+]);
+
+// Add Blog collection schema
+onMounted(() => {
+  const blogListSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Blog',
+    'name': 'Mental Health Awareness Blog',
+    'description': 'Expert mental health articles, tips for anxiety and depression, stress management techniques, and evidence-based wellness strategies.',
+    'url': `${BASE_URL}/blog`,
+    'publisher': {
+      '@type': 'Organization',
+      'name': 'Mental Health Awareness',
+      'logo': { '@type': 'ImageObject', 'url': `${BASE_URL}/favicon.svg` }
+    },
+    'blogPost': blogPosts.map(post => ({
+      '@type': 'BlogPosting',
+      'headline': post.title,
+      'description': post.excerpt,
+      'image': `${BASE_URL}${post.image}`,
+      'datePublished': new Date(post.date).toISOString(),
+      'url': `${BASE_URL}/blog/${post.slug}`,
+      'author': { '@type': 'Organization', 'name': 'Mental Health Awareness' }
+    }))
+  };
+
+  const existingSchema = document.querySelector('script[data-schema="blog-list"]');
+  if (existingSchema) existingSchema.remove();
+
+  const script = document.createElement('script');
+  script.type = 'application/ld+json';
+  script.setAttribute('data-schema', 'blog-list');
+  script.textContent = JSON.stringify(blogListSchema);
+  document.head.appendChild(script);
+});
 </script>
 
 <style scoped>
@@ -128,6 +175,10 @@ usePageMeta(route.meta?.title, route.meta?.description);
 .tag--purple { background: #ede9fe; color: #6b21a8; }
 .tag--green { background: #dcfce7; color: #166534; }
 .tag--orange { background: #ffedd5; color: #c2410c; }
+.tag--teal { background: #ccfbf1; color: #0f766e; }
+.tag--cyan { background: #cffafe; color: #0e7490; }
+.tag--pink { background: #fce7f3; color: #be185d; }
+.tag--indigo { background: #e0e7ff; color: #4338ca; }
 
 .blog-card__heading {
   font-size: 1.15rem;
