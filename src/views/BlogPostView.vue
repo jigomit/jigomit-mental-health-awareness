@@ -161,16 +161,16 @@ const addStructuredData = () => {
 
 const getKeywordsForPost = (tag) => {
   const keywordMap = {
-    'Anxiety': 'how to overcome anxiety naturally, anxiety relief techniques, natural remedies for panic attacks, anxiety coping strategies, 4-7-8 breathing technique, grounding exercises for anxiety',
-    'Depression': 'warning signs of depression, how to help someone with depression, depression treatment options, CBT for depression, signs you need a therapist, depression recovery stories',
-    'Stress Relief': 'stress management techniques for professionals, work life balance tips, burnout prevention strategies, how to reduce stress at work, mindfulness for busy people',
-    'Mental Wellness': 'building mental resilience, emotional strength techniques, how to develop mental toughness, self-care strategies, mental health tips for 2025',
-    'Mindfulness': 'mindfulness meditation for beginners, how to start meditating, meditation techniques, mindfulness benefits, guided meditation, body scan meditation, loving-kindness meditation',
-    'Self-Care': 'daily self-care routine, self-care tips for mental health, self-care habits, morning routine for mental health, self-care activities, mental wellness routine',
-    'Sleep Health': 'how sleep affects mental health, sleep and anxiety, insomnia and depression, better sleep tips, sleep hygiene, CBT for insomnia, sleep quality improvement',
-    'Social Anxiety': 'overcoming social anxiety, social anxiety tips, social anxiety treatment, how to be more confident, social phobia help, CBT for social anxiety, exposure therapy'
+    'Crisis Support': 'free 24/7 mental health helpline, crisis support hotline, talk to someone now, 988 suicide prevention lifeline, mental health crisis help, free counseling hotline',
+    'Supporting Others': 'how to help someone with depression, support depressed loved one, what to say to someone with depression, helping family with mental illness, depression support tips',
+    'Anxiety Relief': 'natural anxiety relief techniques, calm anxiety fast, anxiety breathing exercises, grounding techniques for anxiety, 5-4-3-2-1 method, anxiety coping strategies without medication',
+    'Getting Help': 'signs you need therapy, when to see a therapist, how to find a therapist, first therapy session, mental health professional help, therapy benefits',
+    'Grief Support': 'coping with grief and loss, healthy grieving process, how to heal after loss, stages of grief, grief counseling, support for grieving',
+    'Panic Relief': 'how to stop panic attacks fast, panic attack relief techniques, calming panic attacks, panic disorder treatment, anxiety attack help, grounding for panic',
+    'Student Wellness': 'college student mental health, student stress management, university anxiety help, academic stress tips, college counseling services, student depression support',
+    'Work Wellness': 'workplace mental health, job burnout prevention, work stress relief, workplace wellness tips, employee mental health, work-life balance strategies'
   };
-  return keywordMap[tag] || 'mental health tips, wellness advice, self-care strategies';
+  return keywordMap[tag] || 'mental health tips, wellness advice, self-care strategies, free mental health support';
 };
 
 onMounted(() => {

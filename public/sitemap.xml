@@ -87,107 +87,107 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Blog Post: Anxiety -->
+  <!-- Blog Post: Crisis Helpline -->
   <url>
-    <loc>https://jigomit-mental-health-a.netlify.app/blog/how-to-overcome-anxiety-naturally-without-medication</loc>
-    <lastmod>2025-12-08</lastmod>
+    <loc>https://jigomit-mental-health-a.netlify.app/blog/free-24-7-mental-health-crisis-helpline-talk-to-someone-now</loc>
+    <lastmod>2025-12-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://jigomit-mental-health-a.netlify.app/blog-anxiety.jpg</image:loc>
-      <image:title>How to Overcome Anxiety Naturally Without Medication</image:title>
-      <image:caption>Natural anxiety relief techniques and coping strategies</image:caption>
+      <image:title>Free 24/7 Mental Health Crisis Helpline - Talk to Someone Now</image:title>
+      <image:caption>Access free confidential mental health crisis support anytime</image:caption>
     </image:image>
   </url>
 
-  <!-- Blog Post: Depression -->
+  <!-- Blog Post: Help Someone with Depression -->
   <url>
-    <loc>https://jigomit-mental-health-a.netlify.app/blog/warning-signs-of-depression-and-how-to-get-help</loc>
-    <lastmod>2025-12-05</lastmod>
+    <loc>https://jigomit-mental-health-a.netlify.app/blog/how-to-help-someone-with-depression-complete-guide</loc>
+    <lastmod>2025-12-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://jigomit-mental-health-a.netlify.app/blog-depression.jpg</image:loc>
-      <image:title>Warning Signs of Depression and How to Get Help</image:title>
-      <image:caption>Recognize depression symptoms and find treatment options</image:caption>
+      <image:title>How to Help Someone with Depression - Complete Guide</image:title>
+      <image:caption>Support loved ones with depression without overstepping</image:caption>
     </image:image>
   </url>
 
-  <!-- Blog Post: Stress Management -->
+  <!-- Blog Post: Natural Anxiety Relief -->
   <url>
-    <loc>https://jigomit-mental-health-a.netlify.app/blog/stress-management-techniques-for-busy-professionals</loc>
-    <lastmod>2025-12-01</lastmod>
+    <loc>https://jigomit-mental-health-a.netlify.app/blog/natural-anxiety-relief-techniques-that-work-fast</loc>
+    <lastmod>2025-12-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://jigomit-mental-health-a.netlify.app/blog-stress.jpg</image:loc>
-      <image:title>Stress Management Techniques for Busy Professionals</image:title>
-      <image:caption>Work-life balance and stress relief strategies</image:caption>
+      <image:title>Natural Anxiety Relief Techniques That Work Fast</image:title>
+      <image:caption>Calm your mind in minutes with proven natural techniques</image:caption>
     </image:image>
   </url>
 
-  <!-- Blog Post: Mental Resilience -->
+  <!-- Blog Post: Signs You Need Therapy -->
   <url>
-    <loc>https://jigomit-mental-health-a.netlify.app/blog/building-mental-resilience-strategies-for-emotional-strength</loc>
-    <lastmod>2025-11-28</lastmod>
+    <loc>https://jigomit-mental-health-a.netlify.app/blog/signs-you-need-therapy-when-to-seek-professional-mental-health-help</loc>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://jigomit-mental-health-a.netlify.app/blog-wellness.jpg</image:loc>
-      <image:title>Building Mental Resilience - Strategies for Emotional Strength</image:title>
-      <image:caption>Develop mental toughness and emotional resilience</image:caption>
+      <image:title>Signs You Need Therapy - When to Seek Professional Help</image:title>
+      <image:caption>Know when professional mental health support is right for you</image:caption>
     </image:image>
   </url>
 
-  <!-- Blog Post: Mindfulness Meditation -->
+  <!-- Blog Post: Coping with Grief -->
   <url>
-    <loc>https://jigomit-mental-health-a.netlify.app/blog/mindfulness-meditation-for-beginners-complete-guide</loc>
-    <lastmod>2025-11-25</lastmod>
+    <loc>https://jigomit-mental-health-a.netlify.app/blog/coping-with-grief-and-loss-healthy-ways-to-heal</loc>
+    <lastmod>2025-12-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://jigomit-mental-health-a.netlify.app/meditation-calm.jpg</image:loc>
-      <image:title>Mindfulness Meditation for Beginners - Complete Guide</image:title>
-      <image:caption>Learn how to start meditating with simple techniques</image:caption>
+      <image:title>Coping with Grief and Loss - Healthy Ways to Heal</image:title>
+      <image:caption>Healthy ways to heal after losing someone you love</image:caption>
     </image:image>
   </url>
 
-  <!-- Blog Post: Daily Self-Care -->
+  <!-- Blog Post: Stop Panic Attacks -->
   <url>
-    <loc>https://jigomit-mental-health-a.netlify.app/blog/daily-self-care-routine-for-better-mental-health</loc>
-    <lastmod>2025-11-22</lastmod>
+    <loc>https://jigomit-mental-health-a.netlify.app/blog/how-to-stop-panic-attacks-fast-proven-techniques</loc>
+    <lastmod>2025-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://jigomit-mental-health-a.netlify.app/peaceful-nature.jpg</image:loc>
-      <image:title>Daily Self-Care Routine for Better Mental Health</image:title>
-      <image:caption>15 simple self-care habits for mental wellness</image:caption>
+      <image:title>How to Stop Panic Attacks Fast - Proven Techniques</image:title>
+      <image:caption>Stop panic attacks quickly with immediate relief strategies</image:caption>
     </image:image>
   </url>
 
-  <!-- Blog Post: Sleep and Mental Health -->
+  <!-- Blog Post: College Student Mental Health -->
   <url>
-    <loc>https://jigomit-mental-health-a.netlify.app/blog/how-sleep-affects-mental-health-complete-guide</loc>
-    <lastmod>2025-11-18</lastmod>
+    <loc>https://jigomit-mental-health-a.netlify.app/blog/mental-health-tips-for-college-students-manage-stress-anxiety</loc>
+    <lastmod>2025-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://jigomit-mental-health-a.netlify.app/healing-sunset.jpg</image:loc>
-      <image:title>How Sleep Affects Mental Health - Complete Guide</image:title>
-      <image:caption>The connection between sleep quality and mental wellness</image:caption>
+      <image:title>Mental Health Tips for College Students - Manage Stress</image:title>
+      <image:caption>College mental health strategies for stress and anxiety</image:caption>
     </image:image>
   </url>
 
-  <!-- Blog Post: Social Anxiety -->
+  <!-- Blog Post: Workplace Mental Health -->
   <url>
-    <loc>https://jigomit-mental-health-a.netlify.app/blog/overcoming-social-anxiety-practical-tips-guide</loc>
-    <lastmod>2025-11-15</lastmod>
+    <loc>https://jigomit-mental-health-a.netlify.app/blog/workplace-mental-health-reduce-job-stress-burnout-prevention</loc>
+    <lastmod>2025-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://jigomit-mental-health-a.netlify.app/community-support.jpg</image:loc>
-      <image:title>Overcoming Social Anxiety - Practical Tips Guide</image:title>
-      <image:caption>Evidence-based strategies for managing social anxiety</image:caption>
+      <image:title>Workplace Mental Health - Reduce Job Stress and Burnout</image:title>
+      <image:caption>Prevent burnout and protect mental health at work</image:caption>
     </image:image>
   </url>
 
