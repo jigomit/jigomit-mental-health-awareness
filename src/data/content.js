@@ -171,6 +171,10 @@ const blogImg7 = '/healing-sunset.jpg';
 const blogImg8 = '/community-support.jpg';
 
 export const blogPosts = [
+];
+
+// Removed blog posts - keeping structure for future use
+const _removedBlogPosts = [
   {
     slug: 'free-online-mental-health-chat-support-24-7-talk-to-counselor',
     title: 'Free Online Mental Health Chat Support 24/7: Talk to a Counselor Anonymously',
