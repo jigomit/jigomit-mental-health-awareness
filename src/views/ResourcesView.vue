@@ -18,8 +18,8 @@
       eyebrow="Need a facilitator?"
       title="Request a custom workshop kit for your organisation."
       copy="We adapt every slide, script, and workbook to your team’s lived experience."
-      :primary="{ label: 'Book a consult', to: '/contact' }"
-      :secondary="{ label: 'Download samples', to: '/resources' }"
+      :primary="{ label: 'Book a consult', to: '/contact', ariaLabel: 'Book a mental health workshop consultation' }"
+      :secondary="{ label: 'Download samples', to: '/resources', ariaLabel: 'Download free mental health workshop sample materials' }"
     />
   </div>
 </template>
