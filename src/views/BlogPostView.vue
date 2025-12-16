@@ -44,6 +44,7 @@
               :key="related.slug"
               :to="`/blog/${related.slug}`"
               class="related-card"
+              :aria-label="`Read related article: ${related.title}`"
             >
               <img :src="related.image" :alt="related.title" class="related-card__img" loading="lazy" width="400" height="225" decoding="async" />
               <div class="related-card__content">

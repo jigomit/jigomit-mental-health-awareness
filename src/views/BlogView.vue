@@ -17,6 +17,7 @@
         :key="post.slug"
         :to="`/blog/${post.slug}`"
         class="blog-card"
+        :aria-label="`Read article: ${post.title}`"
       >
         <img :src="post.image" :alt="post.title" class="blog-card__img" loading="lazy" width="800" height="450" decoding="async" />
         <div class="blog-card__content">
