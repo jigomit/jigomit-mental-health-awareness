@@ -5,7 +5,7 @@
       title="Find Peace, Support & Healing Today"
       description="Connect with compassionate counsellors and mental health professionals available 24/7. You're not alone in this journey."
       :primary-cta="{ label: 'Get Help Now', to: '/get-help' }"
-      :secondary-cta="{ label: 'Learn More', to: '/resources' }"
+      :secondary-cta="{ label: 'Learn More', to: '/resources', ariaLabel: 'Learn more about our mental health resources and guides' }"
       :image="heroImage"
     />
 
@@ -44,8 +44,8 @@
       eyebrow="Take the First Step"
       title="Your Journey to Wellness Starts Here"
       copy="Whether you need someone to talk to or comprehensive mental health care, we're here for you. No judgment, just support."
-      :primary="{ label: 'Start Your Journey', to: '/services' }"
-      :secondary="{ label: 'Contact Us', to: '/contact' }"
+      :primary="{ label: 'Start Your Journey', to: '/services', ariaLabel: 'Start your mental wellness journey with our services' }"
+      :secondary="{ label: 'Contact Us', to: '/contact', ariaLabel: 'Contact our mental health support team' }"
     />
   </div>
 </template>

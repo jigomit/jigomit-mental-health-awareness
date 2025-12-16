@@ -12,13 +12,13 @@
       <p class="cta__copy">{{ copy }}</p>
     </div>
     <nav class="cta__actions" aria-label="Call to action links">
-      <RouterLink class="btn-primary" :to="primary.to" role="button" :aria-label="primary.label">
+      <RouterLink class="btn-primary" :to="primary.to" role="button" :aria-label="primary.ariaLabel || primary.label">
         <span>{{ primary.label }}</span>
         <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
           <path d="M5 12h14M12 5l7 7-7 7"/>
         </svg>
       </RouterLink>
-      <RouterLink class="btn-secondary" :to="secondary.to" role="button" :aria-label="secondary.label">{{ secondary.label }}</RouterLink>
+      <RouterLink class="btn-secondary" :to="secondary.to" role="button" :aria-label="secondary.ariaLabel || secondary.label">{{ secondary.label }}</RouterLink>
     </nav>
   </section>
 </template>

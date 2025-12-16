@@ -21,7 +21,7 @@
             <path d="M5 12h14M12 5l7 7-7 7"/>
           </svg>
         </RouterLink>
-        <RouterLink class="btn-secondary" :to="secondaryCta.to" role="button" :aria-label="secondaryCta.label">
+        <RouterLink class="btn-secondary" :to="secondaryCta.to" role="button" :aria-label="secondaryCta.ariaLabel || secondaryCta.label">
           {{ secondaryCta.label }}
         </RouterLink>
       </nav>
