@@ -161,16 +161,16 @@ const addStructuredData = () => {
 
 const getKeywordsForPost = (tag) => {
   const keywordMap = {
-    'Crisis Support': 'free 24/7 mental health helpline, crisis support hotline, talk to someone now, 988 suicide prevention lifeline, mental health crisis help, free counseling hotline',
-    'Supporting Others': 'how to help someone with depression, support depressed loved one, what to say to someone with depression, helping family with mental illness, depression support tips',
-    'Anxiety Relief': 'natural anxiety relief techniques, calm anxiety fast, anxiety breathing exercises, grounding techniques for anxiety, 5-4-3-2-1 method, anxiety coping strategies without medication',
-    'Getting Help': 'signs you need therapy, when to see a therapist, how to find a therapist, first therapy session, mental health professional help, therapy benefits',
-    'Grief Support': 'coping with grief and loss, healthy grieving process, how to heal after loss, stages of grief, grief counseling, support for grieving',
-    'Panic Relief': 'how to stop panic attacks fast, panic attack relief techniques, calming panic attacks, panic disorder treatment, anxiety attack help, grounding for panic',
-    'Student Wellness': 'college student mental health, student stress management, university anxiety help, academic stress tips, college counseling services, student depression support',
-    'Work Wellness': 'workplace mental health, job burnout prevention, work stress relief, workplace wellness tips, employee mental health, work-life balance strategies'
+    'Online Support': 'free online mental health chat, 24/7 crisis chat support, anonymous mental health chat, text therapy free, online counselor chat, crisis text line',
+    'Affordable Care': 'free therapy near me no insurance, low cost mental health services, sliding scale therapists, affordable counseling options, community mental health centers',
+    'Campaigns': 'mental health awareness campaign ideas, school mental health programs, workplace wellness campaigns, community mental health events, awareness month activities',
+    'Volunteering': 'volunteer mental health helpline, crisis counselor training, become a crisis volunteer, helpline volunteer requirements, peer support volunteer',
+    'Support Groups': 'free online support groups, anxiety support groups online, depression peer support, mental health community forums, NAMI support groups',
+    'Counselling': 'confidential counselling services, first therapy session tips, what to expect in therapy, counselling confidentiality, therapy preparation guide',
+    'Workplace Training': 'mental health first aid training, MHFA certification, workplace mental health training, employee mental health programs, crisis response training',
+    'Program Development': 'start mental health program, mental health awareness program guide, organizational wellness programs, mental health initiative planning, workplace wellness implementation'
   };
-  return keywordMap[tag] || 'mental health tips, wellness advice, self-care strategies, free mental health support';
+  return keywordMap[tag] || 'mental health awareness, free mental health support, crisis helpline, counselling services, mental wellness resources';
 };
 
 onMounted(() => {

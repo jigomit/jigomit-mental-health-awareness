@@ -87,107 +87,107 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Blog Post: Crisis Helpline -->
+  <!-- Blog Post: Free Online Chat Support -->
   <url>
-    <loc>https://jigomit-mental-health-a.netlify.app/blog/free-24-7-mental-health-crisis-helpline-talk-to-someone-now</loc>
+    <loc>https://jigomit-mental-health-a.netlify.app/blog/free-online-mental-health-chat-support-24-7-talk-to-counselor</loc>
     <lastmod>2025-12-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://jigomit-mental-health-a.netlify.app/blog-anxiety.jpg</image:loc>
-      <image:title>Free 24/7 Mental Health Crisis Helpline - Talk to Someone Now</image:title>
-      <image:caption>Access free confidential mental health crisis support anytime</image:caption>
+      <image:title>Free Online Mental Health Chat Support 24/7</image:title>
+      <image:caption>Connect with trained counselors through free anonymous chat</image:caption>
     </image:image>
   </url>
 
-  <!-- Blog Post: Help Someone with Depression -->
+  <!-- Blog Post: Free Therapy No Insurance -->
   <url>
-    <loc>https://jigomit-mental-health-a.netlify.app/blog/how-to-help-someone-with-depression-complete-guide</loc>
+    <loc>https://jigomit-mental-health-a.netlify.app/blog/how-to-find-free-therapy-near-me-no-insurance-low-cost-options</loc>
     <lastmod>2025-12-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://jigomit-mental-health-a.netlify.app/blog-depression.jpg</image:loc>
-      <image:title>How to Help Someone with Depression - Complete Guide</image:title>
-      <image:caption>Support loved ones with depression without overstepping</image:caption>
+      <image:title>How to Find Free Therapy Without Insurance</image:title>
+      <image:caption>Low-cost mental health options and sliding scale therapy</image:caption>
     </image:image>
   </url>
 
-  <!-- Blog Post: Natural Anxiety Relief -->
+  <!-- Blog Post: Campaign Ideas -->
   <url>
-    <loc>https://jigomit-mental-health-a.netlify.app/blog/natural-anxiety-relief-techniques-that-work-fast</loc>
+    <loc>https://jigomit-mental-health-a.netlify.app/blog/mental-health-awareness-campaign-ideas-schools-workplace-community</loc>
     <lastmod>2025-12-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://jigomit-mental-health-a.netlify.app/blog-stress.jpg</image:loc>
-      <image:title>Natural Anxiety Relief Techniques That Work Fast</image:title>
-      <image:caption>Calm your mind in minutes with proven natural techniques</image:caption>
+      <image:title>Mental Health Awareness Campaign Ideas</image:title>
+      <image:caption>Campaign ideas for schools, workplaces and communities</image:caption>
     </image:image>
   </url>
 
-  <!-- Blog Post: Signs You Need Therapy -->
+  <!-- Blog Post: Volunteer Helpline Training -->
   <url>
-    <loc>https://jigomit-mental-health-a.netlify.app/blog/signs-you-need-therapy-when-to-seek-professional-mental-health-help</loc>
+    <loc>https://jigomit-mental-health-a.netlify.app/blog/volunteer-mental-health-helpline-training-become-crisis-counselor</loc>
     <lastmod>2025-12-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://jigomit-mental-health-a.netlify.app/blog-wellness.jpg</image:loc>
-      <image:title>Signs You Need Therapy - When to Seek Professional Help</image:title>
-      <image:caption>Know when professional mental health support is right for you</image:caption>
+      <image:title>Volunteer Mental Health Helpline Training</image:title>
+      <image:caption>How to become a trained crisis counselor volunteer</image:caption>
     </image:image>
   </url>
 
-  <!-- Blog Post: Coping with Grief -->
+  <!-- Blog Post: Online Support Groups -->
   <url>
-    <loc>https://jigomit-mental-health-a.netlify.app/blog/coping-with-grief-and-loss-healthy-ways-to-heal</loc>
+    <loc>https://jigomit-mental-health-a.netlify.app/blog/free-online-support-groups-anxiety-depression-mental-health</loc>
     <lastmod>2025-12-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://jigomit-mental-health-a.netlify.app/meditation-calm.jpg</image:loc>
-      <image:title>Coping with Grief and Loss - Healthy Ways to Heal</image:title>
-      <image:caption>Healthy ways to heal after losing someone you love</image:caption>
+      <image:title>Free Online Support Groups for Anxiety and Depression</image:title>
+      <image:caption>Find free peer support communities for mental health</image:caption>
     </image:image>
   </url>
 
-  <!-- Blog Post: Stop Panic Attacks -->
+  <!-- Blog Post: Confidential Counselling -->
   <url>
-    <loc>https://jigomit-mental-health-a.netlify.app/blog/how-to-stop-panic-attacks-fast-proven-techniques</loc>
+    <loc>https://jigomit-mental-health-a.netlify.app/blog/confidential-counselling-services-what-to-expect-first-session</loc>
     <lastmod>2025-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://jigomit-mental-health-a.netlify.app/peaceful-nature.jpg</image:loc>
-      <image:title>How to Stop Panic Attacks Fast - Proven Techniques</image:title>
-      <image:caption>Stop panic attacks quickly with immediate relief strategies</image:caption>
+      <image:title>Confidential Counselling Services - What to Expect</image:title>
+      <image:caption>Your guide to the first therapy session</image:caption>
     </image:image>
   </url>
 
-  <!-- Blog Post: College Student Mental Health -->
+  <!-- Blog Post: MHFA Training -->
   <url>
-    <loc>https://jigomit-mental-health-a.netlify.app/blog/mental-health-tips-for-college-students-manage-stress-anxiety</loc>
+    <loc>https://jigomit-mental-health-a.netlify.app/blog/mental-health-first-aid-training-workplace-certification-guide</loc>
     <lastmod>2025-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://jigomit-mental-health-a.netlify.app/healing-sunset.jpg</image:loc>
-      <image:title>Mental Health Tips for College Students - Manage Stress</image:title>
-      <image:caption>College mental health strategies for stress and anxiety</image:caption>
+      <image:title>Mental Health First Aid Training for Workplace</image:title>
+      <image:caption>Complete certification guide for MHFA training</image:caption>
     </image:image>
   </url>
 
-  <!-- Blog Post: Workplace Mental Health -->
+  <!-- Blog Post: Start Mental Health Program -->
   <url>
-    <loc>https://jigomit-mental-health-a.netlify.app/blog/workplace-mental-health-reduce-job-stress-burnout-prevention</loc>
+    <loc>https://jigomit-mental-health-a.netlify.app/blog/how-to-start-mental-health-awareness-program-organization-guide</loc>
     <lastmod>2025-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://jigomit-mental-health-a.netlify.app/community-support.jpg</image:loc>
-      <image:title>Workplace Mental Health - Reduce Job Stress and Burnout</image:title>
-      <image:caption>Prevent burnout and protect mental health at work</image:caption>
+      <image:title>How to Start a Mental Health Awareness Program</image:title>
+      <image:caption>Step-by-step guide for organizations</image:caption>
     </image:image>
   </url>
 
