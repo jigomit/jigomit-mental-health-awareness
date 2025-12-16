@@ -161,14 +161,12 @@ const addStructuredData = () => {
 
 const getKeywordsForPost = (tag) => {
   const keywordMap = {
-    'Online Support': 'free online mental health chat, 24/7 crisis chat support, anonymous mental health chat, text therapy free, online counselor chat, crisis text line',
-    'Affordable Care': 'free therapy near me no insurance, low cost mental health services, sliding scale therapists, affordable counseling options, community mental health centers',
-    'Campaigns': 'mental health awareness campaign ideas, school mental health programs, workplace wellness campaigns, community mental health events, awareness month activities',
-    'Volunteering': 'volunteer mental health helpline, crisis counselor training, become a crisis volunteer, helpline volunteer requirements, peer support volunteer',
-    'Support Groups': 'free online support groups, anxiety support groups online, depression peer support, mental health community forums, NAMI support groups',
-    'Counselling': 'confidential counselling services, first therapy session tips, what to expect in therapy, counselling confidentiality, therapy preparation guide',
-    'Workplace Training': 'mental health first aid training, MHFA certification, workplace mental health training, employee mental health programs, crisis response training',
-    'Program Development': 'start mental health program, mental health awareness program guide, organizational wellness programs, mental health initiative planning, workplace wellness implementation'
+    'Crisis Support': 'free mental health helpline 24/7, talk to someone now, crisis hotline free, mental health crisis line, emergency mental health support, suicide prevention hotline',
+    'Affordable Care': 'affordable therapy without insurance, low cost mental health services, sliding scale therapists, free counseling options, community mental health centers, therapy no insurance',
+    'Anxiety Relief': 'natural ways to reduce anxiety, anxiety relief without medication, drug-free anxiety treatment, holistic anxiety remedies, calm anxiety naturally, anxiety management techniques',
+    'Depression': 'signs of depression, when to seek help depression, depression symptoms, clinical depression warning signs, depression treatment options, professional help for depression',
+    'Self-Care': 'daily self-care routine, mental health self-care, wellness habits, self-care practices, mental wellness routine, stress relief self-care',
+    'Support Groups': 'free online support groups, anxiety support groups, depression peer support, mental health community forums, online therapy groups, peer support mental health'
   };
   return keywordMap[tag] || 'mental health awareness, free mental health support, crisis helpline, counselling services, mental wellness resources';
 };

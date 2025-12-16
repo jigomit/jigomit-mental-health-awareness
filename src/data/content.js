@@ -49,24 +49,24 @@ export const testimonials = [
 
 export const resourceLibrary = [
   {
-    title: 'Free Online Mental Health Chat Support 24/7',
+    title: 'Free Mental Health Helpline 24/7',
     type: 'Guide',
     length: '8-minute read',
-    link: '/blog/free-online-mental-health-chat-support-24-7-talk-to-counselor',
-    description: 'Connect with trained counselors through free anonymous online chat anytime you need support.'
+    link: '/blog/free-mental-health-helpline-24-7-talk-to-someone-now',
+    description: 'Connect with trained crisis counselors through free 24/7 helpline when you need immediate support.'
   },
   {
-    title: 'How to Find Free Therapy Without Insurance',
+    title: 'How to Find Affordable Therapy Without Insurance',
     type: 'Guide',
     length: '10-minute read',
-    link: '/blog/how-to-find-free-therapy-near-me-no-insurance-low-cost-options',
-    description: 'Discover low-cost therapy options including sliding scale fees, community centers, and online resources.'
+    link: '/blog/how-to-find-affordable-therapy-without-insurance',
+    description: 'Discover low-cost therapy options including sliding scale fees, community centers, and free resources.'
   },
   {
     title: 'Free Online Support Groups for Anxiety & Depression',
     type: 'Article',
     length: '9-minute read',
-    link: '/blog/free-online-support-groups-anxiety-depression-mental-health',
+    link: '/blog/free-online-support-groups-for-anxiety-and-depression',
     description: 'Find free peer support communities and connect with others who understand what you are going through.'
   }
 ];
@@ -171,9 +171,469 @@ const blogImg7 = '/healing-sunset.jpg';
 const blogImg8 = '/community-support.jpg';
 
 export const blogPosts = [
+  {
+    slug: 'free-mental-health-helpline-24-7-talk-to-someone-now',
+    title: 'Free Mental Health Helpline 24/7: Talk to Someone Now When You Need Support',
+    tag: 'Crisis Support',
+    tagColor: 'blue',
+    excerpt: 'Access free 24/7 mental health crisis support. Learn about confidential helplines, what to expect when you call, and how trained counselors provide immediate help.',
+    date: 'December 16, 2025',
+    readTime: 8,
+    image: blogImg1,
+    content: `
+      <p>When you're struggling with overwhelming emotions or a mental health crisis, knowing where to turn can feel impossible. Free 24/7 mental health helplines connect you with trained counselors who provide immediate, confidential support—no insurance required.</p>
+
+      <h2>Why Call a Mental Health Helpline?</h2>
+      <p>Crisis helplines offer immediate support when you need it most:</p>
+      <ul>
+        <li><strong>Available 24/7:</strong> Help is always just a phone call away, day or night</li>
+        <li><strong>Completely free:</strong> No cost, no insurance needed</li>
+        <li><strong>100% confidential:</strong> Your privacy is always protected</li>
+        <li><strong>Trained counselors:</strong> Speak with caring professionals who understand</li>
+        <li><strong>No judgment:</strong> Every concern is valid and taken seriously</li>
+      </ul>
+
+      <div class="highlight-box">
+        <strong>Key Crisis Helplines:</strong>
+        <ul>
+          <li><strong>988 Suicide & Crisis Lifeline:</strong> Call or text 988</li>
+          <li><strong>Crisis Text Line:</strong> Text HOME to 741741</li>
+          <li><strong>SAMHSA National Helpline:</strong> 1-800-662-4357</li>
+          <li><strong>Veterans Crisis Line:</strong> 988, then Press 1</li>
+        </ul>
+      </div>
+
+      <h2>What Happens When You Call?</h2>
+      <p>Many people hesitate because they don't know what to expect:</p>
+      <ol>
+        <li><strong>A counselor answers:</strong> You'll be connected with a trained professional within minutes</li>
+        <li><strong>They listen:</strong> Share as much or as little as you're comfortable with</li>
+        <li><strong>They help you cope:</strong> Learn techniques to manage your feelings right now</li>
+        <li><strong>They provide resources:</strong> Get connected to ongoing support if needed</li>
+        <li><strong>You stay in control:</strong> The conversation moves at your pace</li>
+      </ol>
+
+      <h2>When Should You Call?</h2>
+      <p>You don't have to be in a life-threatening crisis to reach out. Call if you're experiencing:</p>
+      <ul>
+        <li>Overwhelming anxiety or panic attacks</li>
+        <li>Thoughts of self-harm or suicide</li>
+        <li>Intense sadness or hopelessness</li>
+        <li>Trauma, grief, or loss</li>
+        <li>Relationship problems causing severe distress</li>
+        <li>Any mental health concern you need to talk about</li>
+      </ul>
+
+      <blockquote>"Asking for help is not a sign of weakness. It's one of the bravest things you can do for yourself."</blockquote>
+
+      <h2>Other Ways to Get Immediate Help</h2>
+      <ul>
+        <li><strong>Text support:</strong> Text HOME to 741741 for Crisis Text Line</li>
+        <li><strong>Online chat:</strong> Visit 988lifeline.org for chat support</li>
+        <li><strong>Peer support:</strong> Connect with others who understand your experience</li>
+        <li><strong>Local resources:</strong> Find therapists and support groups in your community</li>
+      </ul>
+
+      <p class="tip">Remember: You deserve support. Trained counselors are ready to listen 24 hours a day, 7 days a week. You are never alone in this.</p>
+    `
+  },
+  {
+    slug: 'how-to-find-affordable-therapy-without-insurance',
+    title: 'How to Find Affordable Therapy Without Insurance: Complete Guide to Low-Cost Mental Health Care',
+    tag: 'Affordable Care',
+    tagColor: 'purple',
+    excerpt: 'Discover free and low-cost therapy options near you. Learn about sliding scale fees, community mental health centers, and online resources for affordable counseling.',
+    date: 'December 14, 2025',
+    readTime: 10,
+    image: blogImg2,
+    content: `
+      <p>Mental health care shouldn't be a luxury. If you're searching for affordable therapy without insurance, there are more options available than most people realize. This guide will help you find quality mental health support that fits your budget.</p>
+
+      <h2>Free Mental Health Resources</h2>
+      <p>These services are completely free:</p>
+      <ul>
+        <li><strong>988 Suicide & Crisis Lifeline:</strong> Call or text 988 for 24/7 support</li>
+        <li><strong>Crisis Text Line:</strong> Text HOME to 741741</li>
+        <li><strong>SAMHSA Helpline:</strong> 1-800-662-4357 for treatment referrals</li>
+        <li><strong>NAMI Helpline:</strong> 1-800-950-6264 for support and resources</li>
+      </ul>
+
+      <div class="highlight-box">
+        <strong>Community Mental Health Centers</strong>
+        <p>Federally funded community mental health centers provide services regardless of ability to pay. Search "community mental health center near me" or visit findtreatment.gov to locate one.</p>
+      </div>
+
+      <h2>Low-Cost Therapy Options</h2>
+
+      <h3>1. Sliding Scale Therapists</h3>
+      <p>Many private therapists offer reduced fees based on your income:</p>
+      <ul>
+        <li>Ask directly: "Do you offer sliding scale fees?"</li>
+        <li>Search Open Path Collective (sessions $30-$80)</li>
+        <li>Use Psychology Today's filter for sliding scale providers</li>
+        <li>Fees can range from $20-$60 per session</li>
+      </ul>
+
+      <h3>2. University Training Clinics</h3>
+      <p>Graduate students provide therapy under professional supervision:</p>
+      <ul>
+        <li>Often $5-$30 per session</li>
+        <li>Students are closely supervised by licensed professionals</li>
+        <li>Search "[your city] university psychology clinic"</li>
+        <li>Quality care at significantly reduced rates</li>
+      </ul>
+
+      <h3>3. Online Therapy Platforms</h3>
+      <ul>
+        <li><strong>7 Cups:</strong> Free listener support and affordable therapy</li>
+        <li><strong>Open Path:</strong> $30-$80 per session with licensed therapists</li>
+        <li><strong>BetterHelp/Talkspace:</strong> Financial aid programs available</li>
+      </ul>
+
+      <h3>4. Free Support Groups</h3>
+      <ul>
+        <li>NAMI support groups nationwide</li>
+        <li>DBSA (Depression and Bipolar Support Alliance)</li>
+        <li>Grief support groups through local hospices</li>
+        <li>12-step programs for addiction recovery</li>
+      </ul>
+
+      <h2>Questions to Ask When Calling</h2>
+      <ul>
+        <li>"Do you offer sliding scale fees?"</li>
+        <li>"What is your lowest rate for uninsured clients?"</li>
+        <li>"Do you have a waiting list for reduced-fee services?"</li>
+        <li>"Can you recommend other low-cost options in the area?"</li>
+      </ul>
+
+      <blockquote>"Asking about cost doesn't make you a burden—it makes you resourceful. Good therapists understand financial barriers."</blockquote>
+
+      <p class="tip">Remember: Financial barriers shouldn't stop you from getting help. With persistence, you can find affordable mental health care. Start with one phone call today.</p>
+    `
+  },
+  {
+    slug: 'natural-ways-to-reduce-anxiety-without-medication',
+    title: 'Natural Ways to Reduce Anxiety Without Medication: Proven Techniques That Work Fast',
+    tag: 'Anxiety Relief',
+    tagColor: 'green',
+    excerpt: 'Learn evidence-based natural techniques to calm anxiety quickly. Discover breathing exercises, grounding methods, and lifestyle changes that reduce stress naturally.',
+    date: 'December 12, 2025',
+    readTime: 9,
+    image: blogImg3,
+    content: `
+      <p>When anxiety strikes, you need relief fast. These natural, evidence-based techniques can help calm your nervous system within minutes—no medication required. With practice, they become powerful tools you can use anytime, anywhere.</p>
+
+      <h2>Understanding Your Anxiety Response</h2>
+      <p>Anxiety activates your fight-or-flight system, causing:</p>
+      <ul>
+        <li>Racing heart and rapid breathing</li>
+        <li>Muscle tension and trembling</li>
+        <li>Racing thoughts and worry</li>
+        <li>Sweating and nausea</li>
+        <li>Feeling of dread or panic</li>
+      </ul>
+      <p>These techniques work by activating your parasympathetic nervous system—your body's natural calm-down response.</p>
+
+      <div class="highlight-box">
+        <strong>The 4-7-8 Breathing Technique:</strong>
+        <ol>
+          <li>Breathe in through your nose for 4 seconds</li>
+          <li>Hold your breath for 7 seconds</li>
+          <li>Exhale slowly through your mouth for 8 seconds</li>
+          <li>Repeat 3-4 times</li>
+        </ol>
+        <p>This technique can reduce anxiety within 60 seconds.</p>
+      </div>
+
+      <h2>5 Fast-Acting Anxiety Relief Techniques</h2>
+
+      <h3>1. The 5-4-3-2-1 Grounding Method</h3>
+      <p>This sensory technique brings you back to the present moment:</p>
+      <ul>
+        <li><strong>5 things you can SEE:</strong> Look around and name them</li>
+        <li><strong>4 things you can TOUCH:</strong> Feel different textures</li>
+        <li><strong>3 things you can HEAR:</strong> Listen for sounds near and far</li>
+        <li><strong>2 things you can SMELL:</strong> Notice any scents</li>
+        <li><strong>1 thing you can TASTE:</strong> Focus on your mouth</li>
+      </ul>
+
+      <h3>2. Cold Water Technique</h3>
+      <p>Cold activates your dive reflex, slowing your heart rate:</p>
+      <ul>
+        <li>Splash cold water on your face</li>
+        <li>Hold ice cubes in your hands</li>
+        <li>Place a cold compress on your neck</li>
+      </ul>
+
+      <h3>3. Progressive Muscle Relaxation</h3>
+      <p>Release tension stored in your body by tensing then relaxing each muscle group from feet to head.</p>
+
+      <h3>4. Box Breathing</h3>
+      <p>Used by Navy SEALs to stay calm under pressure: Breathe in 4 counts, hold 4, out 4, hold 4. Repeat.</p>
+
+      <h3>5. The STOP Technique</h3>
+      <ul>
+        <li><strong>S</strong>top what you're doing</li>
+        <li><strong>T</strong>ake a breath</li>
+        <li><strong>O</strong>bserve your thoughts and feelings</li>
+        <li><strong>P</strong>roceed with awareness</li>
+      </ul>
+
+      <blockquote>"You don't have to control your thoughts. You just have to stop letting them control you."</blockquote>
+
+      <h2>Long-Term Natural Anxiety Management</h2>
+      <ul>
+        <li><strong>Regular exercise:</strong> 30 minutes daily significantly reduces anxiety</li>
+        <li><strong>Limit caffeine:</strong> Can worsen anxiety symptoms</li>
+        <li><strong>Prioritize sleep:</strong> Poor sleep amplifies anxiety</li>
+        <li><strong>Practice mindfulness:</strong> 10 minutes daily rewires your brain</li>
+      </ul>
+
+      <p class="tip">Remember: These techniques become more effective with practice. Start using them when you're calm so they're automatic when anxiety hits.</p>
+    `
+  },
+  {
+    slug: 'signs-of-depression-when-to-seek-professional-help',
+    title: 'Signs of Depression: When to Seek Professional Help for Your Mental Health',
+    tag: 'Depression',
+    tagColor: 'teal',
+    excerpt: 'Recognize the warning signs of depression and understand when professional help is needed. Learn the difference between sadness and clinical depression.',
+    date: 'December 10, 2025',
+    readTime: 10,
+    image: blogImg4,
+    content: `
+      <p>Everyone feels sad sometimes, but depression is different. It's a persistent condition that affects how you think, feel, and function. Understanding the signs can help you recognize when it's time to seek professional support.</p>
+
+      <h2>Common Signs of Depression</h2>
+
+      <h3>Emotional Signs</h3>
+      <ul>
+        <li>Persistent sadness or emptiness lasting more than two weeks</li>
+        <li>Feeling hopeless about the future</li>
+        <li>Loss of interest in activities you once enjoyed</li>
+        <li>Irritability or frustration over small things</li>
+        <li>Feeling worthless or excessively guilty</li>
+      </ul>
+
+      <h3>Physical Signs</h3>
+      <ul>
+        <li>Changes in sleep—too much or too little</li>
+        <li>Fatigue and lack of energy</li>
+        <li>Changes in appetite or weight</li>
+        <li>Unexplained aches and pains</li>
+        <li>Moving or speaking more slowly than usual</li>
+      </ul>
+
+      <h3>Behavioral Signs</h3>
+      <ul>
+        <li>Withdrawing from friends and family</li>
+        <li>Neglecting responsibilities</li>
+        <li>Difficulty concentrating or making decisions</li>
+        <li>Using alcohol or substances to cope</li>
+      </ul>
+
+      <div class="highlight-box">
+        <strong>When to Seek Help Immediately:</strong>
+        <ul>
+          <li>Thoughts of death or suicide</li>
+          <li>Making plans to hurt yourself</li>
+          <li>Feeling like others would be better off without you</li>
+          <li>Giving away possessions</li>
+        </ul>
+        <p>If you're experiencing these, call 988 or go to your nearest emergency room.</p>
+      </div>
+
+      <h2>Depression vs. Sadness: Key Differences</h2>
+      <ul>
+        <li><strong>Duration:</strong> Sadness passes; depression persists for weeks or months</li>
+        <li><strong>Intensity:</strong> Sadness fluctuates; depression is constant</li>
+        <li><strong>Function:</strong> You can still function when sad; depression impairs daily life</li>
+        <li><strong>Cause:</strong> Sadness usually has a trigger; depression may have no apparent cause</li>
+      </ul>
+
+      <h2>When to Seek Professional Help</h2>
+      <p>Consider reaching out to a mental health professional if:</p>
+      <ul>
+        <li>Symptoms last more than two weeks</li>
+        <li>Depression interferes with work, school, or relationships</li>
+        <li>Self-help strategies aren't working</li>
+        <li>You're using substances to cope</li>
+        <li>You have thoughts of self-harm</li>
+      </ul>
+
+      <h2>Treatment Options That Work</h2>
+      <ul>
+        <li><strong>Therapy:</strong> CBT and other approaches are highly effective</li>
+        <li><strong>Medication:</strong> Antidepressants help many people</li>
+        <li><strong>Combination:</strong> Therapy + medication often works best</li>
+        <li><strong>Lifestyle changes:</strong> Exercise, sleep, nutrition support recovery</li>
+      </ul>
+
+      <blockquote>"Depression is not a sign of weakness. It's a sign that you've been trying to be strong for too long."</blockquote>
+
+      <p class="tip">Remember: Depression is treatable. With proper support, most people recover and go on to live fulfilling lives. Taking the first step to seek help is the hardest part.</p>
+    `
+  },
+  {
+    slug: 'daily-self-care-routine-for-better-mental-health',
+    title: 'Daily Self-Care Routine for Better Mental Health: Simple Habits That Transform Your Wellbeing',
+    tag: 'Self-Care',
+    tagColor: 'pink',
+    excerpt: 'Build a simple daily self-care routine that supports your mental health. Learn practical habits for morning, afternoon, and evening that reduce stress and boost mood.',
+    date: 'December 8, 2025',
+    readTime: 8,
+    image: blogImg5,
+    content: `
+      <p>Self-care isn't selfish—it's essential for mental health. A consistent daily routine with small, intentional practices can transform how you feel over time. Here's how to build sustainable self-care habits that fit your real life.</p>
+
+      <h2>Morning Self-Care Routine</h2>
+      <p>How you start your day sets the tone for everything that follows:</p>
+      <ul>
+        <li><strong>Wake up without your phone:</strong> Wait 30 minutes before checking emails or social media</li>
+        <li><strong>Hydrate first:</strong> Drink a glass of water before coffee</li>
+        <li><strong>Move your body:</strong> Even 10 minutes of stretching or walking helps</li>
+        <li><strong>Set intentions:</strong> Choose 1-3 priorities for the day</li>
+        <li><strong>Eat a nourishing breakfast:</strong> Protein and complex carbs stabilize mood</li>
+      </ul>
+
+      <div class="highlight-box">
+        <strong>5-Minute Morning Mindfulness</strong>
+        <ol>
+          <li>Sit comfortably and close your eyes</li>
+          <li>Take 5 deep breaths, focusing on each exhale</li>
+          <li>Notice how your body feels without judgment</li>
+          <li>Set one positive intention for your day</li>
+          <li>Open your eyes and begin mindfully</li>
+        </ol>
+      </div>
+
+      <h2>Afternoon Self-Care Practices</h2>
+      <ul>
+        <li><strong>Take real breaks:</strong> Step away from your desk every 90 minutes</li>
+        <li><strong>Get outside:</strong> Even 5 minutes of sunlight and fresh air helps</li>
+        <li><strong>Eat mindfully:</strong> Don't work through lunch</li>
+        <li><strong>Connect with someone:</strong> A brief chat can boost your mood</li>
+        <li><strong>Check in with yourself:</strong> How are you feeling? What do you need?</li>
+      </ul>
+
+      <h2>Evening Wind-Down Routine</h2>
+      <ul>
+        <li><strong>Set a "shutdown" time:</strong> Stop work and responsibilities by a certain hour</li>
+        <li><strong>Limit screens:</strong> Reduce blue light exposure 1-2 hours before bed</li>
+        <li><strong>Practice gratitude:</strong> Write down 3 things you're grateful for</li>
+        <li><strong>Prepare for tomorrow:</strong> Lay out clothes, pack bags, review schedule</li>
+        <li><strong>Create a sleep ritual:</strong> Same routine signals your brain it's time to rest</li>
+      </ul>
+
+      <h2>Weekly Self-Care Additions</h2>
+      <ul>
+        <li>Schedule time for hobbies you enjoy</li>
+        <li>Connect meaningfully with friends or family</li>
+        <li>Spend time in nature</li>
+        <li>Review your week and celebrate small wins</li>
+        <li>Plan something to look forward to</li>
+      </ul>
+
+      <h2>Self-Care When You're Struggling</h2>
+      <p>When you're overwhelmed, scale back to basics:</p>
+      <ul>
+        <li>Did you eat today?</li>
+        <li>Did you drink water?</li>
+        <li>Did you take your medications?</li>
+        <li>Have you moved your body at all?</li>
+        <li>Have you talked to someone?</li>
+      </ul>
+
+      <blockquote>"Self-care is not about self-indulgence. It's about self-preservation."</blockquote>
+
+      <p class="tip">Remember: Start small. You don't need a perfect routine—just consistent, imperfect efforts. One small habit practiced daily is more powerful than an elaborate routine you can't maintain.</p>
+    `
+  },
+  {
+    slug: 'free-online-support-groups-for-anxiety-and-depression',
+    title: 'Free Online Support Groups for Anxiety and Depression: Find Your Community Today',
+    tag: 'Support Groups',
+    tagColor: 'orange',
+    excerpt: 'Connect with others who understand. Find free online support groups for anxiety, depression, and other mental health challenges. Join supportive communities from anywhere.',
+    date: 'December 6, 2025',
+    readTime: 9,
+    image: blogImg6,
+    content: `
+      <p>You don't have to face anxiety or depression alone. Free online support groups connect you with people who truly understand what you're going through. Whether you prefer live meetings or message boards, there's a supportive community waiting for you.</p>
+
+      <h2>Benefits of Support Groups</h2>
+      <ul>
+        <li><strong>You're not alone:</strong> Connect with others who truly understand</li>
+        <li><strong>Learn coping strategies:</strong> Share what works and learn from others</li>
+        <li><strong>Reduce isolation:</strong> Build meaningful connections</li>
+        <li><strong>Completely free:</strong> No cost to participate</li>
+        <li><strong>Flexible:</strong> Join from home, on your schedule</li>
+        <li><strong>Anonymous options:</strong> Share without revealing your identity</li>
+      </ul>
+
+      <div class="highlight-box">
+        <strong>Top Free Online Support Communities:</strong>
+        <ul>
+          <li><strong>NAMI Connection:</strong> Peer-led recovery support groups</li>
+          <li><strong>DBSA Online:</strong> Depression and bipolar support</li>
+          <li><strong>Anxiety and Depression Association:</strong> Peer communities</li>
+          <li><strong>7 Cups:</strong> Free chat rooms and forums</li>
+          <li><strong>Mental Health America:</strong> Screening and support resources</li>
+        </ul>
+      </div>
+
+      <h2>Types of Online Support Groups</h2>
+
+      <h3>Live Video/Audio Groups</h3>
+      <ul>
+        <li>Real-time interaction with a facilitator</li>
+        <li>Scheduled meeting times</li>
+        <li>More personal connection</li>
+        <li>Usually 60-90 minutes</li>
+      </ul>
+
+      <h3>Chat-Based Groups</h3>
+      <ul>
+        <li>Text-based conversations</li>
+        <li>More anonymous</li>
+        <li>Can participate anytime</li>
+        <li>Good for social anxiety</li>
+      </ul>
+
+      <h3>Forum/Message Board Communities</h3>
+      <ul>
+        <li>Post and respond at your own pace</li>
+        <li>Read others' experiences</li>
+        <li>Build ongoing relationships</li>
+        <li>24/7 access</li>
+      </ul>
+
+      <h2>Finding the Right Group</h2>
+      <ul>
+        <li>Consider your specific needs (anxiety, depression, grief, etc.)</li>
+        <li>Try different formats to see what feels right</li>
+        <li>Look for moderated/facilitated groups</li>
+        <li>Give it a few sessions before deciding</li>
+        <li>It's okay to try multiple groups</li>
+      </ul>
+
+      <h2>Support Group Etiquette</h2>
+      <ul>
+        <li>Respect confidentiality—what's shared stays in the group</li>
+        <li>Listen as much as you share</li>
+        <li>Avoid giving unsolicited advice</li>
+        <li>Be supportive, not judgmental</li>
+        <li>Speak from your own experience</li>
+      </ul>
+
+      <blockquote>"In the right support group, you realize you're not broken—you're human. And you're surrounded by others who get it."</blockquote>
+
+      <p class="tip">Remember: Support groups complement but don't replace professional treatment. If you're in crisis, reach out to a helpline first. Groups work best as part of your overall mental health support system.</p>
+    `
+  }
 ];
 
-// Removed blog posts - keeping structure for future use
+// Archive - removed blog posts
 const _removedBlogPosts = [
   {
     slug: 'free-online-mental-health-chat-support-24-7-talk-to-counselor',

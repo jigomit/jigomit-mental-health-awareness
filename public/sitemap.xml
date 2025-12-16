@@ -87,6 +87,84 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Blog Post: Free Mental Health Helpline 24/7 -->
+  <url>
+    <loc>https://jigomit-mental-health-a.netlify.app/blog/free-mental-health-helpline-24-7-talk-to-someone-now</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://jigomit-mental-health-a.netlify.app/images/blog/crisis-support.jpg</image:loc>
+      <image:title>Free Mental Health Helpline 24/7 - Talk to Someone Now</image:title>
+      <image:caption>24/7 free crisis support and mental health helpline services</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Blog Post: Affordable Therapy Without Insurance -->
+  <url>
+    <loc>https://jigomit-mental-health-a.netlify.app/blog/how-to-find-affordable-therapy-without-insurance</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://jigomit-mental-health-a.netlify.app/images/blog/affordable-therapy.jpg</image:loc>
+      <image:title>How to Find Affordable Therapy Without Insurance</image:title>
+      <image:caption>Guide to low-cost and free mental health services</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Blog Post: Natural Ways to Reduce Anxiety -->
+  <url>
+    <loc>https://jigomit-mental-health-a.netlify.app/blog/natural-ways-to-reduce-anxiety-without-medication</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://jigomit-mental-health-a.netlify.app/images/blog/anxiety-relief.jpg</image:loc>
+      <image:title>Natural Ways to Reduce Anxiety Without Medication</image:title>
+      <image:caption>Drug-free anxiety relief techniques and natural remedies</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Blog Post: Signs of Depression -->
+  <url>
+    <loc>https://jigomit-mental-health-a.netlify.app/blog/signs-of-depression-when-to-seek-professional-help</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://jigomit-mental-health-a.netlify.app/images/blog/depression-signs.jpg</image:loc>
+      <image:title>Signs of Depression - When to Seek Professional Help</image:title>
+      <image:caption>Recognizing depression symptoms and getting help</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Blog Post: Daily Self-Care Routine -->
+  <url>
+    <loc>https://jigomit-mental-health-a.netlify.app/blog/daily-self-care-routine-for-better-mental-health</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://jigomit-mental-health-a.netlify.app/images/blog/self-care.jpg</image:loc>
+      <image:title>Daily Self-Care Routine for Better Mental Health</image:title>
+      <image:caption>Simple daily habits to improve your mental wellness</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Blog Post: Free Online Support Groups -->
+  <url>
+    <loc>https://jigomit-mental-health-a.netlify.app/blog/free-online-support-groups-for-anxiety-and-depression</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://jigomit-mental-health-a.netlify.app/images/blog/support-groups.jpg</image:loc>
+      <image:title>Free Online Support Groups for Anxiety and Depression</image:title>
+      <image:caption>Find free peer support communities for mental health</image:caption>
+    </image:image>
+  </url>
+
   <!-- Events -->
   <url>
     <loc>https://jigomit-mental-health-a.netlify.app/events</loc>
