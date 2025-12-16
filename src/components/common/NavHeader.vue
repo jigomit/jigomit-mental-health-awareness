@@ -46,28 +46,28 @@
 
     <!-- Mobile Navigation Dropdown -->
     <nav class="mobile-nav" :class="{ 'is-open': menuOpen }" aria-label="Mobile navigation">
-      <RouterLink to="/" @click="closeNav">
+      <RouterLink to="/" @click="closeNav" aria-label="Go to homepage">
         <span class="nav-icon">🏠</span> Home
       </RouterLink>
-      <RouterLink to="/about" @click="closeNav">
+      <RouterLink to="/about" @click="closeNav" aria-label="Learn about our mental health mission">
         <span class="nav-icon">ℹ️</span> About
       </RouterLink>
-      <RouterLink to="/services" @click="closeNav">
+      <RouterLink to="/services" @click="closeNav" aria-label="View mental health services we offer">
         <span class="nav-icon">🩺</span> Services
       </RouterLink>
-      <RouterLink to="/resources" @click="closeNav">
+      <RouterLink to="/resources" @click="closeNav" aria-label="Access free mental health resources">
         <span class="nav-icon">📚</span> Resources
       </RouterLink>
-      <RouterLink to="/events" @click="closeNav">
+      <RouterLink to="/events" @click="closeNav" aria-label="Find mental health events near you">
         <span class="nav-icon">📅</span> Events
       </RouterLink>
-      <RouterLink to="/donate" @click="closeNav">
+      <RouterLink to="/donate" @click="closeNav" aria-label="Donate to support mental health programs">
         <span class="nav-icon">💜</span> Donate
       </RouterLink>
-      <RouterLink to="/contact" @click="closeNav">
+      <RouterLink to="/contact" @click="closeNav" aria-label="Contact our mental health support team">
         <span class="nav-icon">📧</span> Contact
       </RouterLink>
-      <RouterLink to="/get-help" class="mobile-nav__cta" @click="closeNav" aria-label="Get immediate mental health help">
+      <RouterLink to="/get-help" class="mobile-nav__cta" @click="closeNav" aria-label="Get immediate mental health help and crisis support">
         Get Help Now
       </RouterLink>
     </nav>
