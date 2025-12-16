@@ -2,7 +2,7 @@
   <div class="app-shell" :class="{ 'reduce-motion': reduceMotion }">
     <AuroraBackdrop />
     <div class="app-content">
-      <a class="skip-link" href="#main-content">Skip to main content</a>
+      <a class="skip-link" href="#main-content" aria-label="Skip navigation and go to main content">Skip to main content</a>
       <NavHeader />
       <main id="main-content">
         <RouterView v-slot="{ Component, route }">
