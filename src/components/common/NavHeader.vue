@@ -11,12 +11,12 @@
 
     <!-- Desktop Navigation -->
     <nav class="desktop-nav" aria-label="Main navigation">
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/about">About</RouterLink>
-      <RouterLink to="/services">Services</RouterLink>
-      <RouterLink to="/resources">Resources</RouterLink>
-      <RouterLink to="/events">Events</RouterLink>
-      <RouterLink to="/contact">Contact</RouterLink>
+      <RouterLink to="/" aria-label="Go to homepage">Home</RouterLink>
+      <RouterLink to="/about" aria-label="Learn about our mental health mission">About</RouterLink>
+      <RouterLink to="/services" aria-label="View mental health services we offer">Services</RouterLink>
+      <RouterLink to="/resources" aria-label="Access free mental health resources">Resources</RouterLink>
+      <RouterLink to="/events" aria-label="Find mental health events near you">Events</RouterLink>
+      <RouterLink to="/contact" aria-label="Contact our support team">Contact</RouterLink>
     </nav>
 
     <!-- Desktop CTA Button -->
